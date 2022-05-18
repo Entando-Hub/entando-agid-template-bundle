@@ -1,0 +1,43 @@
+id: CRA304
+typeCode: CRA
+description: card generica amministrazione 3
+mainGroup: free
+status: PUBLIC
+categories:
+  - adminstration
+  - council
+attributes:
+  - code: belong
+    value: it-pa
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet, consectetur'
+      it: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,'
+      it: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

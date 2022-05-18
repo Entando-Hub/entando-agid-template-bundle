@@ -1,0 +1,20 @@
+id: EXL192
+typeCode: EXL
+description: Mobilità in Comune link esterni
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Mobility in the Municipality
+      it: Mobilità in Comune
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

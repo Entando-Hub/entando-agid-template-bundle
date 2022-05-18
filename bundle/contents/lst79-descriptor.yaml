@@ -1,0 +1,94 @@
+id: LST79
+typeCode: LST
+description: Seguici su
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Seguici su
+      it: Seguici su
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: linktitle
+    value:
+      destType: 0
+      urlDest: null
+      pageDest: null
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!!#'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: designers-italia
+          it: designers-italia
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: twitter
+          it: twitter
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: medium
+          it: medium
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 1
+          urlDest: 'https://www.entando.com'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!U;https://www.entando.com!#'
+        values:
+          en: Behance
+          it: Behance
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

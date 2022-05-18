@@ -1,0 +1,34 @@
+id: TTL58
+typeCode: TTL
+description: Nome della PA
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Municipality name
+      it: Nome del comune
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: Municipality  strapline
+      it: Uno dei tanti comuni
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '59'
+        name: Public Administration strapline Logo
+      it:
+        correlationCode: '59'
+        name: logo repubblica.png
+    elements: []
+    compositeelements: []
+    listelements: {}

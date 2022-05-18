@@ -1,0 +1,116 @@
+id: LST101
+typeCode: LST
+description: Servizi
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Servizi
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: linktitle
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: homepage
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;homepage!#'
+    values:
+      en: Servizi
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Pagamenti
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Sostegno
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Domande e iscrizioni
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Segnalazioni
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Certificati e dichiarazioni
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Autorizzazioni e concessioni
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

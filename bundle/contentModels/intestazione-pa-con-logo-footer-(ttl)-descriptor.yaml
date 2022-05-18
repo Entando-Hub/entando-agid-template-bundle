@@ -1,0 +1,4 @@
+id: 2
+contentType: TTL
+description: Intestazione PA con logo footer (TTL)
+contentShape: "<!--Intestazione PA con logo footer (TTL)-->\r\n<div class=\"it-brand-wrapper\">\r\n    <a href=\"#\" class=\"\">\r\n        <img class=\"icon\" src=\"$content.img.getImagePath('0')\" aria-hidden=\"true\" alt=\"Logo - $content.img.text\" >\r\n        <div class=\"it-brand-text\">\r\n            <h2 class=\"no_toc\">$content.title.text</h2>\r\n            <h3 class=\"no_toc d-none d-md-block\">$content.subtitle.text</h3>\r\n        </div>\r\n    </a>\r\n</div>"

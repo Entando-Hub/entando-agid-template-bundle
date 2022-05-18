@@ -1,0 +1,24 @@
+id: 10003
+contentType: BNR
+description: 'Banner - Text, Image, CTA'
+contentShape: |2-
+
+      <article class="banner-container #if ($content.placement.text == "RIGHT") reverse #end">
+        #if ( $content.image.getImagePath("0") != "" )
+          <div class="banner-image">
+              <img src="$content.image.getImagePath("0")" alt="$content.image.text">
+          </div>
+        #end
+        <div class="banner-abstract">
+            <div>
+                <h1>$content.title.text</h1>
+                #if ( $content.abstract.text != "" )
+                  <p>$content.abstract.text</p>
+                #end
+                #if ( $content.link.destination != "" )
+                  <a class="bx--btn bx--btn--primary" href="$content.link.destination">$content.link.text</a>
+                #end
+            </div>
+        </div>
+      </article>
+    

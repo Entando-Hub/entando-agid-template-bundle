@@ -1,0 +1,52 @@
+id: ARG177
+typeCode: ARG
+description: 'Copy of: Altri argomenti lista tag'
+mainGroup: free
+status: DRAFT
+attributes:
+  - code: highlight
+    value: false
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: icon
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Other topics
+      it: ALTRI ARGOMENTI
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: topics
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;topics!#'
+    values:
+      en: See all
+      it: Vedi tutti
+    elements: []
+    compositeelements: []
+    listelements: {}

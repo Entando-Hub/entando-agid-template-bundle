@@ -1,0 +1,83 @@
+code: cantieri
+parentCode: topics
+titles:
+  en: Construction sites
+  it: Cantieri in città
+pageModel: agid_template_internal
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: agi_language
+    config: null
+    pos: 1
+  - code: agi_logo_comune
+    config:
+      modelId: '1'
+      contentId: TTL58
+    pos: 3
+  - code: agi_followus
+    config: null
+    pos: 4
+  - code: agi_search
+    config: null
+    pos: 5
+  - code: primary_menu
+    config:
+      navSpec: code(administration) + code(news) + code(servizi) + code(documents_and_data)
+    pos: 6
+  - code: agi_secondary_menu
+    config:
+      navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
+    pos: 7
+  - code: agi_breadcrumb
+    config: null
+    pos: 8
+  - code: agi_logo_comune_footer
+    config:
+      modelId: '2'
+      contentId: TTL58
+    pos: 16
+  - code: agi_menu_amm
+    config:
+      modelId: '7'
+      contentId: LST68
+    pos: 17
+  - code: agi_services_footer
+    config:
+      modelId: '7'
+      contentId: LST101
+    pos: 18
+  - code: agi_news_footer
+    config:
+      modelId: '7'
+      contentId: LST72
+    pos: 19
+  - code: agi_docs_footer
+    config:
+      modelId: '7'
+      contentId: LST74
+    pos: 20
+  - code: agi_transp_footer
+    config:
+      modelId: '6'
+      contentId: LST76
+    pos: 21
+  - code: agi_contacts_footer
+    config:
+      modelId: '5'
+      contentId: LST70
+    pos: 22
+  - code: agi_follow_footer
+    config:
+      modelId: '8'
+      contentId: LST79
+    pos: 24
+  - code: agi_extralinks_footer
+    config:
+      modelId: '4'
+      contentId: LST82
+    pos: 25

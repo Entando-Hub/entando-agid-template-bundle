@@ -1,0 +1,4 @@
+id: 10024
+contentType: TCL
+description: TCL - Search Results
+contentShape: "<article class=\"search-result-container #if ($content.direction.text == \"HORIZONTAL\") horizontal #end\">\n    <div class=\"search-result-box\">\n        <div class=\"search-result-title\">\n\t\t    ENTANDO\n\t    </div>\n\t    <h2 class=\"search-result-content-title\">$content.title.text</h2>\n        #if ( $content.col1.text != \"\" )\n        <div class=\"search-result-content-text\">$content.col1.text</div>\n        #end\n        #if ( $content.col2.text != \"\" )\n        <div class=\"search-result-content-text\">$content.col2.text</div>\n        #end\n    </div>\n</article>"

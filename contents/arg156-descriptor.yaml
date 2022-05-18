@@ -1,0 +1,185 @@
+id: ARG156
+typeCode: ARG
+description: Estate in città
+mainGroup: free
+status: PUBLIC
+categories:
+  - culture
+attributes:
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: icon
+    value: it-clock
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Summer in the city
+      it: Estate in città
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'A rich program of events: cultural and recreational events, concerts, exhibitions, cinemas, and more in various places in the city.'
+      it: 'Un ricco programma di appuntamenti: eventi culturali, ricreativi, concerti, mostre, cinema, ed altro ancora in diversi luoghi della città.'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: '117'
+                name: 946-800x600.jpg
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value:
+              destType: 2
+              urlDest: null
+              pageDest: topics
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!P;topics!#'
+            values:
+              en: Events this weekend
+              it: Eventi questo weekend
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Events this weekend
+              it: Eventi questo weekend
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: entandoAtPlan
+                name: Entando at Plan
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value:
+              destType: 2
+              urlDest: null
+              pageDest: topics
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!P;topics!#'
+            values:
+              en: What to do this week
+              it: Cosa fare questa settimana
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: What to do this week
+              it: Cosa fare questa settimana
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: entandoAtWork
+                name: Entando at Work
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value:
+              destType: 2
+              urlDest: null
+              pageDest: topics
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!P;topics!#'
+            values:
+              en: Metropolitan August
+              it: Agosto metropolitano
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Metropolitan August
+              it: Agosto metropolitano
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: topics
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;topics!#'
+    values:
+      en: Read more
+      it: Esplora l'argomento
+    elements: []
+    compositeelements: []
+    listelements: {}

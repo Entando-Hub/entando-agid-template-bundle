@@ -1,0 +1,460 @@
+id: SRV515
+typeCode: SRV
+description: Accertamenti di Compatibilità paesaggistica
+mainGroup: free
+status: PUBLIC
+categories:
+  - land_registry
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Assessment of landscape compatibility
+      it: Accertamenti di Compatibilità paesaggistica
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: Procedure for issuing a compatibility assessment on an area with landscape constraint.
+      it: Procedura per il rilascio di accertamento di compatibilità su un area con vincolo paesaggistico.
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: stato
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: motivo
+    value: null
+    values:
+      en: |
+        <p>Motivo dello stato</p>
+      it: |
+        <p>Motivo dello stato</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: argoment
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: rivolto
+    value: null
+    values:
+      en: A chi è rivolto
+      it: A chi è rivolto
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: |
+        <p>Descrizione estesa</p>
+      it: |
+        <p>Descrizione estesa&nbsp;</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: comesifa
+    value: null
+    values: {}
+    elements:
+      - code: comesifa
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 0'
+              it: 'Via Roma, 0'
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mbody
+            value: null
+            values:
+              en: |
+                <p>Mattina: 9.00 - 12.00 dal luned&igrave; al venerd&igrave;</p>
+
+                <p>Pomeriggio: 15.30 - 17.30 marted&igrave; e mercoled&igrave;</p>
+
+                <p>T +39 06 000000 - 111111 - 222222 - 333333</p>
+
+                <p>F +39 06 000111</p>
+
+                <p><a href="#!U;https://www.asili@comune.it!#">asili@comune.it</a></p>
+              it: |
+                <p>Mattina: 9.00 - 12.00 dal luned&igrave; al venerd&igrave;</p>
+
+                <p>Pomeriggio: 15.30 - 17.30 marted&igrave; e mercoled&igrave;</p>
+
+                <p>T +39 06 000000 - 111111 - 222222 - 333333</p>
+
+                <p>F +39 06 000111</p>
+
+                <p>asili@comune.it</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Ufficio accertamenti
+              it: Ufficio accertamenti
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: geografica
+    value: null
+    values:
+      en: Copertura geografica
+      it: Copertura geografica
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: cosa
+    value: null
+    values:
+      en: Cosa si ottiene
+      it: Cosa si ottiene
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: serve
+    value: null
+    values:
+      en: |
+        <p>Cosa serve (istruzioni partecipazione servizio)</p>
+
+        <p>L&rsquo;iscrizione avviene a domanda dell&rsquo;interessato o d&rsquo;ufficio, da parte del Sindaco, e rimane valida finch&eacute; non vengono meno i requisiti.<br />
+        Gli Organi giudiziari sorteggiano dall&rsquo;Albo gli iscritti che dovranno formare le giurie popolari nei processi.</p>
+
+        <p><strong>Le domande si presentano, entro il 31 luglio degli anni dispari, secondo le seguenti modalit&agrave;:</strong></p>
+
+        <p>online accedendo alla piattaforma dedicata</p>
+
+        <p>e-mail all&#39;indirizzo di posta elettronica: elettorale@comune.cagliari.legalmail.it</p>
+
+        <p>posta elettronica certificata ai seguenti indirizzi: elettorale@comune.cagliari.legalmail.it&nbsp;</p>
+
+        <p>per posta, tramite raccomandata con avviso di ricevimento, entro il termine sopra indicato (far&agrave; fede il timbro postale dell&#39;ufficio accettante)</p>
+
+        <p>consegna diretta presso l&#39;ufficio elettorale, gli sportelli del Protocollo Generale di via Crispi, degli Uffici di Citt&agrave; e della Municipalit&agrave; di Pirri.</p>
+
+        <p>La cancellazione dagli elenchi pu&ograve; avvenire d&#39;ufficio nei casi previsti dall&#39;articolo&nbsp;12 Legge&nbsp;287/51.</p>
+
+        <p><strong>Accesso online</strong></p>
+
+        <p>Le domande possono essere compilate e inviate per via telematica utilizzando la&nbsp;piattaforma dedicata istanze.comune.cagliari.it.&nbsp;</p>
+
+        <p>Il servizio richiede l&#39;accesso con identificativo Spid&nbsp;di livello 2 e&nbsp;per persone&nbsp;fisiche o Carta d&#39;identit&agrave; elettronica&nbsp;del richiedente.</p>
+
+        <p>Il modulo &egrave; disponibile sotto la voce -Servizi elettorali-</p>
+      it: |
+        <p>Cosa serve (istruzioni partecipazione servizio)</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: procedura
+    value: null
+    values:
+      en: |
+        <p>Procedure collegate all&#39;esito</p>
+      it: |
+        <p>Procedure collegate all&#39;esito</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: canale
+    value: null
+    values:
+      en: qualcosa Canale digitale
+      it: Canale digitale
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: auth
+    value: null
+    values:
+      en: |
+        <p>qualcosa Autenticazione</p>
+      it: |
+        <p>Autenticazione</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: fisico
+    value: null
+    values:
+      en: |
+        <p>qualcosa Canale fisico</p>
+      it: |
+        <p>&nbsp;</p>
+
+        <p>Canale fisico</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: costi
+    value: null
+    values:
+      en: |
+        <p>Le parti dovranno pagare la somma di euro 16,00 a titolo di diritto fisso mediante versamento sul conto corrente postale n.213090 intestato al Comune di Cagliari o sul conto corrente bancario IBAN IT26S 0101504800000070687691 IBANIT79A0760104800000000213090</p>
+      it: |
+        <p>Costi</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: vincoli
+    value: null
+    values:
+      en: |
+        <p>causale da indicare: Separazione/Divorzi in Comune.</p>
+      it: |
+        <p>Vincoli</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: fasi
+    value: null
+    values:
+      en: |
+        <p>qualcosa Fasi e scadenze</p>
+      it: |
+        <p>Fasi e scadenze</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: casi
+    value: null
+    values:
+      en: |
+        <p>qualcosa Casi particolari</p>
+      it: |
+        <p>Casi particolari</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+              it: via Monte Sabotino
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value:
+              destType: 1
+              urlDest: 'https://www.mysite.com'
+              pageDest: null
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!U;https://www.mysite.com!#'
+            values:
+              en: link per l'ufficio competente
+              it: link per l'ufficio competente
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Nome ufficio o persona repsondabile
+              it: Nome ufficio o persona repsondabile
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+              it: indirizzo
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value:
+              destType: 1
+              urlDest: ' http://www.miosito.it/'
+              pageDest: null
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!U; http://www.miosito.it/!#'
+            values:
+              en: link per l'ufficio competente
+              it: link per l'ufficio competente
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: '454'
+                name: Mario bianchi
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Nome ufficio o persona repsondabile
+              it: Nome ufficio o persona repsondabile
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: life
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attachs
+    value: null
+    values: {}
+    elements:
+      - code: attachs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mattach
+            value: null
+            values:
+              en:
+                correlationCode: '113'
+                name: sample
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values:
+              en: Sottotitolo documento
+              it: Sottotitolo documento
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Titolo documento
+              it: Titolo documento
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: attachs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mattach
+            value: null
+            values:
+              en:
+                correlationCode: '113'
+                name: sample
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values:
+              en: Sottotitolo documento
+              it: Sottotitolo documento
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Titolo documento
+              it: Titolo documento
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: business
+    value: Finanziamento impresa
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: more
+    value: null
+    values:
+      en: |
+        <p>Ulteriori informazioni Aggiornamento 20/09/2021,12:18</p>
+      it: |
+        <p>Pi&ugrave; informazioni su</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: ipa
+    value: null
+    values:
+      en: Codice dell’Ente erogatore (ipa)
+      it: Codice dell’Ente erogatore (ipa)
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: settore
+    value: null
+    values:
+      en: Settore merceologico
+      it: Settore merceologico
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

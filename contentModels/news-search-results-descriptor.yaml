@@ -1,0 +1,4 @@
+id: 10022
+contentType: NWS
+description: News - Search Results
+contentShape: "<article class=\"search-result-container #if ($content.direction.text == \"HORIZONTAL\") horizontal #end\">\n    <div class=\"search-result-box\">\n        <div class=\"search-result-title\">\n\t\t    NEWS#if ( $content.category.text != \"\" ) - $content.category.text#end\n\t    </div>\n\t    <h2 class=\"search-result-content-title\"><a href=\"$content.getContentLink()\">$content.title.text</a></h2>\n        #if ( $content.abstract.text != \"\" )\n        <div class=\"search-result-content-text\">$content.abstract.text</div>\n        #end\n        <time class=\"search-result-date\" datetime=\"$content.date.shortDate\">$content.date.getFormattedDate(\"dd MMMM yyyy\")</time>\n    </div>\n</article>"

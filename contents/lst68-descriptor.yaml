@@ -1,0 +1,103 @@
+id: LST68
+typeCode: LST
+description: Amministazione
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Amministazione
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: linktitle
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: homepage
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;homepage!#'
+    values:
+      en: Amministazione
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Giunta e consiglio
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Aree di competenza
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Dipendenti
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Luoghi
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Associazioni e società partecipate
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

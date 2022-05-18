@@ -1,0 +1,13 @@
+code: notfound
+parentCode: service
+titles:
+  en: Page not found
+  it: Pagina non trovata
+pageModel: single_frame_page
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf8
+status: published
+widgets: []

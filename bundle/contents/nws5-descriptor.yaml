@@ -1,0 +1,64 @@
+id: NWS5
+typeCode: NWS
+description: 'Entando and JHipster: How It Works'
+mainGroup: free
+status: PUBLIC
+viewPage: news
+listModel: '10022'
+defaultModel: '10002'
+attributes:
+  - code: date
+    value: '2020-09-03 00:00:00'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: 'Entando and JHipster: How It Works'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: abstract
+    value: null
+    values:
+      en: "\n\t\t\t\n\t\t\t<p> Entando’s sponsorship of JHipster reaffirms our commitment to open source and to incorporating the best open source technologies in the Entando platform</p>\n\t\t\t\n\t\t\t"
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: "\n\t\t\t\n\t\t\t<p> Entando’s sponsorship of JHipster reaffirms our commitment to open source and to incorporating the best open source technologies in the Entando platform. JHipster has been included in Entando since the 6.0 release, helping customers generate microservices and micro frontends. The ability to customize JHipster via a Blueprint has given us the flexibility to automate key elements of the Entando platform and to enhance the developer experience.</p>\n<p>With our sponsorship we’re looking forward to getting more deeply involved in the JHipster community and to contribute to JHipster 7 and beyond.</p>\n<p>Technical Notes</p>\n<p>JHipster and the blueprint pattern give Entando developers the ability to quickly create a standardized Spring Boot microservice which can be installed into an Entando cluster on Kubernetes.  </p>\n\t\t\t\n\t\t\t"
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        correlationCode: htmlCode
+        name: HTML Code
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: category
+    value: null
+    values:
+      en: ENGINEERING
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: direction
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

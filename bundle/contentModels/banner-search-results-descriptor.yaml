@@ -1,0 +1,4 @@
+id: 10023
+contentType: BNR
+description: Banner - Search Results
+contentShape: "<article class=\"search-result-container #if ($content.direction.text == \"HORIZONTAL\") horizontal #end\">\n    <div class=\"search-result-box\">\n        <div class=\"search-result-title\">\n\t\t    ENTANDO\n\t    </div>\n\t    <h2 class=\"search-result-content-title\">$content.title.text</h2>\n        #if ( $content.abstract.text != \"\" )\n        <div class=\"search-result-content-text\">$content.abstract.text</div>\n        #end\n    </div>\n</article>"

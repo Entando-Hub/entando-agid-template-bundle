@@ -1,0 +1,45 @@
+id: TCL6
+typeCode: TCL
+description: Sample - About Us
+mainGroup: free
+status: PUBLIC
+listModel: '10024'
+defaultModel: '10004'
+attributes:
+  - code: image
+    value: null
+    values:
+      en:
+        correlationCode: entandoAtPlan
+        name: Entando at Work
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: About Us
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: "\n\t\t\t\n\t\t\tBy integrating leading edge open source projects and extending their capabilities, Entando allows developers and operations teams to create modern UX on Kubernetes.\n\t\t\t\n\t\t\t"
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: col1
+    value: null
+    values:
+      en: "\n\t\t\t\n\t\t\t<p class=\"tcol-content-paragraph\">\n        Entando is an open source software company providing the leading micro frontend platform building enterprise web apps on Kubernetes. \nThe company,  founded in 2010 as an open-source system integrator, was re-founded as a product company in 2015 in response to the growing demand for tools and services  to create modern online experiences. Since then, Entando has stepped into international markets. It’s headquartered in San Diego, California with R&D and sales offices in Europe, and features teams all over the world, including the United States, Italy, Brazil, South Africa, Georgia and the Philippines.\n      </p>\n      <p>\nIn 2015, Entando was named in the “Cool Vendors in Web Computing” Gartner report. In 2017, it became an official Red Hat Technology Partner, followed in 2018 by an OEM agreement with Red Hat. Also in 2018 the platform won the Digital360 Awards prize in the cloud computing category.\n      </p>\n\t\t\t\n\t\t\t"
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: col2
+    value: null
+    values:
+      en: "\n\t\t\t\n\t\t\t<p>\n        As a leader in modern software paradigms, Entando seeks to continuously and rigorously optimize and standardize the enterprise experience of building applications in the modern world, helping them succeed in any field. Entando has particular expertise in the banking, public sector, and services industries.\nEntando services span various software subscription and service levels and are designed to meet each customer’s specific needs. The Entando solution consists of Subscription Support Services, Certification and Training, and Consulting Services.\n      </p>\n      <p>\nEntando is supported by a strong ecosystem of certified partners that bring both industry expertise and local delivery capabilities to address our customers’ most common needs: time to market, continuous innovation, and simplicity.\n      </p>\n\t\t\t\n\t\t\t"
+    elements: []
+    compositeelements: []
+    listelements: {}

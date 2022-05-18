@@ -1,0 +1,2 @@
+code: userprofile_is_front_hypertextattribute
+guiCode: "<#assign s=JspTaglibs[\"/struts-tags\"]>\n<#assign wpsf=JspTaglibs[\"/apsadmin-form\"]>\n\n<@wpsf.textarea\n\tuseTabindexAutoIncrement=true\n\tcols=\"50\"\n\trows=\"3\"\n\tid=\"%{#attribute_id}\"\n\tname=\"%{#attributeTracer.getFormFieldName(#attribute)}\"\n\tvalue=\"%{#attribute.textMap[#lang.code]}\"  />"

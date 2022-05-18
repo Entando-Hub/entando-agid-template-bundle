@@ -1,0 +1,50 @@
+id: BNR2
+typeCode: BNR
+description: Sample Banner
+mainGroup: free
+status: PUBLIC
+listModel: '10023'
+defaultModel: '10003'
+attributes:
+  - code: title
+    value: null
+    values:
+      en: 'Hello, world!'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: abstract
+    value: null
+    values:
+      en: <p>This is a template for banner content.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 1
+      urlDest: 'http://www.entando.com/'
+      pageDest: null
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!U;http://www.entando.com/!#'
+    values:
+      en: Learn more
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        correlationCode: entandoAtPlan
+        name: Entando at Plan
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: placement
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

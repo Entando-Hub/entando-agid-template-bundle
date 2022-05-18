@@ -1,0 +1,42 @@
+id: CRA310
+typeCode: CRA
+description: card generica amministrazione 7
+mainGroup: free
+status: PUBLIC
+categories:
+  - adminstration
+attributes:
+  - code: belong
+    value: it-user
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Lorem ipsum dolor sit amet  consectetur adipiscing ...
+      it: Lorem ipsum dolor sit amet  consectetur adipiscing ...
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lor sit amet consectetur'
+      it: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lor sit amet consectetur'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

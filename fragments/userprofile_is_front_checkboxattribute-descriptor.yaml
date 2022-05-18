@@ -1,0 +1,2 @@
+code: userprofile_is_front_checkboxattribute
+guiCode: "<#assign s=JspTaglibs[\"/struts-tags\"]>\n<#assign wpsf=JspTaglibs[\"/apsadmin-form\"]>\n\n<@wpsf.checkbox useTabindexAutoIncrement=true\n\tname=\"%{#attributeTracer.getFormFieldName(#attribute)}\"\n\tid=\"%{attribute_id}\" value=\"%{#attribute.value == true}\"/>"

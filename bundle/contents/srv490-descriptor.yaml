@@ -1,0 +1,269 @@
+id: SRV490
+typeCode: SRV
+description: Aggiornamento delle liste elettorali
+mainGroup: free
+status: PUBLIC
+categories:
+  - registry_office
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Updating of the electoral lists
+      it: Aggiornamento delle liste elettorali
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'Update of electoral, general and sectional lists and additional electoral lists'
+      it: 'Aggiornamento delle liste elettorali, generali e sezionali e delle liste elettorali aggiuntive'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: stato
+    value: false
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: motivo
+    value: null
+    values:
+      en: |
+        <p>&nbsp;Update of electoral, general and sectional lists and additional electoral lists</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '193'
+        name: 445-200x200.jpg
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: argoment
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: rivolto
+    value: null
+    values:
+      en: A chi è rivolto
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: comesifa
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: geografica
+    value: null
+    values:
+      en: italia test
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: cosa
+    value: null
+    values:
+      en: Cosa si ottiene
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: serve
+    value: null
+    values:
+      en: "<ul>\n\t<li>\n\t<p>Domanda compilata sulla base del modulo prestampato</p>\n\t</li>\n\t<li>\n\t<p>Indicatore della Situazione Economica Equivalente (ISEE) relativo alle Prestazioni agevolate rivolte a minorenni o a famiglie con minorenni riferito all&#39;anno di iscrizione.</p>\n\t</li>\n\t<li>\n\t<p>Eventuale certificazione che comprovi un particolare stato di necessit&agrave; come:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>familiari con handicap oltre il 65% (genitore o fratellini del minore per il quale &egrave; stato chiesto il nido);</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>situazione lavorativa di particolare disagio dei genitori (sede di lavoro oltre i 25 Km calcolati dal centro della citt&agrave; - sede municipio; orario di lavoro: turnista solo se articolato su tre turni);</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>Copia del documento di identit&agrave; del genitore che presenta l&#39;istanza, in corso di validit&agrave;.</p>\n\t</li>\n\t<li>\n\t<p>Copia del permesso di soggiorno in corso di validit&agrave;, nel caso di cittadino extracomunitario.</p>\n\t</li>\n</ul>\n"
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: procedura
+    value: null
+    values:
+      en: |
+        <p>Procedure collegate all&#39;esito</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: canale
+    value: null
+    values:
+      en: qualcosa Canale digitale
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: auth
+    value: null
+    values:
+      en: |
+        <p>qualcosa Autenticazione</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: fisico
+    value: null
+    values:
+      en: |
+        <p>qualcosa Canale fisico</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: costi
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: vincoli
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: fasi
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: casi
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Ufficio Asili Nido
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: '454'
+                name: 33.jpg
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: 'Area pubblica istruzione, politiche giovanili e sport'
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: life
+    value: Pensionamento
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attachs
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: business
+    value: Finanziamento impresa
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: more
+    value: null
+    values:
+      en: |
+        <p>Aggiornamento</p>
+
+        <p>01/07/2020,11:37</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: ipa
+    value: null
+    values:
+      en: Codice dell’Ente erogatore (ipa)
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: settore
+    value: null
+    values:
+      en: Settore merceologico
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

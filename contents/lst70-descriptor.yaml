@@ -1,0 +1,67 @@
+id: LST70
+typeCode: LST
+description: Contatti
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Contatti
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: linktitle
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: homepage
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;homepage!#'
+    values:
+      en: Contatti
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Posta Elettronica Certificata
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: URP - Ufficio Relazioni con il Pubblico
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: |-
+        Nome della PA
+        Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+    elements: []
+    compositeelements: []
+    listelements: {}

@@ -1,0 +1,53 @@
+id: BNR3
+typeCode: BNR
+description: A Modern Platform for Modern UX
+mainGroup: free
+status: PUBLIC
+listModel: '10023'
+defaultModel: '10003'
+attributes:
+  - code: title
+    value: null
+    values:
+      en: A Modern Platform for Modern UX
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: abstract
+    value: null
+    values:
+      en: |-
+        <p>
+              Entando is an open source software company providing the leading micro frontend platform building enterprise web apps on Kubernetes.
+              </p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 1
+      urlDest: 'http://www.entando.com/'
+      pageDest: null
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!U;http://www.entando.com/!#'
+    values:
+      en: Learn more at Entando.com
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        correlationCode: entandoAtPlan
+        name: Entando at Plan
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: placement
+    value: RIGHT
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

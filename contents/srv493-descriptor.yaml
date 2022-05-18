@@ -1,0 +1,332 @@
+id: SRV493
+typeCode: SRV
+description: Albo dei giudici popolari
+mainGroup: free
+status: PUBLIC
+categories:
+  - registry_office
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Roll of popular judges
+      it: Albo dei giudici popolari
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: Keeping and updating of the register of popular judges of the Court of Assizes and of the Court of Assizes of Appeal
+      it: Tenuta ed aggiornamento dell'Albo dei giudici popolari di Corte di assise e di Corte di assise di appello
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: stato
+    value: false
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: motivo
+    value: null
+    values:
+      en: |
+        <p>Accordo di separazione o divorzio sospeso</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: argoment
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: rivolto
+    value: null
+    values:
+      en: A chi è rivolto
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: |
+        <p>L&#39;albo dei giudici popolari di Corte di assise e di Corte di assise di appello contiene l&#39;elenco delle persone idonee a svolgere la funzione di Giudice popolare. &Egrave; costituito da due distinti elenchi formati da cittadini che possono essere chiamati ad affiancare i giudici togati nella composizione della Corte d&#39;assise e della Corte d&#39;assise di appello in occasione dei processi. Le operazioni di aggiornamento si svolgono ogni due anni dal mese di aprile al mese di luglio.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: comesifa
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: geografica
+    value: null
+    values:
+      en: italia test
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: cosa
+    value: null
+    values:
+      en: Cosa si ottiene
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: serve
+    value: null
+    values:
+      en: "<ul>\n\t<li>\n\t<p>L&rsquo;iscrizione avviene a domanda dell&rsquo;interessato o d&rsquo;ufficio, da parte del Sindaco, e rimane valida finch&eacute; non vengono meno i requisiti.<br />\n\tGli Organi giudiziari sorteggiano dall&rsquo;Albo gli iscritti che dovranno formare le giurie popolari nei processi.</p>\n\n\t<p>Le domande si presentano, entro il 31 luglio degli anni dispari, secondo le seguenti modalit&agrave;:</p>\n\n\t<p>online accedendo alla piattaforma dedicata</p>\n\n\t<p>e-mail all&#39;indirizzo di posta elettronica: elettorale@comune.cagliari.legalmail.it</p>\n\n\t<p>posta elettronica certificata ai seguenti indirizzi: elettorale@comune.cagliari.legalmail.it&nbsp;</p>\n\n\t<p>per posta, tramite raccomandata con avviso di ricevimento, entro il termine sopra indicato (far&agrave; fede il timbro postale dell&#39;ufficio accettante)</p>\n\n\t<p>consegna diretta presso l&#39;ufficio elettorale, gli sportelli del Protocollo Generale di via Crispi, degli Uffici di Citt&agrave; e della Municipalit&agrave; di Pirri.</p>\n\n\t<p>La cancellazione dagli elenchi pu&ograve; avvenire d&#39;ufficio nei casi previsti dall&#39;articolo&nbsp;12 Legge&nbsp;287/51.</p>\n\n\t<p>Accesso online</p>\n\n\t<p>Le domande possono essere compilate e inviate per via telematica utilizzando la&nbsp;piattaforma dedicata istanze.comune.cagliari.it.&nbsp;</p>\n\n\t<p>Il servizio richiede l&#39;accesso con identificativo Spid&nbsp;di livello 2 e&nbsp;per persone&nbsp;fisiche o Carta d&#39;identit&agrave; elettronica&nbsp;del richiedente.</p>\n\n\t<p>Il modulo &egrave; disponibile sotto la voce -Servizi elettorali-</p>\n\t</li>\n</ul>\n"
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: procedura
+    value: null
+    values:
+      en: |
+        <p>Procedure collegate all&#39;esito</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: canale
+    value: null
+    values:
+      en: qualcosa Canale digitale
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: auth
+    value: null
+    values:
+      en: |
+        <p>qualcosa Autenticazione</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: fisico
+    value: null
+    values:
+      en: |
+        <p>qualcosa Canale fisico</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: costi
+    value: null
+    values:
+      en: |
+        <p>Le parti dovranno pagare la somma di euro 16,00 a titolo di diritto fisso mediante versamento sul conto corrente postale n.213090 intestato al Comune di Cagliari o sul conto corrente bancario IBAN IT26S 0101504800000070687691 IBANIT79A0760104800000000213090</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: vincoli
+    value: null
+    values:
+      en: |
+        <p>causale da indicare: Separazione/Divorzi in Comune.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: fasi
+    value: null
+    values:
+      en: |
+        <p>qualcosa Fasi e scadenze</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: casi
+    value: null
+    values:
+      en: |
+        <p>qualcosa Casi particolari</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Ufficio Asili Nido
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: links
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: '454'
+                name: 33.jpg
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: 'Area pubblica istruzione, politiche giovanili e sport'
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: life
+    value: Pensionamento
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attachs
+    value: null
+    values: {}
+    elements:
+      - code: attachs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mattach
+            value: null
+            values:
+              en:
+                correlationCode: '113'
+                name: documento 1
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values:
+              en: Avviso e documenti allegati
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Avviso pubblico di iscrizione - Anno educativo 2018/2019
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: attachs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mattach
+            value: null
+            values:
+              en:
+                correlationCode: '113'
+                name: sample.pdf
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msubtitle
+            value: null
+            values:
+              en: Quanto costa il servizio
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Rette asili nido
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: business
+    value: Finanziamento impresa
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: more
+    value: null
+    values:
+      en: |
+        <p>Ulteriori informazioni Aggiornamento 20/09/2021,12:18</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: ipa
+    value: null
+    values:
+      en: Codice dell’Ente erogatore (ipa)
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: settore
+    value: null
+    values:
+      en: Settore merceologico
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

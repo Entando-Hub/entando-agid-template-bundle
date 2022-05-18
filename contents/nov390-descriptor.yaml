@@ -1,0 +1,115 @@
+id: NOV390
+typeCode: NOV
+description: Sagra di paese
+mainGroup: free
+status: PUBLIC
+categories:
+  - summer_on_the_city
+attributes:
+  - code: type
+    value: notizie
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: date
+    value: '2022-06-16 00:00:00'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: 363th Feast of Sant'Efisio
+      it: 363 Festa di Sant'Efisio
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: |
+        <p>On 1 May 2019 Cagliari and all of Sardinia celebrate the 363rd Feast of Sant&#39;Efisio. An intense moment of devotion, faith, culture and centuries-old traditions that come together in a procession that has no equal.</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis.</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae.&nbsp;</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: persone
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: testo
+    value: null
+    values:
+      en: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: entandoAtPlan
+        name: Entando at Plan
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: images
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: videos
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: docs
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: number
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: places
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

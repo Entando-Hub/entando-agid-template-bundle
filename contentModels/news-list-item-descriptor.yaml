@@ -1,0 +1,26 @@
+id: 10021
+contentType: NWS
+description: News - List Item
+contentShape: |-
+  <article class="news-container #if ($content.direction.text == "HORIZONTAL") horizontal #end">
+      #if ( $content.image.getImagePath("0") != "" )
+        <div class="news-image">
+            <img src="$content.image.getImagePath("0")" alt="$content.image.text">
+        </div>
+      #end
+      <div class="news-abstract">
+          <div>
+              #if ( $content.category.text != "" )
+                <h3 class="news-category">$content.category.text</h3>
+              #end
+              <time class="news-date" datetime="$content.date.shortDate">$content.date.getFormattedDate("dd MMMM yyyy")</time>
+              <h1 class="news-title"><a href="$content.getContentLink()">$content.title.text</a></h1>
+              #if ( $content.abstract.text != "" )
+                <p>$content.abstract.text</p>
+              #end
+              #if ( $content.link.destination != "" )
+                <a class="bx--btn bx--btn--primary" href="$content.link.destination">$content.link.text</a>
+              #end
+          </div>
+      </div>
+  </article>

@@ -1,0 +1,77 @@
+id: LST72
+typeCode: LST
+description: Novità
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Novità
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: linktitle
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: homepage
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;homepage!#'
+    values:
+      en: Novità
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Notizie
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Eventi
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          destType: 2
+          urlDest: null
+          pageDest: homepage
+          contentDest: null
+          resourceDest: null
+          symbolicDestination: '#!P;homepage!#'
+        values:
+          en: Comunicati
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

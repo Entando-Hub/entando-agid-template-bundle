@@ -1,0 +1,20 @@
+id: EXL195
+typeCode: EXL
+description: Turismo link esterno
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Tourism
+      it: Turismo
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

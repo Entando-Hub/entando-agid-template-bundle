@@ -1,0 +1,89 @@
+code: 1-column
+description: 1 Column
+configuration:
+  frames:
+    - pos: 0
+      description: Logo
+      mainFrame: false
+      defaultWidget:
+        code: logo
+        properties: null
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 2
+        y2: 0
+    - pos: 1
+      description: Navigation bar
+      mainFrame: false
+      defaultWidget:
+        code: navigation-menu
+        properties: null
+      sketch:
+        x1: 3
+        y1: 0
+        x2: 5
+        y2: 0
+    - pos: 2
+      description: Search
+      mainFrame: false
+      defaultWidget:
+        code: search_form
+        properties: null
+      sketch:
+        x1: 6
+        y1: 0
+        x2: 8
+        y2: 0
+    - pos: 3
+      description: Login
+      mainFrame: false
+      defaultWidget:
+        code: keycloak-login
+        properties: null
+      sketch:
+        x1: 9
+        y1: 0
+        x2: 11
+        y2: 0
+    - pos: 4
+      description: Frame 1
+      mainFrame: true
+      sketch:
+        x1: 0
+        y1: 1
+        x2: 11
+        y2: 1
+    - pos: 5
+      description: Frame 2
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 2
+        x2: 11
+        y2: 2
+    - pos: 6
+      description: Frame 3
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 3
+        x2: 11
+        y2: 3
+    - pos: 7
+      description: Frame 4
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 4
+        x2: 11
+        y2: 4
+    - pos: 8
+      description: Footer
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 5
+        x2: 11
+        y2: 5
+template: "<#assign wp=JspTaglibs[\"/aps-core\"]>\r\n<@wp.info key=\"systemParam\" paramName=\"applicationBaseURL\" var=\"appUrl\" />\r\n\r\n<html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"utf-8\" />\r\n        <title>\r\n            <@wp.currentPage param=\"title\" />\r\n        </title>\r\n        <meta name=\"viewport\" content=\"width=device-width,  user-scalable=no\" />\r\n        <link rel=\"icon\" href=\"${appUrl}favicon.png\" type=\"image/png\" />\r\n\r\n\r\n        </head>\r\n        <body>\r\n          <header-fragment app-url=\"${appUrl}\">\r\n            <template>\r\n                <@wp.show frame=0 />\r\n                <@wp.show frame=1 />\r\n                <@wp.show frame=2 />\r\n                <@wp.show frame=3 />\r\n            </template>\r\n          </header-fragment>\r\n          <div class=\"bx--grid Homepage__body\">\r\n            <div class=\"bx--row\"><@wp.show frame=4 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=5 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=6 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=7 /></div>\r\n          </div>\r\n          <div class=\"Homepage__footer\"><@wp.show frame=8 /></div>\r\n        </body>\r\n</html>\r\n"

@@ -1,0 +1,50 @@
+id: CRA332
+typeCode: CRA
+description: link amministrazione 2
+mainGroup: free
+status: PUBLIC
+categories:
+  - link_administration
+attributes:
+  - code: belong
+    value: ''
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Council
+      it: Consiglio comunale
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      it: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: council
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;council!#'
+    values:
+      en: Council
+      it: Consiglio comunale
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: false
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

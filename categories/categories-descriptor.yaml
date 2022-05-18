@@ -1,0 +1,100 @@
+- code: adminstration
+  parentCode: home
+  titles:
+    en: Adminstration
+    it: Amministrazione
+- code: documents_and_data
+  parentCode: home
+  titles:
+    en: Documents and data
+    it: Documenti e dati
+- code: news
+  parentCode: home
+  titles:
+    en: News
+    it: Notizie
+- code: services
+  parentCode: home
+  titles:
+    en: Services
+    it: Servizi
+- code: topics
+  parentCode: home
+  titles:
+    en: Topics
+    it: Argomenti
+- code: adminstration_areas
+  parentCode: adminstration
+  titles:
+    en: Adminstration Areas
+    it: Aree amministrative
+- code: council
+  parentCode: adminstration
+  titles:
+    en: Council
+    it: Giunta e consiglio
+- code: governing_bodies
+  parentCode: adminstration
+  titles:
+    en: Governing bodies
+    it: Organi di governo
+- code: link_administration
+  parentCode: adminstration
+  titles:
+    en: Link administration
+    it: Link amministrazione
+- code: offices
+  parentCode: adminstration
+  titles:
+    en: Offices
+    it: Uffici
+- code: notices
+  parentCode: documents_and_data
+  titles:
+    en: Notices
+    it: Bandi
+- code: link_novit
+  parentCode: news
+  titles:
+    en: Link news
+    it: link novità
+- code: summer_on_the_city
+  parentCode: news
+  titles:
+    en: Summer on the city
+    it: Estate in città
+- code: land_registry
+  parentCode: services
+  titles:
+    en: Land registry
+    it: Catasto e urbanistica
+- code: payments
+  parentCode: services
+  titles:
+    en: Payments
+    it: Pagamenti
+- code: registry_office
+  parentCode: services
+  titles:
+    en: Registry office
+    it: Anagrafe e stato civile
+- code: construction_sites
+  parentCode: topics
+  titles:
+    en: Construction sites
+    it: Cantieri in città
+- code: culture
+  parentCode: topics
+  titles:
+    en: Culture
+    it: Cultura
+- code: sport
+  parentCode: topics
+  titles:
+    en: Sport
+    it: Sport
+- code: town_hall
+  parentCode: topics
+  titles:
+    en: Town hall
+    it: Municipio

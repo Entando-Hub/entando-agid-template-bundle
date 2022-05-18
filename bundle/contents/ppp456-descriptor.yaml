@@ -1,0 +1,55 @@
+id: PPP456
+typeCode: PPP
+description: contenuto di esempio
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: contenuto di esempio aggiornato
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: |
+        <p>Il premier&nbsp;Mario Draghi&nbsp;ha incontrato il presidente Usa&nbsp;Joe Biden.</p>
+
+        <p>&quot;Nel loro incontro nello studio Ovale hanno sottolineato il loro&nbsp;impegno a perseguire la pace&quot;, afferma la Casa Bianca.</p>
+
+        <p>La Camera Usa ha approvato a stragrande maggioranza il nuovo pacchetto di aiuti da 40 miliardi.&nbsp;007 Usa: &quot;Tra gli otto e i dieci generali russi sono stati uccisi in Ucraina dalle forze di Kiev&quot;.</p>
+
+        <p><a href="#!U;http://www.mysite.com/!#">esempio</a>&nbsp;</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 1
+      urlDest: 'https://www.mysite.com'
+      pageDest: null
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!U;https://www.mysite.com!#'
+    values:
+      en: Approfondisci
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attach
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '193'
+        name: 445-200x200.jpg
+    elements: []
+    compositeelements: []
+    listelements: {}

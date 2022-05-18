@@ -1,0 +1,366 @@
+id: NOV112
+typeCode: NOV
+description: 'Parte l''estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti'
+mainGroup: free
+status: PUBLIC
+categories:
+  - summer_on_the_city
+attributes:
+  - code: type
+    value: notizie
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: date
+    value: '2022-03-29 00:00:00'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: 'Summer starts with over 300 events in the center and in the neighborhoods, all planned events'
+      it: 'Parte l''estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: highlight
+    value: true
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: |
+        <p>Inauguration on Monday 2 July with the free concert in Piazza XX Settembre by Sweet Soul Revue. On stage 20 musicians from all over the world.</p>
+      it: |
+        <p>Inaugurazione luned&igrave; 2 luglio con il concerto gratuito in piazza XX Settembre degli Sweet Soul Revue. Sul palco 20 musicisti da tutto il mondo.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>
+      it: |
+        <p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo.&nbsp;</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: persone
+    value: null
+    values: {}
+    elements:
+      - code: persone
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mpersonal
+            value: null
+            values:
+              en: "<ul>\n\t<li>Mario Rossi</li>\n\t<li>Alessandro Bianchi</li>\n</ul>\n"
+              it: "<ul>\n\t<li>Mario Rossi</li>\n\t<li>Alessandro Bianchi</li>\n</ul>\n"
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mattach1
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: '117'
+                name: Immagine
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mdescr
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: margs
+            value: ''
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: melenco
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: massessor
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mmoreinfo
+            value: null
+            values:
+              en: |
+                <p>Via Roma 1</p>
+
+                <p>00100 Roma</p>
+              it: |
+                <p>Via Roma 1</p>
+
+                <p>00100 Roma</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: msedi
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: munita
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlink
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mcompete
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mattach2
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Assessorato al Turismo
+              it: Assessorato al Turismo
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: testo
+    value: null
+    values:
+      en: |
+        <p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.</p>
+      it: |
+        <p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '117'
+        name: 946-800x600.jpg
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      destType: 1
+      urlDest: 'https://www.mysite.com'
+      pageDest: null
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!U;https://www.mysite.com!#'
+    values:
+      en: Link alla sezione di appartenenza
+      it: Link alla sezione di appartenenza
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: images
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: videos
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: docs
+    value: null
+    values: {}
+    elements:
+      - code: docs
+        value: null
+        values:
+          en:
+            correlationCode: '113'
+            name: Documento
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: docs
+        value: null
+        values:
+          en:
+            correlationCode: '113'
+            name: Documento 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: number
+    value: '12'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: places
+    value: null
+    values: {}
+    elements:
+      - code: places
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mquartier
+            value: null
+            values:
+              en: |
+                <p>Quartiere</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: midentity
+            value: null
+            values:
+              en: Identificativo
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mcircoscr
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mothrinfo
+            value: null
+            values:
+              en: "<p>Orario, Punti di contatto, informazioni</p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazioni</li>\n\t<li>Orario, Punti di contatto, informazioni</li>\n</ol>\n\n<p>Orario, Punti di contatto, informazionizioni</p>\n\n<ul>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n</ul>\n"
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimg
+            value: null
+            values:
+              en:
+                correlationCode: entandoAtPlan
+                name: Entando at Plan
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: margs
+            value: ''
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mpoi
+            value: null
+            values:
+              en: |
+                <p>Descrizione estesa con POI</p>
+
+                <p>Descrizione estesa con POI Descrizione estesa con POI</p>
+
+                <p>&nbsp;</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mgps
+            value: null
+            values:
+              en: |
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: maddress
+            value: null
+            values:
+              en: Via Roma 3
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mservices
+            value: null
+            values:
+              en: "<ul>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n</ul>\n\n<p>&nbsp;</p>\n"
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mlnkplac
+            value: null
+            values:
+              en: "<ul>\n\t<li>Luoghi collegati lista</li>\n\t<li>Luoghi collegati lista</li>\n\t<li><a href=\"#!U;http://www.mysite.com/!#\">Luoghi collegati lista</a></li>\n</ul>\n\n<p>&nbsp;</p>\n"
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mcap
+            value: '90121'
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mshrtdescr
+            value: null
+            values:
+              en: Descrizione breve luogo
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mplaces
+            value: ''
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: maccess
+            value: null
+            values:
+              en: "<p>Modalit&agrave; di accesso informazioni</p>\n\n<ol>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n</ol>\n\n<p>&nbsp;</p>\n"
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}

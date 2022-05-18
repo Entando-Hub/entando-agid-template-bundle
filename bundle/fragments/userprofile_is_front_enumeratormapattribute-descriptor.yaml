@@ -1,0 +1,2 @@
+code: userprofile_is_front_enumeratormapattribute
+guiCode: "<#assign s=JspTaglibs[\"/struts-tags\"]>\n<#assign wpsf=JspTaglibs[\"/apsadmin-form\"]>\n<@wpsf.select useTabindexAutoIncrement=true\n\tname=\"%{#attributeTracer.getFormFieldName(#attribute)}\"\n\tid=\"%{attribute_id}\"\n\theaderKey=\"\" headerValue=\"\"\n\tlist=\"#attribute.mapItems\" value=\"%{#attribute.getText()}\" listKey=\"key\" listValue=\"value\" />"
