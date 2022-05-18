@@ -156,18 +156,18 @@ components:
     - contentModels/titolo-link-+-textarea-footer-(lst)-descriptor.yaml
     - contentModels/titolo-link-+-lista-link-footer-(lst)-descriptor.yaml
     - contentModels/link-+-icone-footer-(lst)-descriptor.yaml
-    - contentModels/novità-in-evidenza-homepage-(nov)-descriptor.yaml
-    - contentModels/novità-card-singole-(nov)-descriptor.yaml
+    - contentModels/novita-in-evidenza-homepage-(nov)-descriptor.yaml
+    - contentModels/novita-card-singole-(nov)-descriptor.yaml
     - contentModels/argomenti-in-evidenza-homepage-(arg)-descriptor.yaml
     - contentModels/argomenti-in-pillole-(arg)-descriptor.yaml
     - contentModels/lista-di-link-esterni-(exl)-descriptor.yaml
     - contentModels/card-amministrazione-generica-(cra)-descriptor.yaml
     - contentModels/link-card-amministrazione-(cra)-descriptor.yaml
     - contentModels/card-interna-novita-w-o-data-(nov)-descriptor.yaml
-    - contentModels/link-card-novità-(crn)-descriptor.yaml
+    - contentModels/link-card-novita-(crn)-descriptor.yaml
     - contentModels/dettaglio-servizi-con-sharing-(srv)-descriptor.yaml
     - contentModels/card-singola-servizi-(srv)-descriptor.yaml
-    - contentModels/novità-card-dettaglio-(nov)-descriptor.yaml
+    - contentModels/novita-card-dettaglio-(nov)-descriptor.yaml
     - contentModels/news-detail-descriptor.yaml
     - 'contentModels/banner-text,-image,-cta-descriptor.yaml'
     - contentModels/2-column-content-descriptor.yaml
