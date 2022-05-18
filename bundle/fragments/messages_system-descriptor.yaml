@@ -1,2 +1,0 @@
-code: messages_system
-guiCode: "<#assign wp=JspTaglibs[\"/aps-core\"]>\n\n<#assign currentPageCode><@wp.currentPage param=\"code\" /></#assign>\n\n<#if (currentPageCode == 'notfound')>\n<div class=\"alert alert-error alert-block\">\n\t<h1 class=\"alert-heading\"><@wp.i18n key=\"PAGE_NOT_FOUND\" escapeXml=false /></h1>\n</div>\n</#if>\n<#if (currentPageCode == 'errorpage')>\n<div class=\"alert alert-error alert-block\">\n\t<h1 class=\"alert-heading\"><@wp.i18n key=\"GENERIC_ERROR\" escapeXml=false /></h1>\n</div>\n</#if>"

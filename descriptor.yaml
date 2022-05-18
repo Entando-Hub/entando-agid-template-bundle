@@ -235,8 +235,6 @@ components:
     - contents/srv510-descriptor.yaml
     - contents/srv515-descriptor.yaml
     - contents/crn521-descriptor.yaml
-  plugins:
-    - plugins/jangalian-accesscode-descriptor.yaml
   categories:
     - categories/categories-descriptor.yaml
   labels:

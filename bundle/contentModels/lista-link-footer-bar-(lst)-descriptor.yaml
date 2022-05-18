@@ -1,4 +1,0 @@
-id: 4
-contentType: LST
-description: lista link footer bar (LST)
-contentShape: "<!--lista link footer bar (LST))-->\r\n<p class=\"sr-only\">\r\n  $content.title.text\r\n</p>\r\n<ul class=\"it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row\">\r\n    #foreach ($item in $content.links)\r\n    <li class=\"list-inline-item\">\r\n        <a href=\"$item.destination\" title=\"$item.text\">$item.text</a>\r\n    </li>\r\n    #end\r\n</ul>"

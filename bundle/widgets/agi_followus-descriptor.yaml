@@ -1,6 +1,0 @@
-code: agi_followus
-titles:
-  en: Follow us agid
-  it: Seguici agid
-group: free
-customUi: "<#assign wp=JspTaglibs[\"/aps-core\"]>\r\n\r\n<div class=\"it-socials d-none d-md-flex\" id=\"main-seguici\">\r\n    <span><@wp.i18n key=\"FOLLOW_US_ON\" /></span>\r\n    <ul>\r\n        <li>\r\n            <a href=\"https://www.facebook.com/\" aria-label=\"Facebook\" target=\"_blank\">\r\n                <svg class=\"icon\">\r\n                <title>Facebook</title>\r\n                <use href=\"<@wp.resourceURL />agi-template/img/sprite.svg#it-facebook\"></use>\r\n                </svg>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a href=\"https://www.github.com/\" aria-label=\"Github\" target=\"_blank\">\r\n                <svg class=\"icon\">\r\n                <title>Github</title>\r\n                <use href=\"<@wp.resourceURL />agi-template/img/sprite.svg#it-github\"></use>\r\n                </svg>\r\n            </a>\r\n        </li>\r\n        <li>\r\n            <a href=\"https://www.twitter.com/\" aria-label=\"Twitter\" target=\"_blank\">\r\n                <svg class=\"icon\">\r\n                <title>Twitter</title>\r\n                <use href=\"<@wp.resourceURL />agi-template/img/sprite.svg#it-twitter\"></use>\r\n                </svg>\r\n            </a>\r\n        </li>\r\n    </ul>\r\n</div>"

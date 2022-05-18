@@ -1,7 +1,0 @@
-id: 10020
-contentType: NWS
-description: News List Bullet
-contentShape: |-
-  <li>
-      <a href="$content.getContentLink()">$content.title.text</a>
-  </li>
