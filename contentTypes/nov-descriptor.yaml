@@ -11,7 +11,7 @@ attributes:
     mandatory: true
     listFilter: true
     indexable: true
-    enumeratorStaticItems: 'novità,comunicati stampa,notizie'
+    enumeratorStaticItems: 'novita,comunicati stampa,notizie'
     enumeratorStaticItemsSeparator: ','
     validationRules:
       minLength: null
@@ -269,7 +269,7 @@ attributes:
       compositeAttributes:
         - code: mtitle
           type: Text
-          name: Nome dell'unità organizzativa (titolo)
+          name: Nome dell'unita organizzativa (titolo)
           names:
             en: mtitle
           roles: []
@@ -459,7 +459,7 @@ attributes:
           compositeAttributes: null
         - code: munita
           type: Text
-          name: Unità organizzativa genitore
+          name: Unita organizzativa genitore
           names:
             en: munita
           roles: []
@@ -1221,7 +1221,7 @@ attributes:
           mandatory: false
           listFilter: false
           indexable: false
-          enumeratorStaticItems: 'Accesso all''informazione, Acqua, Agricoltura, Animale domestico, Aria, Assistenza agli invalidi, Assistenza sociale, Associazioni, Bilancio, Commercio all''ingrosso, Commercio al minuto, Commercio ambulante, Comunicazione istituzionale, Comunicazione politica, Concorsi, Covid-19, Elezioni, Estero, Energie rinnovabili, Foreste, Formazione professionale, Gemellaggi, Gestione rifiuti, Giustizia, Igiene pubblica, Immigrazione, Sport, Imposte, Imprese, Inquinamento, Integrazione sociale, Isolamento termico , Istruzione, Lavoro, Matrimonio, Mercato, Mobilità sostenibile , Morte, Nascita, Parcheggi, Patrimonio culturale, Pesca, Piano di sviluppo , Pista ciclabile, Politica commerciale, Polizia, Prodotti alimentari, Protezione civile , Residenza , Risposta alle emergenze, Sistema giuridico, Spazio Verde, Sviluppo sostenibile, Tassa sui servizi, Tempo libero, Trasparenza amministrativa, Trasporto pubblico, Turismo, Urbanizzazione, Viaggi, Zone pedonali, ZTL,'
+          enumeratorStaticItems: 'Accesso all''informazione, Acqua, Agricoltura, Animale domestico, Aria, Assistenza agli invalidi, Assistenza sociale, Associazioni, Bilancio, Commercio all''ingrosso, Commercio al minuto, Commercio ambulante, Comunicazione istituzionale, Comunicazione politica, Concorsi, Covid-19, Elezioni, Estero, Energie rinnovabili, Foreste, Formazione professionale, Gemellaggi, Gestione rifiuti, Giustizia, Igiene pubblica, Immigrazione, Sport, Imposte, Imprese, Inquinamento, Integrazione sociale, Isolamento termico , Istruzione, Lavoro, Matrimonio, Mercato, Mobilita sostenibile , Morte, Nascita, Parcheggi, Patrimonio culturale, Pesca, Piano di sviluppo , Pista ciclabile, Politica commerciale, Polizia, Prodotti alimentari, Protezione civile , Residenza , Risposta alle emergenze, Sistema giuridico, Spazio Verde, Sviluppo sostenibile, Tassa sui servizi, Tempo libero, Trasparenza amministrativa, Trasporto pubblico, Turismo, Urbanizzazione, Viaggi, Zone pedonali, ZTL,'
           enumeratorStaticItemsSeparator: ','
           enumeratorExtractorBean: null
           validationRules:
@@ -1479,7 +1479,7 @@ attributes:
           compositeAttributes: null
         - code: maccess
           type: Hypertext
-          name: Modalità di accesso informazioni
+          name: Modalita di accesso informazioni
           names:
             en: maccess
           roles: []
