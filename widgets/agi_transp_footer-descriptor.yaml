@@ -3,3 +3,4 @@ titles:
   en: Transparent Administration footer
   it: Amministrazione Trasparente footer
 group: free
+customUi: "<h2></h2>"

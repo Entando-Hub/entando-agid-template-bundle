@@ -3,3 +3,4 @@ titles:
   en: Services footer
   it: SErvizi footer
 group: free
+customUi: "<h2></h2>"

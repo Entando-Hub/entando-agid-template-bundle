@@ -3,3 +3,4 @@ titles:
   en: Main menu
   it: Menu pricipale
 group: free
+customUi: "<h2></h2>"

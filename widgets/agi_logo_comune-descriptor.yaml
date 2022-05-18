@@ -3,3 +3,4 @@ titles:
   en: Logo municipality
   it: Logo comune con intestazione
 group: free
+customUi: "<h2></h2>"

@@ -3,3 +3,4 @@ titles:
   en: Logo municipality footer
   it: Logo comune footer
 group: free
+customUi: "<h2></h2>"

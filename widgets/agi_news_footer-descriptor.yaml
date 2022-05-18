@@ -3,3 +3,4 @@ titles:
   en: News footer
   it: Novità footer
 group: free
+customUi: "<h2></h2>"

@@ -3,3 +3,4 @@ titles:
   en: Lateral menu
   it: Menu laterale
 group: free
+customUi: "<h2></h2>"

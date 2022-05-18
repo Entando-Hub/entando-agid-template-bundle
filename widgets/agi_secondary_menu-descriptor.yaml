@@ -3,3 +3,4 @@ titles:
   en: Secondary menu
   it: Menu secondario
 group: free
+customUi: "<h2></h2>"
