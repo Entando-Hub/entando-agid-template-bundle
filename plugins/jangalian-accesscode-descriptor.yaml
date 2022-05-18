@@ -1,8 +1,0 @@
-name: jangalian-accesscode
-image: 'jangalian/accesscode:0.0.1-SNAPSHOT'
-dbms: mysql
-healthCheckPath: /management/health
-ingressPath: /jangalian/accesscode/0-0-1-snapshot
-roles:
-  - accesscode-admin
-permissions: []
