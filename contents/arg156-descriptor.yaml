@@ -48,10 +48,10 @@ attributes:
             values:
               en:
                 correlationCode: entandoAtWork
-                name: 946-800x600.jpg
+                name: Entando at Work
               it:
                 correlationCode: entandoAtWork
-                name: 946-800x600.jpg
+                name: Entando at Work
             elements: []
             compositeelements: []
             listelements: {}

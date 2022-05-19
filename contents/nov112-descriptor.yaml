@@ -230,10 +230,10 @@ attributes:
         value: null
         values:
           en:
-            correlationCode: '113'
+            correlationCode: entandoAtWork
             name: Documento
           it:
-            correlationCode: '113'
+            correlationCode: entandoAtWork
             name: Documento
         elements: []
         compositeelements: []
@@ -242,10 +242,10 @@ attributes:
         value: null
         values:
           en:
-            correlationCode: '113'
+            correlationCode: entandoAtWork
             name: Documento 2
           it:
-            correlationCode: '113'
+            correlationCode: entandoAtWork
             name: Documento 2
         elements: []
         compositeelements: []

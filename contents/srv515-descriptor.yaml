@@ -365,7 +365,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: '113'
+                correlationCode: entandoAtWork
                 name: sample
             elements: []
             compositeelements: []
@@ -396,7 +396,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: '113'
+                correlationCode: entandoAtWork
                 name: sample
             elements: []
             compositeelements: []
