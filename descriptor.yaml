@@ -3,6 +3,9 @@ description: AGID-PA
 bundle-type: system-level-bundle
 components:
   widgets:
+    - widgets/agi-1-menu-descriptor.yaml
+    - widgets/agi-2-menu-descriptor.yaml
+    - widgets/agi-3-menu-descriptor.yaml
     - widgets/agi_breadcrumb-descriptor.yaml
     - widgets/agi_contacts_footer-descriptor.yaml
     - widgets/agi_docs_footer-descriptor.yaml
@@ -19,7 +22,6 @@ components:
     - widgets/agi_secondary_menu-descriptor.yaml
     - widgets/agi_services_footer-descriptor.yaml
     - widgets/agi_transp_footer-descriptor.yaml
-    - widgets/primary_menu-descriptor.yaml
     - widgets/search_form-descriptor.yaml
   pageModels:
     - pageModels/1-2-column-descriptor.yaml
@@ -51,7 +53,6 @@ components:
     - fragments/internal_servlet_user_not_allowed-descriptor.yaml
     - fragments/jacms_content_viewer-descriptor.yaml
     - fragments/jacms_content_viewer_list-descriptor.yaml
-    - fragments/jacms_content_viewer_list_internal-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_boolean-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_bool_io-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_checkbox-descriptor.yaml
@@ -143,7 +144,6 @@ components:
     - contentTypes/lst-descriptor.yaml
     - contentTypes/nov-descriptor.yaml
     - contentTypes/nws-descriptor.yaml
-    - contentTypes/ppp-descriptor.yaml
     - contentTypes/srv-descriptor.yaml
     - contentTypes/tcl-descriptor.yaml
     - contentTypes/ttl-descriptor.yaml

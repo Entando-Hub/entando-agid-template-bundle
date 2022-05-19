@@ -25,18 +25,22 @@ widgets:
   - code: agi_search
     config: null
     pos: 5
-  - code: primary_menu
+  - code: agi-1-menu
     config:
-      navSpec: code(administration) + code(news) + code(servizi) + code(documents_and_data)
+      navSpec: code(administration) + code(news) + code(documents_and_data) + code(servizi)
     pos: 6
-  - code: agi_secondary_menu
+  - code: agi-2-menu
     config:
       navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
     pos: 7
   - code: agi_breadcrumb
     config: null
     pos: 8
-  - code: content_viewer_list_internal
+  - code: agi-3-menu
+    config:
+      navSpec: current.children
+    pos: 10
+  - code: content_viewer_list
     config:
       modelId: '19'
       maxElemForItem: '10'

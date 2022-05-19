@@ -1,0 +1,6 @@
+code: agi-1-menu
+titles:
+  en: Agid main menu
+  it: Agid menu primario
+group: free
+customUi: "<h2></h2>"

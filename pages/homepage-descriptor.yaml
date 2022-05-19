@@ -25,13 +25,13 @@ widgets:
   - code: agi_search
     config: null
     pos: 5
-  - code: primary_menu
+  - code: agi-1-menu
     config:
-      navSpec: code(administration) + code(news) + code(servizi) + code(documents_and_data)
+      navSpec: code(administration) + code(news) + code(documents_and_data) + code(servizi)
     pos: 6
-  - code: entando-widget-navigation_bar
+  - code: agi-2-menu
     config:
-      navSpec: code(sitemap) + code(notices)
+      navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
     pos: 7
   - code: content_viewer_list
     config:

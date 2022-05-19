@@ -1,11 +1,8 @@
 id: NOV112
 typeCode: NOV
-description: Parte l estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti
+description: 'Parte l''estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti'
 mainGroup: free
 status: PUBLIC
-viewPage: dettaglio_novita
-listModel: '9'
-defaultModel: '9'
 categories:
   - summer_on_the_city
 attributes:
@@ -38,16 +35,20 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: <p>Inauguration on Monday 2 July with the free concert in Piazza XX Settembre by Sweet Soul Revue. On stage 20 musicians from all over the world.</p>
-      it: <p>Inauguration on Monday 2 July with the free concert in Piazza XX Settembre by Sweet Soul Revue. On stage 20 musicians from all over the world.</p>
+      en: |
+        <p>Inauguration on Monday 2 July with the free concert in Piazza XX Settembre by Sweet Soul Revue. On stage 20 musicians from all over the world.</p>
+      it: |
+        <p>Inauguration on Monday 2 July with the free concert in Piazza XX Settembre by Sweet Soul Revue. On stage 20 musicians from all over the world.</p>
     elements: []
     compositeelements: []
     listelements: {}
   - code: body
     value: null
     values:
-      en: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>'
-      it: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>'
+      en: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -63,8 +64,8 @@ attributes:
           - code: mpersonal
             value: null
             values:
-              en: <ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Mario Rossi</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Alessandro Bianchi</li></ol>
-              it: <ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Mario Rossi</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Alessandro Bianchi</li></ol>
+              en: "<ol>\n\t<li>Mario Rossi</li>\n\t<li>Alessandro Bianchi</li>\n</ol>\n"
+              it: "<ol>\n\t<li>Mario Rossi</li>\n\t<li>Alessandro Bianchi</li>\n</ol>\n"
             elements: []
             compositeelements: []
             listelements: {}
@@ -113,8 +114,14 @@ attributes:
           - code: mmoreinfo
             value: null
             values:
-              en: <p>Via Roma 1</p><p>00100 Roma</p>
-              it: <p>Via Roma 1</p><p>00100 Roma</p>
+              en: |
+                <p>Via Roma 1</p>
+
+                <p>00100 Roma</p>
+              it: |
+                <p>Via Roma 1</p>
+
+                <p>00100 Roma</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -138,7 +145,9 @@ attributes:
               contentDest: null
               resourceDest: null
               symbolicDestination: '#!!#'
-            values: {}
+            values:
+              en: Responsabile link
+              it: Responsabile link
             elements: []
             compositeelements: []
             listelements: {}
@@ -168,8 +177,10 @@ attributes:
   - code: testo
     value: null
     values:
-      en: '<p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.</p>'
-      it: '<p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.</p>'
+      en: |
+        <p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.</p>
+      it: |
+        <p>Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo. Integer eu venenatis purus, eu tincidunt eros. Aliquam egestas est quis lacinia ultrices. Vestibulum vehicula sit amet purus id suscipit. Sed gravida urna tellus, sed aliquet erat faucibus porta. Aenean condimentum.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -178,10 +189,10 @@ attributes:
     values:
       en:
         correlationCode: '117'
-        name: 946-800x600.jpg
+        name: Immagine principale della notizia
       it:
         correlationCode: '117'
-        name: 946-800x600.jpg
+        name: Immagine principale della notizia
     elements: []
     compositeelements: []
     listelements: {}
@@ -259,8 +270,10 @@ attributes:
           - code: mquartier
             value: null
             values:
-              en: <p>Quartiere</p>
-              it: <p>Quartiere</p>
+              en: |
+                <p>Quartiere</p>
+              it: |
+                <p>Quartiere</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -281,8 +294,8 @@ attributes:
           - code: mothrinfo
             value: null
             values:
-              en: '<p>Orario, Punti di contatto, informazioni</p><p><br></p><ol><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazioni</li><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazioni</li></ol><p>Orario, Punti di contatto, informazionizioni</p><ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazionizioni</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazionizioni</li></ol>'
-              it: '<p>Orario, Punti di contatto, informazioni</p><p><br></p><ol><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazioni</li><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazioni</li></ol><p>Orario, Punti di contatto, informazionizioni</p><ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazionizioni</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Orario, Punti di contatto, informazionizioni</li></ol>'
+              en: "<p>Orario, Punti di contatto, informazioni</p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazioni</li>\n\t<li>Orario, Punti di contatto, informazioni</li>\n</ol>\n\n<p>Orario, Punti di contatto, informazionizioni</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n</ol>\n"
+              it: "<p>Orario, Punti di contatto, informazioni</p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazioni</li>\n\t<li>Orario, Punti di contatto, informazioni</li>\n</ol>\n\n<p>Orario, Punti di contatto, informazionizioni</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n</ol>\n"
             elements: []
             compositeelements: []
             listelements: {}
@@ -294,7 +307,7 @@ attributes:
                 name: Entando at Plan
               it:
                 correlationCode: entandoAtPlan
-                name: Entando at Plan
+                name: place
             elements: []
             compositeelements: []
             listelements: {}
@@ -307,16 +320,32 @@ attributes:
           - code: mpoi
             value: null
             values:
-              en: <p>Descrizione estesa con POI</p><p>Descrizione estesa con POI Descrizione estesa con POI</p>
-              it: <p>Descrizione estesa con POI</p><p>Descrizione estesa con POI Descrizione estesa con POI</p>
+              en: |
+                <p>Descrizione estesa con POI</p>
+
+                <p>Descrizione estesa con POI Descrizione estesa con POI</p>
+              it: |
+                <p>Descrizione estesa con POI</p>
+
+                <p>Descrizione estesa con POI Descrizione estesa con POI</p>
             elements: []
             compositeelements: []
             listelements: {}
           - code: mgps
             value: null
             values:
-              en: <p>GPS coordinate</p><p>GPS coordinate</p><p>GPS coordinate</p>
-              it: <p>GPS coordinate</p><p>GPS coordinate</p><p>GPS coordinate</p>
+              en: |
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
+              it: |
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -331,16 +360,16 @@ attributes:
           - code: mservices
             value: null
             values:
-              en: <ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Servizi presenti nel luogo</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Servizi presenti nel luogo</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Servizi presenti nel luogo</li></ol>
-              it: <ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Servizi presenti nel luogo</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Servizi presenti nel luogo</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Servizi presenti nel luogo</li></ol>
+              en: "<ol>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n</ol>\n"
+              it: "<ol>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n</ol>\n"
             elements: []
             compositeelements: []
             listelements: {}
           - code: mlnkplac
             value: null
             values:
-              en: '<ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Luoghi collegati lista</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Luoghi collegati lista</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span><a href="#!U;http://www.mysite.com/!#" target="_blank">Luoghi collegati lista</a></li></ol>'
-              it: '<ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Luoghi collegati lista</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Luoghi collegati lista</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span><a href="#!U;http://www.mysite.com/!#" target="_blank">Luoghi collegati lista</a></li></ol>'
+              en: "<ol>\n\t<li>Luoghi collegati lista</li>\n\t<li>Luoghi collegati lista</li>\n\t<li><a href=\"#!U;http://www.mysite.com/!#\" target=\"_blank\">Luoghi collegati lista</a></li>\n</ol>\n"
+              it: "<ol>\n\t<li>Luoghi collegati lista</li>\n\t<li>Luoghi collegati lista</li>\n\t<li><a href=\"#!U;http://www.mysite.com/!#\" target=\"_blank\">Luoghi collegati lista</a></li>\n</ol>\n"
             elements: []
             compositeelements: []
             listelements: {}
@@ -367,8 +396,8 @@ attributes:
           - code: maccess
             value: null
             values:
-              en: <p>Modalità di accesso informazioni</p><ol><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Modalità di accesso informazioni</li><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Modalità di accesso informazioni</li></ol>
-              it: <p>Modalità di accesso informazioni</p><ol><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Modalità di accesso informazioni</li><li data-list="ordered"><span class="ql-ui" contenteditable="false"></span>Modalità di accesso informazioni</li></ol>
+              en: "<p>Modalit&agrave; di accesso informazioni</p>\n\n<ol>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n</ol>\n"
+              it: "<p>Modalit&agrave; di accesso informazioni</p>\n\n<ol>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n</ol>\n"
             elements: []
             compositeelements: []
             listelements: {}

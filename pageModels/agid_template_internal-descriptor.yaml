@@ -68,7 +68,7 @@ configuration:
       description: Menu 6
       mainFrame: false
       defaultWidget:
-        code: primary_menu
+        code: agi-1-menu
         properties:
           navSpec: code(administration) + code(news) + code(servizi) + code(documents_and_data)
       sketch:
@@ -80,7 +80,7 @@ configuration:
       description: Menu secondario 7
       mainFrame: false
       defaultWidget:
-        code: agi_secondary_menu
+        code: agi-2-menu
         properties:
           navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
       sketch:
@@ -111,7 +111,7 @@ configuration:
       description: menu laterale 10
       mainFrame: false
       defaultWidget:
-        code: agi_lateral_menu
+        code: agi-3-menu
         properties:
           navSpec: current.children
       sketch:
