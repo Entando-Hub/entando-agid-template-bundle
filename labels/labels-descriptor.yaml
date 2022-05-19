@@ -398,3 +398,19 @@
   titles:
     en: Password
     it: Password
+- key: READ_MORE
+  titles:
+    en: Reda more
+    it: Approfondisci
+- key: USER_ACCESS_PA
+  titles:
+    en: PA login
+    it: Login PA
+- key: VISITA_IL_SITO
+  titles:
+    en: Visit the site
+    it: Visista il sito
+- key: SEND_SUBMIT
+  titles:
+    en: Submit
+    it: Invia

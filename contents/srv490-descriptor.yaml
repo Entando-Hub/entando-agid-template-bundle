@@ -205,7 +205,7 @@ attributes:
             values:
               en:
                 correlationCode: testo
-                name: guy.jpg
+                name: guy
             elements: []
             compositeelements: []
             listelements: {}
