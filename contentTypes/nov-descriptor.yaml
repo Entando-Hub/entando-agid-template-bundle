@@ -2,14 +2,115 @@ code: NOV
 name: Notizie e novita (NOV)
 status: '0'
 attributes:
-  - code: Evidenza
-    type: Boolean
+  - code: type
+    type: Enumerator
     names:
-      en: Highlight or slider
-      it: Contenuto evidenza - Slider
+      en: type
+      it: XXX
     roles: []
     disablingCodes: []
-    mandatory: false
+    mandatory: true
+    listFilter: true
+    indexable: true
+    enumeratorStaticItems: 'novita,comunicati stampa,notizie'
+    enumeratorStaticItemsSeparator: ','
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: date
+    type: Date
+    names:
+      en: date
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: true
+    listFilter: true
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: title
+    type: Text
+    names:
+      en: title
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: true
+    listFilter: false
+    indexable: true
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: highlight
+    type: Boolean
+    names:
+      en: highlight
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: true
     listFilter: true
     indexable: false
     validationRules:
@@ -36,10 +137,76 @@ attributes:
       equalNumberAttribute: null
       ognlValidation: null
   - code: subtitle
-    type: Text
+    type: Hypertext
     names:
       en: subtitle
-      it: Sottitolo
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: true
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: body
+    type: Hypertext
+    names:
+      en: body
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: true
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+  - code: persone
+    type: Monolist
+    names:
+      en: persone
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
@@ -68,11 +235,630 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
+    nestedAttribute:
+      code: persone
+      type: Composite
+      name: persone
+      names:
+        en: persone
+        it: XXX
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: mtitle
+          type: Text
+          name: Nome unita organizzativa
+          names:
+            en: mtitle
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: margs
+          type: Enumerator
+          name: Argomenti
+          names:
+            en: margs
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: ''
+          enumeratorStaticItemsSeparator: ','
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimg
+          type: Image
+          name: Immagine
+          names:
+            en: mimg
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mdescr
+          type: Text
+          name: Descrizione breve (abstract)
+          names:
+            en: mdescr
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mcompete
+          type: Text
+          name: Competenze
+          names:
+            en: mcompete
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: munita
+          type: Text
+          name: Unita organizzativa genitore
+          names:
+            en: munita
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mlink
+          type: Link
+          name: Responsabile link
+          names:
+            en: mlink
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: massessor
+          type: Text
+          name: Assessore di riferimento
+          names:
+            en: massessor
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mpersonal
+          type: Hypertext
+          name: Persone che compongono la struttura
+          names:
+            en: mpersonal
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: melenco
+          type: Hypertext
+          name: Elenco servizi offerti
+          names:
+            en: melenco
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: msedi
+          type: Hypertext
+          name: Eventuali altri luoghi definibili come sedi
+          names:
+            en: msedi
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mattach1
+          type: Attach
+          name: allegato 1
+          names:
+            en: mattach1
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mattach2
+          type: Attach
+          name: Allegato 2
+          names:
+            en: mattach2
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mmoreinfo
+          type: Hypertext
+          name: Ulteriori informazioni
+          names:
+            en: mmoreinfo
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+  - code: testo
+    type: Hypertext
+    names:
+      en: testo
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: true
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
   - code: img
     type: Image
     names:
-      en: Image
-      it: Immagine
+      en: img
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
@@ -104,8 +890,8 @@ attributes:
   - code: link
     type: Link
     names:
-      en: Link
-      it: Link
+      en: link
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
@@ -134,44 +920,11 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
-  - code: expDate
-    type: Date
-    names:
-      en: Valid until
-      it: Valido fino
-    roles: []
-    disablingCodes: []
-    mandatory: false
-    listFilter: false
-    indexable: false
-    validationRules:
-      minLength: null
-      maxLength: null
-      regex: null
-      rangeStartString: null
-      rangeEndString: null
-      rangeStartStringAttribute: null
-      rangeEndStringAttribute: null
-      equalString: null
-      equalStringAttribute: null
-      rangeStartDate: null
-      rangeEndDate: null
-      rangeStartDateAttribute: null
-      rangeEndDateAttribute: null
-      equalDate: null
-      equalDateAttribute: null
-      rangeStartNumber: null
-      rangeStartNumberAttribute: null
-      rangeEndNumber: null
-      rangeEndNumberAttribute: null
-      equalNumber: null
-      equalNumberAttribute: null
-      ognlValidation: null
-  - code: attachs
+  - code: images
     type: Monolist
     names:
-      en: Attachment lists
-      it: Lista allegati
+      en: images
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
@@ -201,11 +954,12 @@ attributes:
       equalNumberAttribute: null
       ognlValidation: null
     nestedAttribute:
-      code: attachs
+      code: images
       type: Attach
-      name: attachs
+      name: images
       names:
-        it: attachs
+        en: images
+        it: XXX
       roles: []
       disablingCodes: []
       mandatory: false
@@ -239,11 +993,11 @@ attributes:
         ognlValidation: null
       nestedAttribute: null
       compositeAttributes: null
-  - code: lists
+  - code: videos
     type: Monolist
     names:
-      en: Image list
-      it: Lista immagini
+      en: videos
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
@@ -273,11 +1027,12 @@ attributes:
       equalNumberAttribute: null
       ognlValidation: null
     nestedAttribute:
-      code: lists
-      type: Image
-      name: lists
+      code: videos
+      type: Attach
+      name: videos
       names:
-        it: lists
+        en: videos
+        it: XXX
       roles: []
       disablingCodes: []
       mandatory: false
@@ -311,81 +1066,15 @@ attributes:
         ognlValidation: null
       nestedAttribute: null
       compositeAttributes: null
-  - code: ufficio
-    type: Text
+  - code: docs
+    type: Monolist
     names:
-      en: Publishing section
-      it: Ufficio
-    roles: []
-    disablingCodes: []
-    mandatory: false
-    listFilter: true
-    indexable: true
-    validationRules:
-      minLength: null
-      maxLength: null
-      regex: null
-      rangeStartString: null
-      rangeEndString: null
-      rangeStartStringAttribute: null
-      rangeEndStringAttribute: null
-      equalString: null
-      equalStringAttribute: null
-      rangeStartDate: null
-      rangeEndDate: null
-      rangeStartDateAttribute: null
-      rangeEndDateAttribute: null
-      equalDate: null
-      equalDateAttribute: null
-      rangeStartNumber: null
-      rangeStartNumberAttribute: null
-      rangeEndNumber: null
-      rangeEndNumberAttribute: null
-      equalNumber: null
-      equalNumberAttribute: null
-      ognlValidation: null
-  - code: abstract
-    type: Hypertext
-    names:
-      en: Corpo testo
-      it: Corpo testo
+      en: docs
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: true
-    validationRules:
-      minLength: null
-      maxLength: null
-      regex: null
-      rangeStartString: null
-      rangeEndString: null
-      rangeStartStringAttribute: null
-      rangeEndStringAttribute: null
-      equalString: null
-      equalStringAttribute: null
-      rangeStartDate: null
-      rangeEndDate: null
-      rangeStartDateAttribute: null
-      rangeEndDateAttribute: null
-      equalDate: null
-      equalDateAttribute: null
-      rangeStartNumber: null
-      rangeStartNumberAttribute: null
-      rangeEndNumber: null
-      rangeEndNumberAttribute: null
-      equalNumber: null
-      equalNumberAttribute: null
-      ognlValidation: null
-  - code: date
-    type: Date
-    names:
-      en: Publishing date
-      it: Data
-    roles: []
-    disablingCodes: []
-    mandatory: false
-    listFilter: true
     indexable: false
     validationRules:
       minLength: null
@@ -410,16 +1099,56 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
-  - code: title
-    type: Text
+    nestedAttribute:
+      code: docs
+      type: Attach
+      name: docs
+      names:
+        en: docs
+        it: XXX
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes: null
+  - code: number
+    type: Number
     names:
-      en: Title
-      it: Titolo
+      en: number
+      it: XXX
     roles: []
     disablingCodes: []
     mandatory: false
-    listFilter: true
-    indexable: true
+    listFilter: false
+    indexable: false
     validationRules:
       minLength: null
       maxLength: null
@@ -443,3 +1172,661 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
+  - code: places
+    type: Monolist
+    names:
+      en: places
+      it: XXX
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    validationRules:
+      minLength: null
+      maxLength: null
+      regex: null
+      rangeStartString: null
+      rangeEndString: null
+      rangeStartStringAttribute: null
+      rangeEndStringAttribute: null
+      equalString: null
+      equalStringAttribute: null
+      rangeStartDate: null
+      rangeEndDate: null
+      rangeStartDateAttribute: null
+      rangeEndDateAttribute: null
+      equalDate: null
+      equalDateAttribute: null
+      rangeStartNumber: null
+      rangeStartNumberAttribute: null
+      rangeEndNumber: null
+      rangeEndNumberAttribute: null
+      equalNumber: null
+      equalNumberAttribute: null
+      ognlValidation: null
+    nestedAttribute:
+      code: places
+      type: Composite
+      name: places
+      names:
+        en: places
+        it: XXX
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: false
+      enumeratorStaticItems: null
+      enumeratorStaticItemsSeparator: null
+      enumeratorExtractorBean: null
+      validationRules:
+        minLength: null
+        maxLength: null
+        regex: null
+        rangeStartString: null
+        rangeEndString: null
+        rangeStartStringAttribute: null
+        rangeEndStringAttribute: null
+        equalString: null
+        equalStringAttribute: null
+        rangeStartDate: null
+        rangeEndDate: null
+        rangeStartDateAttribute: null
+        rangeEndDateAttribute: null
+        equalDate: null
+        equalDateAttribute: null
+        rangeStartNumber: null
+        rangeStartNumberAttribute: null
+        rangeEndNumber: null
+        rangeEndNumberAttribute: null
+        equalNumber: null
+        equalNumberAttribute: null
+        ognlValidation: null
+      nestedAttribute: null
+      compositeAttributes:
+        - code: margs
+          type: Enumerator
+          name: Argomenti
+          names:
+            en: margs
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: 'Accesso all''informazione, Acqua, Agricoltura, Animale domestico, Aria, Assistenza agli invalidi, Assistenza sociale, Associazioni, Bilancio, Commercio all''ingrosso, Commercio al minuto, Commercio ambulante, Comunicazione istituzionale, Comunicazione politica, Concorsi, Covid-19, Elezioni, Estero, Energie rinnovabili, Foreste, Formazione professionale, Gemellaggi, Gestione rifiuti, Giustizia, Igiene pubblica, Immigrazione, Sport, Imposte, Imprese, Inquinamento, Integrazione sociale, Isolamento termico , Istruzione, Lavoro, Matrimonio, Mercato, Mobilita sostenibile , Morte, Nascita, Parcheggi, Patrimonio culturale, Pesca, Piano di sviluppo , Pista ciclabile, Politica commerciale, Polizia, Prodotti alimentari, Protezione civile , Residenza , Risposta alle emergenze, Sistema giuridico, Spazio Verde, Sviluppo sostenibile, Tassa sui servizi, Tempo libero, Trasparenza amministrativa, Trasporto pubblico, Turismo, Urbanizzazione, Viaggi, Zone pedonali, ZTL,'
+          enumeratorStaticItemsSeparator: ','
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mplaces
+          type: Enumerator
+          name: Tipo di luogo
+          names:
+            en: mplaces
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: 'Parco, Viale, Bellezza naturale, Costa marittima, Lago, Corso d’acqua, Montagna, Ghiacciaio, Riserva Naturale, Foresta e bosco, Vulcano, Luogo per lo sport e il tempo libero, Campo Sportivo, Piscina, Stadio, Terme, Casinò, Circolo sportivo, Piazza, Architettura commerciale, Mercati, Farmacie, Centro per l''assistenza e la tutela sociale, Casa di riposo, Centro di accoglienza, Ospedale, Infrastruttura e impianto, Centro di raccolta, Acquedotto, Aeroporto, Porto, Struttura ricettiva, Albergo, Foresteria, Rifugio, Rifugio per animali,'
+          enumeratorStaticItemsSeparator: ','
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mimg
+          type: Image
+          name: Immagine
+          names:
+            en: mimg
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mshrtdescr
+          type: Text
+          name: Descrizione breve
+          names:
+            en: mshrtdescr
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mpoi
+          type: Hypertext
+          name: Descrizione estesa con POI
+          names:
+            en: mpoi
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mlnkplac
+          type: Hypertext
+          name: Luoghi collegati
+          names:
+            en: mlnkplac
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mservices
+          type: Hypertext
+          name: Servizi presenti nel luogo
+          names:
+            en: mservices
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: maccess
+          type: Hypertext
+          name: Modalita di accesso informazioni
+          names:
+            en: maccess
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: maddress
+          type: Text
+          name: Indirizzo
+          names:
+            en: maddress
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mquartier
+          type: Hypertext
+          name: Quartiere
+          names:
+            en: mquartier
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mcircoscr
+          type: Text
+          name: Circoscrizione
+          names:
+            en: mcircoscr
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mgps
+          type: Hypertext
+          name: GPS coordinate
+          names:
+            en: mgps
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mcap
+          type: Number
+          name: CAP
+          names:
+            en: mcap
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: mothrinfo
+          type: Hypertext
+          name: 'Orario, Punti di contatto, informazioni'
+          names:
+            en: mothrinfo
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
+        - code: midentity
+          type: Text
+          name: Identificativo
+          names:
+            en: midentity
+            it: XXX
+          roles: []
+          disablingCodes: []
+          mandatory: false
+          listFilter: false
+          indexable: false
+          enumeratorStaticItems: null
+          enumeratorStaticItemsSeparator: null
+          enumeratorExtractorBean: null
+          validationRules:
+            minLength: null
+            maxLength: null
+            regex: null
+            rangeStartString: null
+            rangeEndString: null
+            rangeStartStringAttribute: null
+            rangeEndStringAttribute: null
+            equalString: null
+            equalStringAttribute: null
+            rangeStartDate: null
+            rangeEndDate: null
+            rangeStartDateAttribute: null
+            rangeEndDateAttribute: null
+            equalDate: null
+            equalDateAttribute: null
+            rangeStartNumber: null
+            rangeStartNumberAttribute: null
+            rangeEndNumber: null
+            rangeEndNumberAttribute: null
+            equalNumber: null
+            equalNumberAttribute: null
+            ognlValidation: null
+          nestedAttribute: null
+          compositeAttributes: null
