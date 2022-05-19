@@ -96,7 +96,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: '117'
+                correlationCode: 117
                 name: 946-800x600.jpg
             elements: []
             compositeelements: []

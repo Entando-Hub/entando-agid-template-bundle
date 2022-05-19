@@ -79,10 +79,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: '117'
+                correlationCode: 117
                 name: Immagine
               it:
-                correlationCode: '117'
+                correlationCode: 117
                 name: Immagine
             elements: []
             compositeelements: []
@@ -188,10 +188,10 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: '117'
+        correlationCode: 117
         name: Immagine principale della notizia
       it:
-        correlationCode: '117'
+        correlationCode: 117
         name: Immagine principale della notizia
     elements: []
     compositeelements: []
