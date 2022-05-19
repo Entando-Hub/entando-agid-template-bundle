@@ -7,7 +7,7 @@ categories:
   - payments
 attributes:
   - code: type
-    value: ''
+    value: comunicati stampa
     values: {}
     elements: []
     compositeelements: []
@@ -35,16 +35,20 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: 'The TARI is due, check your payment in your personal area.'
-      it: 'La TARI è in scadenza, controlla il tuo pagamento nella tua area personale.'
+      en: |
+        <p>The TARI is due, check your payment in your personal area.</p>
+      it: |
+        <p>La TARI &egrave; in scadenza, controlla il tuo pagamento nella tua area personale.</p>
     elements: []
     compositeelements: []
     listelements: {}
   - code: body
     value: null
     values:
-      en: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda!'
-      it: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda!'
+      en: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda!</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda!</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -56,7 +60,11 @@ attributes:
     listelements: {}
   - code: testo
     value: null
-    values: {}
+    values:
+      en: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda!</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda!</p>
     elements: []
     compositeelements: []
     listelements: {}
