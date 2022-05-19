@@ -4,7 +4,7 @@ description: 'Parte l''estate con oltre 300 eventi in centro e nei quartieri, tu
 mainGroup: free
 status: PUBLIC
 categories:
-  - summer_on_the_city
+  - summer-on-the-city
 attributes:
   - code: type
     value: notizie

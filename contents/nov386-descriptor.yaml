@@ -4,7 +4,7 @@ description: 363^ Festa di Sant'Efisio
 mainGroup: free
 status: PUBLIC
 categories:
-  - summer_on_the_city
+  - summer-on-the-city
 attributes:
   - code: type
     value: notizie
