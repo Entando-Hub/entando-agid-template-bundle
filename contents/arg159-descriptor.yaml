@@ -76,7 +76,6 @@ attributes:
             compositeelements: []
             listelements: {}
           - code: mtitle
-            value: null
             values:
               en: All tourist facilities in the city
               it: Tutte le strutture turistiche della città
