@@ -3,6 +3,9 @@ typeCode: NOV
 description: Parte l estate con oltre 300 eventi in centro e nei quartieri, tutti gli eventi previsti
 mainGroup: free
 status: PUBLIC
+viewPage: dettaglio_novita
+listModel: '9'
+defaultModel: '9'
 categories:
   - summer_on_the_city
 attributes:
