@@ -227,7 +227,6 @@ components:
     - contents/crn413-descriptor.yaml
     - contents/crn416-descriptor.yaml
     - contents/srv427-descriptor.yaml
-    - contents/ppp456-descriptor.yaml
     - contents/srv490-descriptor.yaml
     - contents/srv493-descriptor.yaml
     - contents/crn499-descriptor.yaml
