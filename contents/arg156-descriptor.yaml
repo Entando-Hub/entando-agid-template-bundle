@@ -49,6 +49,9 @@ attributes:
               en:
                 correlationCode: '117'
                 name: 946-800x600.jpg
+              it:
+                correlationCode: '117'
+                name: 946-800x600.jpg
             elements: []
             compositeelements: []
             listelements: {}
@@ -90,6 +93,9 @@ attributes:
             value: null
             values:
               en:
+                correlationCode: entandoAtPlan
+                name: Entando at Plan
+              it:
                 correlationCode: entandoAtPlan
                 name: Entando at Plan
             elements: []

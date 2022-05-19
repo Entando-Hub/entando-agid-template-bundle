@@ -49,6 +49,9 @@ attributes:
               en:
                 correlationCode: '117'
                 name: 946-800x600.jpg
+              it:
+                correlationCode: '117'
+                name: 946-800x600.jpg
             elements: []
             compositeelements: []
             listelements: {}

@@ -74,6 +74,9 @@ attributes:
       en:
         correlationCode: entandoAtPlan
         name: Entando at Plan
+      it:
+        correlationCode: entandoAtPlan
+        name: Entando at Plan
     elements: []
     compositeelements: []
     listelements: {}
