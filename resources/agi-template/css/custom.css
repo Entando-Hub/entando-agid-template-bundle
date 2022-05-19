@@ -3731,4 +3731,65 @@ articolo-dettaglio-testo .scheda-allegato-accordion ul.accordion-allegati li a,#
         margin-left:-10px
     }
 }
-----------------------------------
+
+.bx--header__nav:before {
+    position: relative !important;
+    display:none !Important;
+}
+
+.bx--header__nav.navigationMenu {
+    display: block;
+    height: 48px;
+    position: relative;
+}
+
+.bx--header__action:active, a.bx--header__menu-item:active, a.bx--header__menu-item:hover {
+    color: #f4f4f4;
+    background-color: transparent !Important;
+    text-decoration:underline;
+}
+
+.link-menu-custom .bx--header__menu-bar {
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bx--header__menu-bar {
+ display:flex;
+list-style-type: none;color: #fff;padding: 0;}
+
+.bx--header__menu-bar li  {
+     display: flex;
+
+ }
+
+.bx--header__menu-bar  a {
+     display: flex;
+    align-self: flex-end;
+    align-items: center;
+     color:#fff;
+ font-weight: 400;
+    padding: 13px 24px;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+ }
+.row h2.text-white {
+ color: #000 !important;
+}
+
+.homepage-model h2.text-white {
+ color: #fff !important;
+}
+
+.card-wrapper.card-teaser-wrapper.card-teaser-block-3 {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.homepage-model .card-wrapper.card-teaser-wrapper.card-teaser-block-3 {
+    width: 100%;
+    justify-content: space-between;
+}
