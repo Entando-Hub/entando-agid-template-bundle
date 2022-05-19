@@ -12,7 +12,7 @@ attributes:
     mandatory: true
     listFilter: true
     indexable: true
-    enumeratorStaticItems: 'novita,comunicati stampa,notizie'
+    enumeratorStaticItems: 'novita,comunicati-stampa,notizie'
     enumeratorStaticItemsSeparator: ','
     validationRules:
       minLength: null
@@ -325,7 +325,7 @@ attributes:
           mandatory: false
           listFilter: false
           indexable: false
-          enumeratorStaticItems: ''
+          enumeratorStaticItems: 'test,test'
           enumeratorStaticItemsSeparator: ','
           enumeratorExtractorBean: null
           validationRules:
@@ -1256,7 +1256,7 @@ attributes:
           mandatory: false
           listFilter: false
           indexable: false
-          enumeratorStaticItems: 'Accesso all''informazione, Acqua, Agricoltura, Animale domestico, Aria, Assistenza agli invalidi, Assistenza sociale, Associazioni, Bilancio, Commercio all''ingrosso, Commercio al minuto, Commercio ambulante, Comunicazione istituzionale, Comunicazione politica, Concorsi, Covid-19, Elezioni, Estero, Energie rinnovabili, Foreste, Formazione professionale, Gemellaggi, Gestione rifiuti, Giustizia, Igiene pubblica, Immigrazione, Sport, Imposte, Imprese, Inquinamento, Integrazione sociale, Isolamento termico , Istruzione, Lavoro, Matrimonio, Mercato, Mobilita sostenibile , Morte, Nascita, Parcheggi, Patrimonio culturale, Pesca, Piano di sviluppo , Pista ciclabile, Politica commerciale, Polizia, Prodotti alimentari, Protezione civile , Residenza , Risposta alle emergenze, Sistema giuridico, Spazio Verde, Sviluppo sostenibile, Tassa sui servizi, Tempo libero, Trasparenza amministrativa, Trasporto pubblico, Turismo, Urbanizzazione, Viaggi, Zone pedonali, ZTL,'
+          enumeratorStaticItems: 'test,test'
           enumeratorStaticItemsSeparator: ','
           enumeratorExtractorBean: null
           validationRules:
@@ -1295,7 +1295,7 @@ attributes:
           mandatory: false
           listFilter: false
           indexable: false
-          enumeratorStaticItems: 'Parco, Viale, Bellezza naturale, Costa marittima, Lago, Corso d’acqua, Montagna, Ghiacciaio, Riserva Naturale, Foresta e bosco, Vulcano, Luogo per lo sport e il tempo libero, Campo Sportivo, Piscina, Stadio, Terme, Casinò, Circolo sportivo, Piazza, Architettura commerciale, Mercati, Farmacie, Centro per l''assistenza e la tutela sociale, Casa di riposo, Centro di accoglienza, Ospedale, Infrastruttura e impianto, Centro di raccolta, Acquedotto, Aeroporto, Porto, Struttura ricettiva, Albergo, Foresteria, Rifugio, Rifugio per animali,'
+          enumeratorStaticItems: 'test,test'
           enumeratorStaticItemsSeparator: ','
           enumeratorExtractorBean: null
           validationRules:
