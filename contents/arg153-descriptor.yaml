@@ -97,7 +97,8 @@ attributes:
       resourceDest: null
       symbolicDestination: '#!P;topics!#'
     values:
-      en: ESPLORA L'ARGOMENTO
+      en: READ MORE
+      it: ESPLORA L'ARGOMENTO
     elements: []
     compositeelements: []
     listelements: {}

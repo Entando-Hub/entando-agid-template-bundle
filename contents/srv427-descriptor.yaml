@@ -38,8 +38,8 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: '193'
-        name: 445-200x200.jpg
+        correlationCode: entandoAtWork
+        name: Entando at Work
     elements: []
     compositeelements: []
     listelements: {}

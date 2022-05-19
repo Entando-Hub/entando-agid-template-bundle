@@ -141,6 +141,9 @@ attributes:
               en:
                 correlationCode: entandoAtWork
                 name: Entando at Work
+              it:
+                correlationCode: entandoAtWork
+                name: Entando at Work
             elements: []
             compositeelements: []
             listelements: {}
