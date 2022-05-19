@@ -177,10 +177,7 @@ components:
     - contentModels/banner-search-results-descriptor.yaml
     - contentModels/tcl-search-results-descriptor.yaml
   assets:
-    - assets/454/454-descriptor.yaml
-    - assets/193/193-descriptor.yaml
-    - assets/117/117-descriptor.yaml
-    - assets/113/113-descriptor.yaml
+    - assets/testo/testo-descriptor.yaml
     - assets/entandoatplan/entandoatplan-descriptor.yaml
     - assets/entandoatwork/entandoatwork-descriptor.yaml
     - assets/htmlcode/htmlcode-descriptor.yaml

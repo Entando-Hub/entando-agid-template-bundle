@@ -330,7 +330,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: '454'
+                correlationCode: testo
                 name: Mario bianchi
             elements: []
             compositeelements: []

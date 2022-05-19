@@ -212,8 +212,8 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: '454'
-                name: 33.jpg
+                correlationCode: testo
+                name: guy.jpg
             elements: []
             compositeelements: []
             listelements: {}
