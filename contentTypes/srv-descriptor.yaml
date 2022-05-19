@@ -984,7 +984,7 @@ attributes:
           compositeAttributes: null
         - code: mimg
           type: Image
-          name: immagine responsabile
+          name: Entando at Work responsabile
           names:
             en: mimg
           roles: []

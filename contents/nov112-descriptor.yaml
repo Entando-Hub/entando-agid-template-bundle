@@ -79,11 +79,11 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: 117
-                name: Immagine
+                correlationCode: entandoAtWork
+                name: Entando at Work
               it:
-                correlationCode: 117
-                name: Immagine
+                correlationCode: entandoAtWork
+                name: Entando at Work
             elements: []
             compositeelements: []
             listelements: {}
@@ -188,11 +188,11 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: 117
-        name: Immagine principale della notizia
+        correlationCode: entandoAtWork
+        name: Entando at Work
       it:
-        correlationCode: 117
-        name: Immagine principale della notizia
+        correlationCode: entandoAtWork
+        name: Entando at Work
     elements: []
     compositeelements: []
     listelements: {}
