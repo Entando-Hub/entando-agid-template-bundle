@@ -81,6 +81,9 @@ attributes:
               en:
                 correlationCode: '117'
                 name: Immagine
+              it:
+                correlationCode: '117'
+                name: Immagine
             elements: []
             compositeelements: []
             listelements: {}
@@ -179,6 +182,9 @@ attributes:
       en:
         correlationCode: '117'
         name: 946-800x600.jpg
+      it:
+        correlationCode: '117'
+        name: 946-800x600.jpg
     elements: []
     compositeelements: []
     listelements: {}
@@ -218,6 +224,9 @@ attributes:
           en:
             correlationCode: '113'
             name: Documento
+          it:
+            correlationCode: '113'
+            name: Documento
         elements: []
         compositeelements: []
         listelements: {}
@@ -225,6 +234,9 @@ attributes:
         value: null
         values:
           en:
+            correlationCode: '113'
+            name: Documento 2
+          it:
             correlationCode: '113'
             name: Documento 2
         elements: []
@@ -252,6 +264,8 @@ attributes:
             values:
               en: |
                 <p>Quartiere</p>
+              it: |
+                <p>Quartiere</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -259,6 +273,7 @@ attributes:
             value: null
             values:
               en: Identificativo
+              it: Identificativo
             elements: []
             compositeelements: []
             listelements: {}
@@ -272,6 +287,7 @@ attributes:
             value: null
             values:
               en: "<p>Orario, Punti di contatto, informazioni</p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazioni</li>\n\t<li>Orario, Punti di contatto, informazioni</li>\n</ol>\n\n<p>Orario, Punti di contatto, informazionizioni</p>\n\n<ul>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n</ul>\n"
+              it: "<p>Orario, Punti di contatto, informazioni</p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>Orario, Punti di contatto, informazioni</li>\n\t<li>Orario, Punti di contatto, informazioni</li>\n</ol>\n\n<p>Orario, Punti di contatto, informazionizioni</p>\n\n<ul>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n\t<li>Orario, Punti di contatto, informazionizioni</li>\n</ul>\n"
             elements: []
             compositeelements: []
             listelements: {}
@@ -279,6 +295,9 @@ attributes:
             value: null
             values:
               en:
+                correlationCode: entandoAtPlan
+                name: Entando at Plan
+              it:
                 correlationCode: entandoAtPlan
                 name: Entando at Plan
             elements: []
@@ -299,6 +318,12 @@ attributes:
                 <p>Descrizione estesa con POI Descrizione estesa con POI</p>
 
                 <p>&nbsp;</p>
+              it: |
+                <p>Descrizione estesa con POI</p>
+
+                <p>Descrizione estesa con POI Descrizione estesa con POI</p>
+
+                <p>&nbsp;</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -311,6 +336,12 @@ attributes:
                 <p>GPS coordinate</p>
 
                 <p>GPS coordinate</p>
+              it: |
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
+
+                <p>GPS coordinate</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -318,6 +349,7 @@ attributes:
             value: null
             values:
               en: Via Roma 3
+              it: Via Roma 3
             elements: []
             compositeelements: []
             listelements: {}
@@ -325,6 +357,7 @@ attributes:
             value: null
             values:
               en: "<ul>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n</ul>\n\n<p>&nbsp;</p>\n"
+              it: "<ul>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n\t<li>Servizi presenti nel luogo</li>\n</ul>\n\n<p>&nbsp;</p>\n"
             elements: []
             compositeelements: []
             listelements: {}
@@ -332,6 +365,7 @@ attributes:
             value: null
             values:
               en: "<ul>\n\t<li>Luoghi collegati lista</li>\n\t<li>Luoghi collegati lista</li>\n\t<li><a href=\"#!U;http://www.mysite.com/!#\">Luoghi collegati lista</a></li>\n</ul>\n\n<p>&nbsp;</p>\n"
+              it: "<ul>\n\t<li>Luoghi collegati lista</li>\n\t<li>Luoghi collegati lista</li>\n\t<li><a href=\"#!U;http://www.mysite.com/!#\">Luoghi collegati lista</a></li>\n</ul>\n\n<p>&nbsp;</p>\n"
             elements: []
             compositeelements: []
             listelements: {}
@@ -345,6 +379,7 @@ attributes:
             value: null
             values:
               en: Descrizione breve luogo
+              it: Descrizione breve luogo
             elements: []
             compositeelements: []
             listelements: {}
@@ -358,6 +393,7 @@ attributes:
             value: null
             values:
               en: "<p>Modalit&agrave; di accesso informazioni</p>\n\n<ol>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n</ol>\n\n<p>&nbsp;</p>\n"
+              it: "<p>Modalit&agrave; di accesso informazioni</p>\n\n<ol>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n\t<li>Modalit&agrave; di accesso informazioni</li>\n</ol>\n\n<p>&nbsp;</p>\n"
             elements: []
             compositeelements: []
             listelements: {}
