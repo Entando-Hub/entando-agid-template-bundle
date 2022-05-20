@@ -445,10 +445,11 @@
 - key: PRIVACY_INFORMATIVA_LABEL
   titles:
     en: Privacy policy
-    it: Informativa privaci
-- key: PRIVACY_SETTINGS_BANNER
+    it: Informativa privacy
+- key:  PRIVACY_SETTINGS_BANNER
+  titles:
     en: A privacy policy, also called a privacy policy or privacy policy, is a document that states what personal data you are processing, for what purpose and how you protect it.
-    it: Una politica sulla privacy, anche chiamata informativa sulla privacy o policy sulla privacy, e'' un documento che dichiara che dati personali stai trattando, a che scopo e come gli proteggi.
+    it: Una politica sulla privacy, anche chiamata informativa sulla privacy o policy sulla privacy, un documento che dichiara che dati personali stai trattando, a che scopo e come gli proteggi.
 - key: SERVIZI
   titles:
     en: Citizen services
