@@ -1,5 +1,6 @@
 code: agi_service
 guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
   <@wp.currentPage param="code" var="currentPageCode" />
   <@wp.freemarkerTemplateParameter var="currentPageCode" valueName="currentPageCode" />
   <#if (currentPageCode =="servizi" )>
