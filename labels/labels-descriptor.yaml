@@ -414,3 +414,11 @@
   titles:
     en: Submit
     it: Invia
+- key: SIGN_IN
+  titles:
+    en: Accedi
+    it: Log in
+- key: LOGOUT
+  titles:
+    en: Esci
+    it: Logout
