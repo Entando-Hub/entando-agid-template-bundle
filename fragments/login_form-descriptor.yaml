@@ -19,6 +19,11 @@ guiCode: |-
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <div class="link-list-wrapper">
             <ul class="link-list">
+               <li>
+                    <a class="list-item" href="<@wp.url page="servizi" />" >
+                    <span><@wp.i18n key="SERVIZI" /></span>
+                    </a>
+                </li>
                 <li>
                     <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
                     <span><@wp.i18n key="LOGOUT" /></span>
@@ -46,7 +51,10 @@ guiCode: |-
 
     <li>
         <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
-        <@wp.i18n key="LOGOUT" /> <img class="agipa-logout-img" src="<@wp.resourceURL />agi-template/img/box-arrow-right.png" alt="logout">
+        <@wp.i18n key="LOGOUT" />
+           <svg class="icon">
+              <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
+            </svg>
         </a>
     </li>
 
