@@ -1,7 +1,7 @@
 code: keycloak_auth
 guiCode: |-
   <#assign wp=JspTaglibs[ "/aps-core"]>
-    <#assign wp = JspTaglibs["/aps-core"] >
+    <#assign wp = JspTaglibs["/aps-core"]>
     <script nonce="<@wp.cspNonce />">
     (function() {
          const consolePrefix = '[ENTANDO-KEYCLOAK]';

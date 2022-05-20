@@ -1,83 +1,89 @@
 code: login_form
 guiCode: |-
   <#assign wp=JspTaglibs["/aps-core"]>
-     <#if (Session.currentUser.username != "guest") >
-     <button class="btn btn-primary btn-icon btn-full dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-         <span class="rounded-icon">
-             <svg class="icon icon-primary" aria-labelledby="logo_user">
-             <title id="logo_user">USER_LOGO_ACCESS</title>
-             <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-user"></use>
-             </svg>
-         </span>
-         <span class="d-none d-lg-block">${Session.currentUser}</span>
+    <#if (Session.currentUser.username != "guest") >
+    <div class="dropdown">
+        <button class="btn btn-primary btn-icon btn-full dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="rounded-icon">
+            <svg class="icon icon-primary" aria-labelledby="logo_user">
+            <title id="logo_user">USER_LOGO_ACCESS</title>
+            <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-user"></use>
+            </svg>
+        </span>
+        <span class="d-none d-lg-block">${Session.currentUser}</span>
 
-         <svg>
-            <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
-         </svg>
-     </button>
-     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-     <li>
-       <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
-      <@wp.i18n key="LOGOUT" /> <img class="agipa-logout-img" src="<@wp.resourceURL />agi-template/img/box-arrow-right.png" alt="logout">
-      </a>
+        <svg class="icon icon-primary" aria-labelledby="logo_open">
+        <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
+        </svg>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="link-list-wrapper">
+            <ul class="link-list">
+                <li>
+                    <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
+                    <span><@wp.i18n key="LOGOUT" /></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <#if (Session.currentUser.entandoUser) >
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+     <#if (!Session.currentUser.credentialsNotExpired) >
+      <div class="alert alert-block">
+        <span><@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD" />: <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/editPassword.action"><@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD_CHANGE" /></a></span>
+    </div>
+    </#if>
+    </#if>
+
+    <@wp.ifauthorized permission="enterBackend">
+    <li>
+        <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn"><@wp.i18n key="ADMINISTRATION" /></a>
     </li>
+    </@wp.ifauthorized>
+
+    <li>
+        <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
+        <@wp.i18n key="LOGOUT" /> <img class="agipa-logout-img" src="<@wp.resourceURL />agi-template/img/box-arrow-right.png" alt="logout">
+        </a>
+    </li>
+
+    <@wp.pageWithWidget widgetTypeCode="userprofile_editCurrentUser" var="userprofileEditingPageVar" listResult=false />
+
+    <#if (userprofileEditingPageVar??) >
+    <li>
+        <a href="<@wp.url page="${userprofileEditingPageVar.code}" />" >
+        <@wp.i18n key="userprofile_CONFIGURATION" />
+        </a>
+    </li>
+    </#if>
     </ul>
-     <#if (Session.currentUser.entandoUser) >
-
-     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-         <#if (!Session.currentUser.credentialsNotExpired) >
-         <div class="alert alert-block">
-             <span><@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD" />: <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/editPassword.action"><@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD_CHANGE" /></a></span>
-         </div>
-         </#if>
-         </#if>
-
-         <@wp.ifauthorized permission="enterBackend">
-         <li>
-             <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn"><@wp.i18n key="ADMINISTRATION" /></a>
-         </li>
-         </@wp.ifauthorized>
-
-         <li>
-             <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
-             <@wp.i18n key="LOGOUT" /> <img class="agipa-logout-img" src="<@wp.resourceURL />agi-template/img/box-arrow-right.png" alt="logout">
-             </a>
-         </li>
-
-         <@wp.pageWithWidget widgetTypeCode="userprofile_editCurrentUser" var="userprofileEditingPageVar" listResult=false />
-
-         <#if (userprofileEditingPageVar??) >
-         <li>
-             <a href="<@wp.url page="${userprofileEditingPageVar.code}" />" >
-             <@wp.i18n key="userprofile_CONFIGURATION" />
-             </a>
-         </li>
-         </#if>
-     </ul>
-     </div>
-     <#else>
-     <#if (accountExpired?? && accountExpired == true) >
-     <div class="alert alert-block alert-error">
-         <@wp.i18n key="USER_STATUS_EXPIRED" />
-     </div>
-     </#if>
-     <#if (wrongAccountCredential?? && wrongAccountCredential == true) >
-     <div class="alert alert-block alert-error">
-     <@wp.i18n key="USER_STATUS_CREDENTIALS_INVALID" />
-     </div>
-     </#if>
+    </div>
+    <#else>
+    <#if (accountExpired?? && accountExpired == true) >
+    <div class="alert alert-block alert-error">
+       <@wp.i18n key="USER_STATUS_EXPIRED" />
+    </div>
+    </#if>
+    <#if (wrongAccountCredential?? && wrongAccountCredential == true) >
+    <div class="alert alert-block alert-error">
+    <@wp.i18n key="USER_STATUS_CREDENTIALS_INVALID" />
+    </div>
+    </#if>
 
 
-     <@wp.currentPage param="code" var="currentPageVar" />
+    <@wp.currentPage param="code" var="currentPageVar" />
 
-     <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/login.action?redirectTo=<@wp.url page="${currentPageVar}" />" class="btn btn-primary btn-icon btn-full" title="Login PA" aria-label="Login PA">
-     <span class="rounded-icon">
-       <svg class="icon icon-primary" aria-labelledby="logo_user">
-     <title id="logo_user">USER_LOGO_ACCESS</title>
-     <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-user"></use>
-     </svg>
-     </span>
-     <span class="d-none d-lg-block"><@wp.i18n key="SIGN_IN" /></span>
-     </a>
+    <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/login.action?redirectTo=<@wp.url page="${currentPageVar}" />" class="btn btn-primary btn-icon btn-full" title="Login PA" aria-label="Login PA">
+    <span class="rounded-icon">
+      <svg class="icon icon-primary" aria-labelledby="logo_user">
+    <title id="logo_user">USER_LOGO_ACCESS</title>
+    <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-user"></use>
+    </svg>
+    </span>
+    <span class="d-none d-lg-block"><@wp.i18n key="SIGN_IN" /></span>
+    </a>
 
-     </#if>
+    </#if>
