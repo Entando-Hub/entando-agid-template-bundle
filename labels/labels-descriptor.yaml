@@ -422,3 +422,30 @@
   titles:
     en: Esci
     it: Logout
+- key: AUTENTICATO_NO
+  titles:
+    en: Login first
+    it: Prima accedi
+- key: AUTENTICATO_SUCCESSO
+  titles:
+    en: Access granted
+    it: Accesso eseguito
+- key: AUTENTICATO_SUCCESSO_TESTO
+  titles:
+    en: You have successfully authenticated to the Town hall services portal. Now you can use the services.
+    it: Ti sei autenticato con successo e puoi usufruire dei servizi per i cittadini residenti.
+- key: AUTENTICATO_NO_TESTO
+  titles:
+    en: With the Public Digital Identity System, you can access the online services of the Public Administration and private members in one click, every time you find the Enter with SPID button on a site or app.
+    it: Con il Sistema Pubblico di Identità Digitale accedi in un click ai servizi online della Pubblica Amministrazione e dei privati aderenti,ogni volta che su un sito o un'app trovi il pulsante Entra con SPID.
+- key: WELCOME_NO
+  titles:
+    en: To access the municipal services, log in with the SPID service
+    it: Per accedere ai servizi comunali esegui la login con il servizio di SPID
+- key: PRIVACY_INFORMATIVA_LABEL
+  titles:
+    en: Privacy policy
+    it: Informativa privaci
+- key: PRIVACY_SETTINGS_BANNER
+    en: A privacy policy, also called a privacy policy or privacy policy, is a document that states what personal data you are processing, for what purpose and how you protect it.
+    it: Una politica sulla privacy, anche chiamata informativa sulla privacy o policy sulla privacy, è un documento che dichiara che dati personali stai trattando, a che scopo e come gli proteggi.

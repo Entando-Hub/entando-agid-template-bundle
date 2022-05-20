@@ -75,8 +75,8 @@ guiCode: |-
 
 
     <@wp.currentPage param="code" var="currentPageVar" />
-
-    <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/login.action?redirectTo=<@wp.url page="${currentPageVar}" />" class="btn btn-primary btn-icon btn-full" title="Login PA" aria-label="Login PA">
+    <!-- REDIRECT SULLA HOMEPAGE IN HTTP-->
+    <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/login.action?redirectTo=http://forumpa.apps.psdemo.eng-entando.com/entando-de-app/it/homepage.page" class="btn btn-primary btn-icon btn-full" title="Login PA" aria-label="Login PA">
     <span class="rounded-icon">
       <svg class="icon icon-primary" aria-labelledby="logo_user">
     <title id="logo_user">USER_LOGO_ACCESS</title>

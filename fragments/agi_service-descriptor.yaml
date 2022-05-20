@@ -1,0 +1,36 @@
+code: agi_service
+guiCode: |-
+  <@wp.currentPage param="code" var="currentPageCode" />
+  <@wp.freemarkerTemplateParameter var="currentPageCode" valueName="currentPageCode" />
+  <#if (currentPageCode =="servizi" )>
+  <section class="container px-4 my-4">
+     <div class="row">
+         <div class="col-12 px-4">
+             <#if (Session.currentUser.username != "guest") >
+             <div class="callout callout-highlight success">
+                 <div class="callout-title"><svg class="icon">
+                     <use href="/entando-de-app/cmsresources/agi-template/img /sprite.svg#it-info-circle"></use></svg>
+                    <@wp.i18n key="AUTENTICATO_SUCCESSO" />
+                </div>
+                <div class="">
+                    <h3><@wp.i18n key="WELCOME" /> ${Session.currentUser} !</h3>
+                    <p><@wp.i18n key="AUTENTICATO_SUCCESSO_TESTO"/></p>
+                </div>
+            </div>
+            <#else>
+
+            <div class="callout callout-highlight warning">
+                <div class="callout-title"><svg class="icon">
+                    <svg class="icon">
+                    <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-info-circle"></use>
+                    </svg>
+                <@wp.i18n key="AUTENTICATO_NO" />
+                </div>
+                <h3><@wp.i18n key="WELCOME_NO" /></h3>
+                <p><@wp.i18n key="AUTENTICATO_NO_TESTO"/></p>
+            </div>
+            </#if>
+        </div>
+    </div>
+  </section>
+  </#if>
