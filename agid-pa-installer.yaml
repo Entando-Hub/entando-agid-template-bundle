@@ -20,11 +20,12 @@ metadata:
     bundle-type: system-level-bundle
 spec:
   details:
-    name: agid_pa
-    description: AGID-PA
+    name: Template Agid PA
+    description: Template AGID PA
     dist-tags:
-      latest: v0.0.61
+      latest: v0.0.62
     versions:
+      - v0.0.62
       - v0.0.61
       - v0.0.60
       - v0.0.59
@@ -86,6 +87,11 @@ spec:
       - v0.0.2
       - v0.0.1
   tags:
+    - version: v0.0.62
+      shasum: f3a6368971d84755413866776d27f5f916e1f8ce
+      integrity: f3a6368971d84755413866776d27f5f916e1f8ce
+      tarball: >-
+        https://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@github.com/entando-ps/Agid-PA-template.git
     - version: v0.0.61
       shasum: 8640f0340440c4bd45c707694bb6ac2931bdec6d
       integrity: 8640f0340440c4bd45c707694bb6ac2931bdec6d
