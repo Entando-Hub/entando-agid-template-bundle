@@ -1,82 +1,127 @@
 code: keycloak_auth
 guiCode: |-
-  <#assign wp=JspTaglibs["/aps-core"]>
-  <script nonce="<@wp.cspNonce />" >
-    (function () {
-      const consolePrefix = '[ENTANDO-KEYCLOAK]';
-      const keycloakConfigEndpoint = '<@wp.info key="systemParam" paramName="applicationBaseURL" />keycloak.json';
-      let keycloakConfig;
-      function dispatchKeycloakEvent(eventType) {
+  <#assign wp=JspTaglibs[ "/aps-core"]>
+    <#assign wp = JspTaglibs["/aps-core"] >
+    <script nonce="<@wp.cspNonce />">
+    (function() {
+         const consolePrefix = '[ENTANDO-KEYCLOAK]';
+        const keycloakConfigEndpoint = '<@wp.info key="systemParam" paramName="applicationBaseURL" />keycloak.json';
+        let keycloakConfig;
+
+    function dispatchKeycloakEvent(eventType) {
         console.info(consolePrefix, 'Dispatching', eventType, 'custom event');
-        return window.dispatchEvent(new CustomEvent('keycloak', { detail: { eventType } }));
-      };
-      function initKeycloak() {
+        return window.dispatchEvent(new CustomEvent('keycloak', {
+            detail: {
+                eventType
+            }
+        }));
+    };
+
+
+    function initKeycloak() {
         const keycloak = new Keycloak(keycloakConfig);
         keycloak.onReady = function() {
-          dispatchKeycloakEvent('onReady');
+            dispatchKeycloakEvent('onReady');
         };
         keycloak.onAuthSuccess = function() {
-          dispatchKeycloakEvent('onAuthSuccess');
+            dispatchKeycloakEvent('onAuthSuccess');
         };
         keycloak.onAuthError = function() {
-          dispatchKeycloakEvent('onAuthError');
+            dispatchKeycloakEvent('onAuthError');
         };
         keycloak.onAuthRefreshSuccess = function() {
-          dispatchKeycloakEvent('onAuthRefreshSuccess');
+            dispatchKeycloakEvent('onAuthRefreshSuccess');
         };
         keycloak.onAuthRefreshError = function() {
-          dispatchKeycloakEvent('onAuthRefreshError');
+            dispatchKeycloakEvent('onAuthRefreshError');
         };
         keycloak.onAuthLogout = function() {
-          dispatchKeycloakEvent('onAuthLogout');
+            dispatchKeycloakEvent('onAuthLogout');
         };
         keycloak.onTokenExpired = function() {
-          dispatchKeycloakEvent('onTokenExpired');
+            dispatchKeycloakEvent('onTokenExpired');
         };
-        function onKeycloakInitialized(isAuthenticated) {
-          if (isAuthenticated) {
-            console.info(consolePrefix, 'Keycloak initialized, user authenticated');
-          } else {
-            console.info(consolePrefix, 'Keycloak initialized, user not authenticated');
-          }
+
+
+        function onKeycloakInitialized(isAuthenticated = keycloak.authenticated) {
+            if (isAuthenticated) {
+                console.info(consolePrefix, 'Keycloak initialized, user authenticated');
+                console.log("token", keycloak.token);
+                var tokenElement = document.createElement("tokenKey");
+                let tokenKey = document.createTextNode(keycloak.token);
+                tokenElement.appendChild(tokenKey);
+                document.head.appendChild(tokenElement)
+            } else {
+                console.info(consolePrefix, 'Keycloak initialized, user not authenticated');
+            }
         };
+
         window.entando = {
-          ...(window.entando || {}),
-          keycloak,
+            ...(window.entando || {}),
+            keycloak,
         };
         window.entando.keycloak
-          .init({ onLoad: 'check-sso', promiseType: 'native', enableLogging: true })
-          .then(onKeycloakInitialized)
-          .catch(function (e) {
-            console.error(e);
-            console.error(consolePrefix, 'Failed to initialize Keycloak');
-          });
-      };
-      function onKeycloakScriptError(e) {
+            .init({
+                onLoad: 'check-sso',
+                promiseType: 'native',
+                //silentCheckSsoRedirectUri: '<@wp.info key="systemParam" paramName="applicationBaseURL" />static/static/html/silent-check-sso.html',
+                checkLoginIframe: false,
+                enableLogging: true,
+                responseMode: 'query'
+            })
+            .then(auth => {
+                if (auth) {
+                    // window.location.replace("<@wp.info key="systemParam" paramName="applicationBaseURL" />/entando-de-app/");
+                          console.log("authenticated");
+                } else {
+                    console.log("token vuoto not logged lol");
+                    setInterval(logOut, 2000);
+
+                    function logOut( )
+                       {
+                            console.log("do something");
+                            keycloak.onAuthLogout();
+                      }
+
+                }
+            })
+            .then(onKeycloakInitialized)
+            .catch(function(e) {
+                console.error(e);
+                console.error(consolePrefix, 'Failed to initialize Keycloak');
+            });
+    };
+
+
+    function onKeycloakScriptError(e) {
         console.error(e);
         console.error(consolePrefix, 'Failed to load keycloak.js script');
-      };
-      function addKeycloakScript(keycloakConfig) {
+    };
+
+
+    function addKeycloakScript(keycloakConfig) {
         const script = document.createElement('script');
         script.src = keycloakConfig['auth-server-url'] + '/js/keycloak.js';
         script.async = true;
-        script.addEventListener('load', initKeycloak);
+        promiseType: 'native',
+            script.addEventListener('load', initKeycloak);
         script.addEventListener('error', onKeycloakScriptError);
-        document.body.appendChild(script);
-      };
-      fetch(keycloakConfigEndpoint)
-        .then(function (response) {
-          return response.json();
+        document.head.appendChild(script);
+    };
+    fetch(keycloakConfigEndpoint)
+        .then(function(response) {
+            return response.json();
         })
-        .then(function (config) {
-          keycloakConfig = config;
-          if (!keycloakConfig.clientId) {
-            keycloakConfig.clientId = keycloakConfig.resource;
-          }
-          addKeycloakScript(keycloakConfig);
+        .then(function(config) {
+            keycloakConfig = config;
+            if (!keycloakConfig.clientId) {
+                keycloakConfig.clientId = keycloakConfig.resource;
+            }
+            addKeycloakScript(keycloakConfig);
         })
-        .catch(function (e) {
-          console.error(e);
-          console.error(consolePrefix, 'Failed to fetch Keycloak configuration');
+        .catch(function(e) {
+            console.error(e);
+            console.error(consolePrefix, 'Failed to fetch Keycloak configuration');
         });
-    })();</script>
+    })();
+    </script>
