@@ -1,5 +1,5 @@
-code: agid_pa
-description: AGID-PA
+code: Template Agid PA
+description: Template AGID PA
 bundle-type: system-level-bundle
 components:
   widgets:
