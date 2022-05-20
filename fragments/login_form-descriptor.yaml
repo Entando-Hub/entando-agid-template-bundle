@@ -11,7 +11,9 @@ guiCode: |-
          </span>
          <span class="d-none d-lg-block">${Session.currentUser}</span>
 
-         <use href="/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use></svg>
+         <svg>
+            <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
+         </svg>
      </button>
      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
      <li>
