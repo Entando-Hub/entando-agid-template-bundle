@@ -12,7 +12,7 @@ guiCode: |-
         </span>
         <span class="d-none d-lg-block">${Session.currentUser}</span>
 
-        <svg class="icon icon-primary" aria-labelledby="logo_open">
+        <svg class="icon icon-white" aria-labelledby="logo_open">
         <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
         </svg>
     </button>
