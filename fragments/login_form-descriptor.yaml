@@ -1,6 +1,6 @@
 code: login_form
 guiCode: |-
-  <#assign wp=JspTaglibs["/aps-core"]
+  <#assign wp=JspTaglibs["/aps-core"]>
      <#if (Session.currentUser.username != "guest") >
      <button class="btn btn-primary btn-icon btn-full dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
          <span class="rounded-icon">

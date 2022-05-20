@@ -23,8 +23,9 @@ spec:
     name: agid_pa
     description: AGID-PA
     dist-tags:
-      latest: v0.0.50
+      latest: v0.0.51
     versions:
+      - v0.0.51
       - v0.0.50
       - v0.0.49
       - v0.0.48
@@ -75,6 +76,11 @@ spec:
       - v0.0.2
       - v0.0.1
   tags:
+    - version: v0.0.51
+      shasum: fe117494138b4095d91764fa383928b026883904
+      integrity: fe117494138b4095d91764fa383928b026883904
+      tarball: >-
+        https://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@github.com/entando-ps/Agid-PA-template.git
     - version: v0.0.50
       shasum: 095926208a546416e888a240b6f5dce760d2290c
       integrity: 095926208a546416e888a240b6f5dce760d2290c
