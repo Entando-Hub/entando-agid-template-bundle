@@ -462,3 +462,7 @@
   titles:
     en: Close
     it: Chiudi
+- key: PA_SERVICE_SHARE
+  titles:
+    en: Service status halted
+    it: Servizio sospseso momentaneamente
