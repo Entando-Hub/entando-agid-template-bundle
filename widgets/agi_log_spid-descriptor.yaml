@@ -1,0 +1,101 @@
+code: agi_log_spid
+titles:
+  en: Login Spid Agid
+  it: Login Spid Agid
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+    <#if (Session.currentUser.username != "guest") >
+    <div class="dropdown">
+        <button class="btn btn-primary btn-icon btn-full dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="rounded-icon">
+            <svg class="icon icon-primary" aria-labelledby="logo_user">
+            <title id="logo_user">USER_LOGO_ACCESS</title>
+            <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-user"></use>
+            </svg>
+        </span>
+        <span class="d-none d-lg-block">${Session.currentUser}</span>
+
+        <svg class="icon icon-white" aria-labelledby="logo_open">
+        <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
+        </svg>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="link-list-wrapper">
+            <ul class="link-list">
+               <li>
+                    <a class="list-item" href="<@wp.url page="servizi" />" >
+                     <span><@wp.i18n key="SERVIZI" /></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
+                     <span><@wp.i18n key="LOGOUT" /></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <#if (Session.currentUser.entandoUser) >
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+     <#if (!Session.currentUser.credentialsNotExpired) >
+      <div class="alert alert-block">
+        <span><@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD" />: <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/editPassword.action"><@wp.i18n key="USER_STATUS_EXPIRED_PASSWORD_CHANGE" /></a></span>
+    </div>
+    </#if>
+    </#if>
+
+    <@wp.ifauthorized permission="enterBackend">
+    <li>
+        <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn"><@wp.i18n key="ADMINISTRATION" /></a>
+    </li>
+    </@wp.ifauthorized>
+
+    <li>
+        <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
+        <@wp.i18n key="LOGOUT" />
+           <svg class="icon">
+              <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-expand"></use>
+            </svg>
+        </a>
+    </li>
+
+    <@wp.pageWithWidget widgetTypeCode="userprofile_editCurrentUser" var="userprofileEditingPageVar" listResult=false />
+
+    <#if (userprofileEditingPageVar??) >
+    <li>
+        <a href="<@wp.url page="${userprofileEditingPageVar.code}" />" >
+        <@wp.i18n key="userprofile_CONFIGURATION" />
+        </a>
+    </li>
+    </#if>
+    </ul>
+    </div>
+    <#else>
+    <#if (accountExpired?? && accountExpired == true) >
+    <div class="alert alert-block alert-error">
+       <@wp.i18n key="USER_STATUS_EXPIRED" />
+    </div>
+    </#if>
+    <#if (wrongAccountCredential?? && wrongAccountCredential == true) >
+    <div class="alert alert-block alert-error">
+    <@wp.i18n key="USER_STATUS_CREDENTIALS_INVALID" />
+    </div>
+    </#if>
+
+
+    <@wp.currentPage param="code" var="currentPageVar" />
+    <!-- REDIRECT SULLA HOMEPAGE IN HTTP-->
+    <a href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/login.action?redirectTo=http://forumpa.apps.psdemo.eng-entando.com/entando-de-app/it/homepage.page" class="btn btn-primary btn-icon btn-full" title="Login PA" aria-label="Login PA">
+    <span class="rounded-icon">
+      <svg class="icon icon-primary" aria-labelledby="logo_user">
+    <title id="logo_user">USER_LOGO_ACCESS</title>
+    <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-user"></use>
+    </svg>
+    </span>
+    <span class="d-none d-lg-block"><@wp.i18n key="SIGN_IN" /></span>
+    </a>
+
+    </#if>

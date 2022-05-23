@@ -1,7 +1,7 @@
 - code: adminstration
   parentCode: home
   titles:
-    en: Adminstration
+    en: Administration
     it: Amministrazione
 - code: documents_and_data
   parentCode: home
