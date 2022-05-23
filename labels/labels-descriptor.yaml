@@ -454,3 +454,11 @@
   titles:
     en: Citizen services
     it: Servizi cittadino
+- key: ESLF_ADMINISTRATION
+  titles:
+    en: Administration
+    it: Amministrazione
+- key: CHIUDI
+  titles:
+    en: Close
+    it: Chiudi

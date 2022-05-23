@@ -1,83 +1,89 @@
 code: login_form
-guiCode: |-
+guiCode: >-
   <#assign wp=JspTaglibs["/aps-core"]>
-   <ul class="nav">
-     <li class="dropdown<#if (accountExpired?? && accountExpired == true) || (wrongAccountCredential?? && wrongAccountCredential == true)>open</#if>">
-         <#if (Session.currentUser != "guest")>
-         <div class="dropdown">
-             <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 ${Session.currentUser}
-             </button>
-             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                 <div class="link-list-wrapper">
-                     <ul class="link-list">
-                         <li>
-                             <@wp.ifauthorized permission="enterBackend">
-                             <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />">
-                             <span><@wp.i18n key="ESLF_ADMINISTRATION" /></span>
-                             </a>
-                             </@wp.ifauthorized>
-                         </li>
-                         <li>
-                             <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action">
-                             <@wp.i18n key="ESLF_SIGNOUT" />
-                             </a>
-                         </li>
-                         <@wp.pageWithWidget var="editProfilePageVar" widgetTypeCode="userprofile_editCurrentUser" />
-                         <#if (editProfilePageVar??) >
-                         <li>
-                             <a href="<@wp.url page="${editProfilePageVar.code}" />" ><@wp.i18n key="ESLF_PROFILE_CONFIGURATION" /></a>
-                         </li>
-                         </#if>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-         <#else>
-         <div class="dropdown">
 
-             <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 <@wp.i18n key="ESLF_SIGNIN" />
-                 <svg class="icon-expand icon icon-sm icon-primary">
-                 <use href="<@wp.resourceURL />agi-template/img/sprite.svg#it-expand"></use>
-                 </svg>
-             </a>
-             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                 <div class="link-list-wrapper">
-                     <ul class="dropdown-menu">
-                         <li>
-                             <form method="POST">
+  <#if (Session.currentUser != "guest")>
 
-                                 <#if (accountExpired?? && accountExpired == true)>
-                                 <div class="alert alert-error">
-                                     <button class="close" data-dismiss="alert">x</button>
-                                     <@wp.i18n key="ESLF_USER_STATUS_EXPIRED" />
-                                 </div>
-                                 </#if>
+  <div class="dropdown">
+    <a href="#"class="btn btn-primary btn-icon btn-full btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="d-none d-lg-block">${Session.currentUser}</span>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="link-list-wrapper">
+            <ul class="link-list">
+                <li>
+                    <@wp.ifauthorized permission="enterBackend">
+                    <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />">
+                    <span><@wp.i18n key="ESLF_ADMINISTRATION" /></span>
+                    </a>
+                    </@wp.ifauthorized>
+                </li>
+                <li>
+                    <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action">
+                    <span><@wp.i18n key="ESLF_SIGNOUT" /></span>
+                    </a>
+                </li>
+                <@wp.pageWithWidget var="editProfilePageVar" widgetTypeCode="userprofile_editCurrentUser" />
+                <#if (editProfilePageVar??) >
+                <li>
+                    <a href="<@wp.url page="${editProfilePageVar.code}" />" >
+                    <span>
+                        <@wp.i18n key="ESLF_PROFILE_CONFIGURATION" />
+                    </span>
+                    </a>
+                </li>
+                </#if>
+            </ul>
+        </div>
+    </div>
+  </div>
 
-                                 <#if (wrongAccountCredential?? && wrongAccountCredential == true)>
-                                 <div class="alert alert-error">
-                                     <button class="close" data-dismiss="alert">x</button>
-                                     <@wp.i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
-                                 </div>
-                                 </#if>
-                                 <div class="form-group">
-                                     <label for="exampleInputText"><@wp.i18n key="ESLF_USERNAME" /></label>
-                                     <input type="text" name="username" class="form-control" placeholder="<@wp.i18n key="ESLF_USERNAME" />">
-                                 </div>
-                                 <div class="form-group">
-                                     <label for="exampleInputText"><@wp.i18n key="ESLF_PASSWORD" /></label>
-                                     <input type="password" name="password" class="input-large" placeholder="<@wp.i18n key="ESLF_PASSWORD" />">
-                                 </div>
-                                 <div class="form-group">
-                                     <input type="submit" class="btn btn-primary" value="<@wp.i18n key="ESLF_SIGNIN" />" />
-                                 </div>
-                             </form>
-                         </li>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-         </#if>
-     </li>
-  </ul>
+  <#else>
+
+  <button type="button" class="btn btn-primary btn-icon btn-full"
+  data-toggle="modal" data-target="#loginModal">
+    <span class="d-none d-lg-block"><@wp.i18n key="ESLF_SIGNIN" /></span>
+  </button>
+
+  <!-- Modal -->
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="loginModal"
+  aria-labelledby="loginModalTitle">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="loginModalTitle"><@wp.i18n key="SIGN_IN" /></h4>
+            </div>
+            <div class="modal-body">
+                <form method="POST">
+
+                    <#if (accountExpired?? && accountExpired == true)>
+                    <div class="alert alert-error">
+                        <button class="close" data-dismiss="alert">x</button>
+                        <@wp.i18n key="ESLF_USER_STATUS_EXPIRED" />
+                    </div>
+                    </#if>
+
+                    <#if (wrongAccountCredential?? && wrongAccountCredential == true)>
+                    <div class="alert alert-error">
+                        <button class="close" data-dismiss="alert">x</button>
+                        <@wp.i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
+                    </div>
+                    </#if>
+                    <div class="form-group">
+
+                        <input type="text" name="username" class="form-control" placeholder="<@wp.i18n key="ESLF_USERNAME" />">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="<@wp.i18n key="ESLF_PASSWORD" />">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-outline-primary" value="<@wp.i18n key="SIGN_IN" />" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  </#if>
