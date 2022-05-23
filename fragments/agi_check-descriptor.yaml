@@ -1,0 +1,15 @@
+code: agi_check
+guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <#if (currentPageCode =="servizi" )>
+  <#if (Session.currentUser.username != "guest") >
+  <script nonce="<@wp.cspNonce />">
+     let button = document.querySelectorAll('button');
+
+     let elem = document.querySelectorAll('button.hideme');
+     for (let elem of button) {
+         elem.classList.remove('disabled','d-none');
+    }
+  </script>
+  </#if>
+  </#if>

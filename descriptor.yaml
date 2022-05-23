@@ -35,6 +35,7 @@ components:
     - pageModels/content-page-descriptor.yaml
     - pageModels/single_frame_page-descriptor.yaml
   fragments:
+    - fragments/agi_check-descriptor.yaml
     - fragments/agi_service-descriptor.yaml
     - fragments/agi_footer-descriptor.yaml
     - fragments/agi_header-descriptor.yaml

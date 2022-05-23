@@ -870,7 +870,7 @@ attributes:
       compositeAttributes:
         - code: mtitle
           type: Text
-          name: Nome ufficio o persona repsondabile
+          name: Nome ufficio o persona responsabile
           names:
             en: mtitle
           roles: []

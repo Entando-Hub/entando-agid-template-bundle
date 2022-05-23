@@ -293,8 +293,8 @@ attributes:
           - code: mtitle
             value: null
             values:
-              en: Nome ufficio o persona repsondabile
-              it: Nome ufficio o persona repsondabile
+              en: Nome ufficio o persona responsabile
+              it: Nome ufficio o persona responsabile
             elements: []
             compositeelements: []
             listelements: {}
@@ -338,8 +338,8 @@ attributes:
           - code: mtitle
             value: null
             values:
-              en: Nome ufficio o persona repsondabile
-              it: Nome ufficio o persona repsondabile
+              en: Nome ufficio o persona responsabile
+              it: Nome ufficio o persona responsabile
             elements: []
             compositeelements: []
             listelements: {}
