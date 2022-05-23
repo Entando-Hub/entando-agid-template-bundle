@@ -1,4 +1,45 @@
 id: 19
 contentType: SRV
 description: Card singola servizi (SRV)
-contentShape: "<!-- Card singola servizi (SRV) -->\r\n\r\n<div class=\"col-12 col-sm-6 col-lg-4\">\r\n    <!--start card-->\r\n    <article class=\"card-wrapper card-space\">\r\n        <div class=\"card card-bg card-big rounded shadow\">\r\n            <div class=\"flag-icon\"></div>\r\n            <div class=\"etichetta\">\r\n                <svg class=\"icon\">\r\n                <use href=\"/entando-de-app/cmsresources/agi-template/img/sprite.svg#$content.belong.mapKey\"></use>\r\n                </svg>\r\n                #foreach ($contentCategory in $content.getCategories())\r\n                <span>\r\n                    $contentCategory.title\r\n                </span>\r\n                #end  \r\n            </div>\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">$content.title.text</h5>\r\n                <p class=\"card-text\">$content.subtitle.text</p>\r\n                <a class=\"read-more\" href=\"$content.getContentOnPageLink(\"detail\")&modelId=18\">\r\n                    <span class=\"text\">\r\n                        $i18n.getLabel('READ_MORE')\r\n                    </span>\r\n                    <svg class=\"icon\">\r\n                    <use xlink:href=\"/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-arrow-right\"></use>\r\n                    </svg>\r\n                </a>\r\n            </div>\r\n        </div>\r\n    </article>\r\n    <!--end card-->\r\n</div>"
+contentShape: |-
+  <!-- Card singola servizi (SRV) -->
+  <div class="col-12 col-sm-6 col-lg-4">
+     <!--start card-->
+     <article class="card-wrapper card-space">
+         <div class="card card-bg card-big rounded shadow">
+             <div class="flag-icon"></div>
+            <div class="etichetta">
+                <svg class="icon">
+                <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#$content.belong.mapKey"></use>
+                </svg>
+                #foreach ($contentCategory in $content.getCategories())
+                <span>
+                    $contentCategory.title
+                </span>
+                #end
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">$content.title.text</h5>
+                <p class="card-text">$content.subtitle.text</p>
+
+                #if($content.links.size() >0 )
+                #foreach ($item in $content.links)
+                <button type="button" class="btn btn-primary btn-lg btn-block hideme d-none disabled">
+                  $item.mlink.text
+                </button>
+                #end
+                #end
+
+                <a class="read-more" href="$content.getContentOnPageLink("detail")&modelId=18">
+                    <span class="text">
+                        $i18n.getLabel('READ_MORE')
+                    </span>
+                    <svg class="icon">
+                    <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </article>
+    <!--end card-->
+  </div>
