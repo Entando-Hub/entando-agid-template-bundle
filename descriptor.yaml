@@ -1,5 +1,5 @@
 code: Agid Template
-description: Template AGID PA
+description: Agid Template
 bundle-type: system-level-bundle
 components:
   widgets:
@@ -82,7 +82,7 @@ components:
     - fragments/sitemap-descriptor.yaml
     - fragments/sitemap_menu_include-descriptor.yaml
     - fragments/userprofile_editcurrentuser_password-descriptor.yaml
-    - fragments/userprofile_editcurrentuser_profileagi_breadcrumb-descriptor0-descriptor.yaml
+    - fragments/userprofile_editcurrentuser_profile-descriptor.yaml
     - fragments/userprofile_is_currentwithoutprofile-descriptor.yaml
     - fragments/userprofile_is_entrycurrentprofile-descriptor.yaml
     - fragments/userprofile_is_front_alllist_addelementbutton-descriptor.yaml

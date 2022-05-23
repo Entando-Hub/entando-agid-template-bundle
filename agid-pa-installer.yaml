@@ -20,11 +20,13 @@ metadata:
     bundle-type: system-level-bundle
 spec:
   details:
-    name: Template Agid PA
+    name: Agid Template
     description: Template AGID PA
     dist-tags:
-      latest: v0.0.62
+      latest: v0.0.64
     versions:
+      - v0.0.64
+      - v0.0.63
       - v0.0.62
       - v0.0.61
       - v0.0.60
@@ -87,309 +89,319 @@ spec:
       - v0.0.2
       - v0.0.1
   tags:
+    - version: v0.0.64
+      shasum: cb87da8cb01b7b5be6f9eeba85364ed26a72246b
+      integrity: cb87da8cb01b7b5be6f9eeba85364ed26a72246b
+      tarball: >-
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
+    - version: v0.0.63
+      shasum: fd9b5bcbf3b59689e3a58468b5e8b6e875c065d5
+      integrity: fd9b5bcbf3b59689e3a58468b5e8b6e875c065d5
+      tarball: >-
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.62
       shasum: f3a6368971d84755413866776d27f5f916e1f8ce
       integrity: f3a6368971d84755413866776d27f5f916e1f8ce
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.61
       shasum: 8640f0340440c4bd45c707694bb6ac2931bdec6d
       integrity: 8640f0340440c4bd45c707694bb6ac2931bdec6d
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.60
       shasum: 4b93cc5bee8b74cb0c2b2d3e0ad0cf586e900d70
       integrity: 4b93cc5bee8b74cb0c2b2d3e0ad0cf586e900d70
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.59
       shasum: 026b3f9777bfbf8854bd9192db1083fa3213e0f8
       integrity: 026b3f9777bfbf8854bd9192db1083fa3213e0f8
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.58
       shasum: 2bddeb122a8ff136200147566d9476fdcaa2aab3
       integrity: 2bddeb122a8ff136200147566d9476fdcaa2aab3
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.57
       shasum: 833975de30f579a4fdde94dd17a30cc1827eb8d9
       integrity: 833975de30f579a4fdde94dd17a30cc1827eb8d9
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.56
       shasum: 6ea7a7d3344ad16c3e4b5c82b58290257625b8a6
       integrity: 6ea7a7d3344ad16c3e4b5c82b58290257625b8a6
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.55
       shasum: 04adff18dc2b6273116620e9e70cf4c6379c5b84
       integrity: 04adff18dc2b6273116620e9e70cf4c6379c5b84
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.54
       shasum: 460fe7aacc7cdaee090b5979d6941411915eceb4
       integrity: 460fe7aacc7cdaee090b5979d6941411915eceb4
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.53
       shasum: 9adcfd39967f365864c88e01843014d3caf9ca67
       integrity: 9adcfd39967f365864c88e01843014d3caf9ca67
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.52
       shasum: 6fa9e7ee322f408705e707abd1a4da7f0dcc9883
       integrity: 6fa9e7ee322f408705e707abd1a4da7f0dcc9883
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.51
       shasum: fe117494138b4095d91764fa383928b026883904
       integrity: fe117494138b4095d91764fa383928b026883904
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.50
       shasum: 095926208a546416e888a240b6f5dce760d2290c
       integrity: 095926208a546416e888a240b6f5dce760d2290c
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.49
       shasum: c3e140c95be885bf286257c6cc854a2936d5f698
       integrity: c3e140c95be885bf286257c6cc854a2936d5f698
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.48
       shasum: 9f42d3dc53dfd8b132a2ad1f61f3dc782a13a5ea
       integrity: 9f42d3dc53dfd8b132a2ad1f61f3dc782a13a5ea
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.47
       shasum: 8c831252e6e6d45def9bb2008eb37e807b741ce3
       integrity: 8c831252e6e6d45def9bb2008eb37e807b741ce3
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.46
       shasum: e8555ae4395f566383b5922676ab317e0aeb27d5
       integrity: e8555ae4395f566383b5922676ab317e0aeb27d5
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.45
       shasum: 992e0f9955b5344748d7389bef9d9e27284c0601
       integrity: 992e0f9955b5344748d7389bef9d9e27284c0601
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.44
       shasum: 59b5c249c6e852eb1f5e5aa93a2105a0bdf9108d
       integrity: 59b5c249c6e852eb1f5e5aa93a2105a0bdf9108d
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.43
       shasum: 02301dd3d78037c123249df19ba9855ebd93a7d8
       integrity: 02301dd3d78037c123249df19ba9855ebd93a7d8
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.42
       shasum: 00a064f28179d48031a2f02cafe4026d0df16fde
       integrity: 00a064f28179d48031a2f02cafe4026d0df16fde
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.41
       shasum: 758995394e74b2d8457eab574c3a6d1dc4c14c32
       integrity: 758995394e74b2d8457eab574c3a6d1dc4c14c32
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.40
       shasum: 6c44e99c40fa7b8b982f3855f268208d6f87a89b
       integrity: 6c44e99c40fa7b8b982f3855f268208d6f87a89b
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.39
       shasum: 5832c7e1c5b7ec5f52aa9d3cb6669503d50278ff
       integrity: 5832c7e1c5b7ec5f52aa9d3cb6669503d50278ff
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.38
       shasum: 60d405e8d58c4d5e05ea00148663da730449b79b
       integrity: 60d405e8d58c4d5e05ea00148663da730449b79b
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.37
       shasum: b304804586949d7f4a6c2f02edbaf837eac3d2f3
       integrity: b304804586949d7f4a6c2f02edbaf837eac3d2f3
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.36
       shasum: 4b35032a6a8c537a03792262cf7f673fa3674bba
       integrity: 4b35032a6a8c537a03792262cf7f673fa3674bba
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.35
       shasum: 36f75fec3c2c4b54204cf94b6b0b31ec57ccf998
       integrity: 36f75fec3c2c4b54204cf94b6b0b31ec57ccf998
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.34
       shasum: db4c67bb07d30b4c0f1ce4eee0f418b8f3570d07
       integrity: db4c67bb07d30b4c0f1ce4eee0f418b8f3570d07
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.33
       shasum: fedcffb81e3c8e05fd67dfbd105f34f15cf5a68d
       integrity: fedcffb81e3c8e05fd67dfbd105f34f15cf5a68d
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.32
       shasum: 985c1b531fb81be3804f1d9382460821537d5f41
       integrity: 985c1b531fb81be3804f1d9382460821537d5f41
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.31
       shasum: 3cb8a88fc4898a04256a9402bbe5467efb5327e4
       integrity: 3cb8a88fc4898a04256a9402bbe5467efb5327e4
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.30
       shasum: 37cca33262c18204d4b8962a5ef47a3dfc141424
       integrity: 37cca33262c18204d4b8962a5ef47a3dfc141424
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.29
       shasum: bed1f63885a9331023e592709ecfff42524c6499
       integrity: bed1f63885a9331023e592709ecfff42524c6499
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.28
       shasum: 855e38bbe7ddfb0991cd39727626a9d64b28e746
       integrity: 855e38bbe7ddfb0991cd39727626a9d64b28e746
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.27
       shasum: 9e4ffc702122c64018d0ae9a47683da6020b5ebd
       integrity: 9e4ffc702122c64018d0ae9a47683da6020b5ebd
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.26
       shasum: a76ceb76c5648e48392c76eb43aa05848c012638
       integrity: a76ceb76c5648e48392c76eb43aa05848c012638
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.25
       shasum: 7b75033fa7f7d2ee59c371bcce318598065806d1
       integrity: 7b75033fa7f7d2ee59c371bcce318598065806d1
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.24
       shasum: 04898ebee9e22a0cde714a92c530198c7328c6fd
       integrity: 04898ebee9e22a0cde714a92c530198c7328c6fd
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.23
       shasum: 4204c1d51b0c2df3ace151dde4dd533a2d995ee2
       integrity: 4204c1d51b0c2df3ace151dde4dd533a2d995ee2
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.22
       shasum: 2040d9834017b9cc8d61cfbb61422d607c6188a4
       integrity: 2040d9834017b9cc8d61cfbb61422d607c6188a4
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.21
       shasum: 6ae59865c6c47e1ebb78e0a523a7a689d999863b
       integrity: 6ae59865c6c47e1ebb78e0a523a7a689d999863b
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.20
       shasum: 3e1dab9ceccadbfa59fcb2595274219d14d94654
       integrity: 3e1dab9ceccadbfa59fcb2595274219d14d94654
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.18
       shasum: ac8bf4476e4c1caf77b6364310ca87e295ea7a3c
       integrity: ac8bf4476e4c1caf77b6364310ca87e295ea7a3c
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.17
       shasum: cab26b4755123d0242d9c7de30305691cb01149c
       integrity: cab26b4755123d0242d9c7de30305691cb01149c
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.16
       shasum: 182dee3a4d389e4837d5dc1319bec9de34c62f22
       integrity: 182dee3a4d389e4837d5dc1319bec9de34c62f22
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.15
       shasum: d043ea84463899e723371e2fae3c5854aa74026f
       integrity: d043ea84463899e723371e2fae3c5854aa74026f
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.14
       shasum: 8de5985bd2c63dd8b1e7416271941c8d799302da
       integrity: 8de5985bd2c63dd8b1e7416271941c8d799302da
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.13
       shasum: 0ba3ac90fefb6aa40bb2c1d1728f3fbc719af1ac
       integrity: 0ba3ac90fefb6aa40bb2c1d1728f3fbc719af1ac
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.12
       shasum: 72a98b6a57eb839ffbd8ca5fc4b4144992074afa
       integrity: 72a98b6a57eb839ffbd8ca5fc4b4144992074afa
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.11
       shasum: 44734308b9b32f1b1f84ff1315509bb84bdfadbd
       integrity: 44734308b9b32f1b1f84ff1315509bb84bdfadbd
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.10
       shasum: dbd391a350d9800c0622f19ac49d34e8b743d1a7
       integrity: dbd391a350d9800c0622f19ac49d34e8b743d1a7
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.9
       shasum: 9ff41bf433344c057f2601fa426d90d84960d6d9
       integrity: 9ff41bf433344c057f2601fa426d90d84960d6d9
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.8
       shasum: 1320198c489d3258c40a9fd9d81bcd79cea045a2
       integrity: 1320198c489d3258c40a9fd9d81bcd79cea045a2
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.7
       shasum: 92ca1e7f64e1a66ffe3f55b3b20934b171b0c550
       integrity: 92ca1e7f64e1a66ffe3f55b3b20934b171b0c550
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.6
       shasum: ab5df8dbc7c3c1af34166bf73a0df13c62885ca6
       integrity: ab5df8dbc7c3c1af34166bf73a0df13c62885ca6
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.5
       shasum: 547176054eca5a7d69e73040bb5f0e503a430a33
       integrity: 547176054eca5a7d69e73040bb5f0e503a430a33
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.4
       shasum: 5d005e2dcfdd7f30a0e3f222f428e13116b797cc
       integrity: 5d005e2dcfdd7f30a0e3f222f428e13116b797cc
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.3
       shasum: c54d828199c1ac4bbed6fcf337fc3bed145ddd48
       integrity: c54d828199c1ac4bbed6fcf337fc3bed145ddd48
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.2
       shasum: 9aeec88304a427ee64698fb239c4a7dbc2360710
       integrity: 9aeec88304a427ee64698fb239c4a7dbc2360710
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
     - version: v0.0.1
       shasum: e5b024cacfbb4be89de2749f58a690691e45eccc
       integrity: e5b024cacfbb4be89de2749f58a690691e45eccc
       tarball: >-
-        https://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@github.com/entando-ps/Agid-PA-template.git
+        https://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@github.com/entando-ps/entando-agid-template-bundle.git
 
