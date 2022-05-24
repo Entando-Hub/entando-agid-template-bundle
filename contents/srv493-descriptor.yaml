@@ -32,7 +32,9 @@ attributes:
     value: null
     values:
       en: |
-        <p>Accordo di separazione o divorzio sospeso</p>
+        <p>State reason</p>
+      it: |
+        <p>Motivo dello stato</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -51,7 +53,8 @@ attributes:
   - code: rivolto
     value: null
     values:
-      en: A chi è rivolto
+      en: Who is it for?
+      it: A chi è rivolto
     elements: []
     compositeelements: []
     listelements: {}
@@ -59,34 +62,114 @@ attributes:
     value: null
     values:
       en: |
-        <p>L&#39;albo dei giudici popolari di Corte di assise e di Corte di assise di appello contiene l&#39;elenco delle persone idonee a svolgere la funzione di Giudice popolare. &Egrave; costituito da due distinti elenchi formati da cittadini che possono essere chiamati ad affiancare i giudici togati nella composizione della Corte d&#39;assise e della Corte d&#39;assise di appello in occasione dei processi. Le operazioni di aggiornamento si svolgono ogni due anni dal mese di aprile al mese di luglio.</p>
+        <p>Extended description</p>
+      it: |
+        <p>Descrizione estesa</p>
     elements: []
     compositeelements: []
     listelements: {}
   - code: comesifa
     value: null
     values: {}
-    elements: []
+    elements:
+      - code: comesifa
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: maddress
+            value: null
+            values:
+              en: 'Via Roma, 32'
+              it: 'Via Roma, 32'
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mbody
+            value: null
+            values:
+              en: |
+                <p>Mattina: 9.00 - 12.00 dal luned&igrave; al venerd&igrave;</p>
+
+                <p>Pomeriggio: 15.30 - 17.30 marted&igrave; e mercoled&igrave;</p>
+
+                <p>T +39 06 000000 - 111111 - 222222 - 333333</p>
+
+                <p>F +39 06 000111</p>
+
+                <p><a href="#!U;https://www.asili@comune.it!#">asili@comune.it</a></p>
+              it: |
+                <p>Mattina: 9.00 - 12.00 dal luned&igrave; al venerd&igrave;</p>
+
+                <p>Pomeriggio: 15.30 - 17.30 marted&igrave; e mercoled&igrave;</p>
+
+                <p>T +39 06 000000 - 111111 - 222222 - 333333</p>
+
+                <p>F +39 06 000111</p>
+
+                <p>asili@comune.it</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Ufficio accertamenti
+              it: Ufficio accertamenti
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
     compositeelements: []
     listelements: {}
   - code: geografica
     value: null
     values:
-      en: italia test
+      en: Geographic coverage
+      it: Copertura geografica
     elements: []
     compositeelements: []
     listelements: {}
   - code: cosa
     value: null
     values:
-      en: Cosa si ottiene
+      en: What do you get
+      it: Cosa si ottiene
     elements: []
     compositeelements: []
     listelements: {}
   - code: serve
     value: null
     values:
-      en: "<ul>\n\t<li>\n\t<p>L&rsquo;iscrizione avviene a domanda dell&rsquo;interessato o d&rsquo;ufficio, da parte del Sindaco, e rimane valida finch&eacute; non vengono meno i requisiti.<br />\n\tGli Organi giudiziari sorteggiano dall&rsquo;Albo gli iscritti che dovranno formare le giurie popolari nei processi.</p>\n\n\t<p>Le domande si presentano, entro il 31 luglio degli anni dispari, secondo le seguenti modalit&agrave;:</p>\n\n\t<p>online accedendo alla piattaforma dedicata</p>\n\n\t<p>e-mail all&#39;indirizzo di posta elettronica: elettorale@comune.cagliari.legalmail.it</p>\n\n\t<p>posta elettronica certificata ai seguenti indirizzi: elettorale@comune.cagliari.legalmail.it&nbsp;</p>\n\n\t<p>per posta, tramite raccomandata con avviso di ricevimento, entro il termine sopra indicato (far&agrave; fede il timbro postale dell&#39;ufficio accettante)</p>\n\n\t<p>consegna diretta presso l&#39;ufficio elettorale, gli sportelli del Protocollo Generale di via Crispi, degli Uffici di Citt&agrave; e della Municipalit&agrave; di Pirri.</p>\n\n\t<p>La cancellazione dagli elenchi pu&ograve; avvenire d&#39;ufficio nei casi previsti dall&#39;articolo&nbsp;12 Legge&nbsp;287/51.</p>\n\n\t<p>Accesso online</p>\n\n\t<p>Le domande possono essere compilate e inviate per via telematica utilizzando la&nbsp;piattaforma dedicata istanze.comune.cagliari.it.&nbsp;</p>\n\n\t<p>Il servizio richiede l&#39;accesso con identificativo Spid&nbsp;di livello 2 e&nbsp;per persone&nbsp;fisiche o Carta d&#39;identit&agrave; elettronica&nbsp;del richiedente.</p>\n\n\t<p>Il modulo &egrave; disponibile sotto la voce -Servizi elettorali-</p>\n\t</li>\n</ul>\n"
+      en: |
+        <p>Cosa serve (istruzioni partecipazione servizio)</p>
+
+        <p>L&rsquo;iscrizione avviene a domanda dell&rsquo;interessato o d&rsquo;ufficio, da parte del Sindaco, e rimane valida finch&eacute; non vengono meno i requisiti.<br />
+        Gli Organi giudiziari sorteggiano dall&rsquo;Albo gli iscritti che dovranno formare le giurie popolari nei processi.</p>
+
+        <p><strong>Le domande si presentano, entro il 31 luglio degli anni dispari, secondo le seguenti modalit&agrave;:</strong></p>
+
+        <p>online accedendo alla piattaforma dedicata</p>
+
+        <p>e-mail all&#39;indirizzo di posta elettronica: elettorale@comune.cagliari.legalmail.it</p>
+
+        <p>posta elettronica certificata ai seguenti indirizzi: elettorale@comune.cagliari.legalmail.it&nbsp;</p>
+
+        <p>per posta, tramite raccomandata con avviso di ricevimento, entro il termine sopra indicato (far&agrave; fede il timbro postale dell&#39;ufficio accettante)</p>
+
+        <p>consegna diretta presso l&#39;ufficio elettorale, gli sportelli del Protocollo Generale di via Crispi, degli Uffici di Citt&agrave; e della Municipalit&agrave; di Pirri.</p>
+
+        <p>La cancellazione dagli elenchi pu&ograve; avvenire d&#39;ufficio nei casi previsti dall&#39;articolo&nbsp;12 Legge&nbsp;287/51.</p>
+
+        <p><strong>Accesso online</strong></p>
+
+        <p>Le domande possono essere compilate e inviate per via telematica utilizzando la&nbsp;piattaforma dedicata istanze.comune.cagliari.it.&nbsp;</p>
+
+        <p>Il servizio richiede l&#39;accesso con identificativo Spid&nbsp;di livello 2 e&nbsp;per persone&nbsp;fisiche o Carta d&#39;identit&agrave; elettronica&nbsp;del richiedente.</p>
+
+        <p>Il modulo &egrave; disponibile sotto la voce -Servizi elettorali-</p>
+      it: |
+        <p>Cosa serve (istruzioni partecipazione servizio)</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -95,6 +178,8 @@ attributes:
     values:
       en: |
         <p>Procedure collegate all&#39;esito</p>
+      it: |
+        <p>Procedure collegate all&#39;esito</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -102,6 +187,7 @@ attributes:
     value: null
     values:
       en: qualcosa Canale digitale
+      it: Canale digitale
     elements: []
     compositeelements: []
     listelements: {}
@@ -110,6 +196,8 @@ attributes:
     values:
       en: |
         <p>qualcosa Autenticazione</p>
+      it: |
+        <p>Autenticazione</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -118,6 +206,10 @@ attributes:
     values:
       en: |
         <p>qualcosa Canale fisico</p>
+      it: |
+        <p>&nbsp;</p>
+
+        <p>Canale fisico</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -126,6 +218,8 @@ attributes:
     values:
       en: |
         <p>Le parti dovranno pagare la somma di euro 16,00 a titolo di diritto fisso mediante versamento sul conto corrente postale n.213090 intestato al Comune di Cagliari o sul conto corrente bancario IBAN IT26S 0101504800000070687691 IBANIT79A0760104800000000213090</p>
+      it: |
+        <p>Costi</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -134,6 +228,8 @@ attributes:
     values:
       en: |
         <p>causale da indicare: Separazione/Divorzi in Comune.</p>
+      it: |
+        <p>Vincoli</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -142,6 +238,8 @@ attributes:
     values:
       en: |
         <p>qualcosa Fasi e scadenze</p>
+      it: |
+        <p>Fasi e scadenze</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -150,6 +248,8 @@ attributes:
     values:
       en: |
         <p>qualcosa Casi particolari</p>
+      it: |
+        <p>Casi particolari</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -166,12 +266,21 @@ attributes:
             value: null
             values:
               en: 'Via Roma, 32'
+              it: via Monte Sabotino
             elements: []
             compositeelements: []
             listelements: {}
           - code: mlink
-            value: null
-            values: {}
+            value:
+              destType: 1
+              urlDest: 'https://www.mysite.com'
+              pageDest: null
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!U;https://www.mysite.com!#'
+            values:
+              en: Access services online
+              it: Accedi servizi online
             elements: []
             compositeelements: []
             listelements: {}
@@ -184,7 +293,8 @@ attributes:
           - code: mtitle
             value: null
             values:
-              en: Ufficio Asili Nido
+              en: Nome ufficio o persona responsabile
+              it: Nome ufficio o persona responsabile
             elements: []
             compositeelements: []
             listelements: {}
@@ -198,12 +308,21 @@ attributes:
             value: null
             values:
               en: 'Via Roma, 32'
+              it: 'Via Roma, 32'
             elements: []
             compositeelements: []
             listelements: {}
           - code: mlink
-            value: null
-            values: {}
+            value:
+              destType: 1
+              urlDest: ' http://www.miosito.it/'
+              pageDest: null
+              contentDest: null
+              resourceDest: null
+              symbolicDestination: '#!U; http://www.miosito.it/!#'
+            values:
+              en: Ufficio tribunali online
+              it: Ufficio tribunali online
             elements: []
             compositeelements: []
             listelements: {}
@@ -212,14 +331,18 @@ attributes:
             values:
               en:
                 correlationCode: testo
-                name: guy
+                name: Mario bianchi
+              it:
+                correlationCode: testo
+                name: Mario bianchi
             elements: []
             compositeelements: []
             listelements: {}
           - code: mtitle
             value: null
             values:
-              en: 'Area pubblica istruzione, politiche giovanili e sport'
+              en: Nome ufficio o persona responsabile
+              it: Nome ufficio o persona responsabile
             elements: []
             compositeelements: []
             listelements: {}
@@ -227,7 +350,7 @@ attributes:
     compositeelements: []
     listelements: {}
   - code: life
-    value: Pensionamento
+    value: ''
     values: {}
     elements: []
     compositeelements: []
@@ -246,21 +369,26 @@ attributes:
             values:
               en:
                 correlationCode: entandoAtWork
-                name: documento 1
+                name: sample
+              it:
+                correlationCode: entandoAtWork
+                name: sample
             elements: []
             compositeelements: []
             listelements: {}
           - code: msubtitle
             value: null
             values:
-              en: Avviso e documenti allegati
+              en: Sottotitolo documento
+              it: Sottotitolo documento
             elements: []
             compositeelements: []
             listelements: {}
           - code: mtitle
             value: null
             values:
-              en: Avviso pubblico di iscrizione - Anno educativo 2018/2019
+              en: Titolo documento
+              it: Titolo documento
             elements: []
             compositeelements: []
             listelements: {}
@@ -275,21 +403,26 @@ attributes:
             values:
               en:
                 correlationCode: entandoAtWork
-                name: sample.pdf
+                name: sample
+              it:
+                correlationCode: entandoAtWork
+                name: sample
             elements: []
             compositeelements: []
             listelements: {}
           - code: msubtitle
             value: null
             values:
-              en: Quanto costa il servizio
+              en: Sottotitolo documento
+              it: Sottotitolo documento
             elements: []
             compositeelements: []
             listelements: {}
           - code: mtitle
             value: null
             values:
-              en: Rette asili nido
+              en: Titolo documento
+              it: Titolo documento
             elements: []
             compositeelements: []
             listelements: {}
@@ -307,20 +440,24 @@ attributes:
     values:
       en: |
         <p>Ulteriori informazioni Aggiornamento 20/09/2021,12:18</p>
+      it: |
+        <p>Pi&ugrave; informazioni su</p>
     elements: []
     compositeelements: []
     listelements: {}
   - code: ipa
     value: null
     values:
-      en: Codice dell’Ente erogatore (ipa)
+      en: Provider code (IPA)
+      it: Codice dell’Ente erogatore (ipa)
     elements: []
     compositeelements: []
     listelements: {}
   - code: settore
     value: null
     values:
-      en: Settore merceologico
+      en: Commodity sector
+      it: Settore merceologico
     elements: []
     compositeelements: []
     listelements: {}

@@ -22,7 +22,10 @@ contentShape: |-
         <a href="$item.mlink.destination">
             <div class="card-bg-primary no-after mt-0 card-teaser card">
                 <div class="avatar size-lg mr-3">
-                    <img src="$item.mimg.getImagePath('0')" alt="$item.mimg.text" title="$item.mimg.text">
+                    <!--<img class="icon icon-primary" src="$item.mimg.getImagePath('0')" alt="$item.mimg.text" title="$item.mimg.text">-->
+                  <svg class="icon">
+                    <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-software"></use>
+                  </svg>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">$item.mtitle.text</h5>
