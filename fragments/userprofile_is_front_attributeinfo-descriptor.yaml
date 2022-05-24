@@ -1,2 +1,0 @@
-code: userprofile_is_front_attributeinfo
-guiCode: "<#assign s=JspTaglibs[\"/struts-tags\"]>\n<#assign wp=JspTaglibs[\"/aps-core\"]>\n\n<@s.if test=\"#attribute.required\">\n\t<abbr class=\"icon icon-asterisk\" title=\"<@wp.i18n key=\"userprofile_ENTITY_ATTRIBUTE_MANDATORY_FULL\" />\"><span class=\"noscreen\"><@wp.i18n key=\"userprofile_ENTITY_ATTRIBUTE_MANDATORY_SHORT\" /></span></abbr>\n</@s.if>"
