@@ -279,8 +279,8 @@ attributes:
               resourceDest: null
               symbolicDestination: '#!U;https://www.mysite.com!#'
             values:
-              en: link per l'ufficio competente
-              it: link per l'ufficio competente
+              en: Competent office forms
+              it: Modulistica ufficio competente
             elements: []
             compositeelements: []
             listelements: {}
@@ -294,7 +294,7 @@ attributes:
             value: null
             values:
               en: Entra Ufficio comunale
-              it: Entra Ufficio comunale 
+              it: Entra Ufficio comunale
             elements: []
             compositeelements: []
             listelements: {}

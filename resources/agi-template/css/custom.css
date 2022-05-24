@@ -3793,3 +3793,7 @@ list-style-type: none;color: #fff;padding: 0;}
     width: 100%;
     justify-content: space-between;
 }
+
+.bar-content-edit-container {
+ display:none;
+}

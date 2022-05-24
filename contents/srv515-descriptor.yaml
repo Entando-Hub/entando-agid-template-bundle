@@ -265,8 +265,8 @@ attributes:
           - code: maddress
             value: null
             values:
-              en: 'Via Roma, 32'
-              it: via Monte Sabotino
+              en: Via Roma, 32
+              it: Via Monte Sabotino
             elements: []
             compositeelements: []
             listelements: {}
@@ -279,8 +279,8 @@ attributes:
               resourceDest: null
               symbolicDestination: '#!U;https://www.mysite.com!#'
             values:
-              en: link per l'ufficio competente
-              it: link per l'ufficio competente
+              en: Request for assessment
+              it: Richiesta di accertamento
             elements: []
             compositeelements: []
             listelements: {}
@@ -321,8 +321,8 @@ attributes:
               resourceDest: null
               symbolicDestination: '#!U; http://www.miosito.it/!#'
             values:
-              en: link per l'ufficio competente
-              it: link per l'ufficio competente
+              en: Richiesta autorizzazioni online
+              it: Authorization request online
             elements: []
             compositeelements: []
             listelements: {}
