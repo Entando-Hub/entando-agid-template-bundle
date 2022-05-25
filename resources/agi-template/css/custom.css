@@ -3768,14 +3768,23 @@ list-style-type: none;color: #fff;padding: 0;}
 
 .bx--header__menu-bar  a {
      display: flex;
-    align-self: flex-end;
+    align-self: center;
     align-items: center;
      color:#fff;
- font-weight: 400;
-    padding: 13px 24px;
+    font-weight: 400;
+    padding: 6px 24px;
     color: #fff;
     border-bottom: 3px solid transparent;
  }
+
+.menu-wrapper .bx--header__menu-bar li:first-child a {
+    padding: 13px 24px 13px 5px;
+ }
+
+.bx--header__menu-item--current {
+ border-bottom: 3px solid #fff !important;
+}
+
 .row h2.text-white {
  color: #000 !important;
 }

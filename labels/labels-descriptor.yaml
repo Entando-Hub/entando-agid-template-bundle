@@ -400,7 +400,7 @@
     it: Password
 - key: READ_MORE
   titles:
-    en: Reda more
+    en: Read more
     it: Approfondisci
 - key: USER_ACCESS_PA
   titles:
