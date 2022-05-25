@@ -3794,6 +3794,6 @@ list-style-type: none;color: #fff;padding: 0;}
     justify-content: space-between;
 }
 
-.bar-content-edit-container {
+.bar-content-edit a {
  display:none;
 }

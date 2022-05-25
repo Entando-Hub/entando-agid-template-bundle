@@ -3,7 +3,7 @@ contentType: ARG
 description: Argomenti in evidenza homepage (ARG)
 contentShape: |-
   <!--Argomenti in evidenza homepage (ARG)-->
-   <div class="no-after rounded shadow card-teaser card">
+  <div class="no-after rounded shadow card-teaser card">
     <div class="pb-5 card-body"><div class="category-top">
             <a class="category">
                 <svg class="icon">
@@ -18,14 +18,15 @@ contentShape: |-
         #if ($content.links.size() == 1)
         <p class="card-text">
             $i18n.getLabel('VISITA_IL_SITO')
-        </p>#foreach ($item in $content.links)
+        </p>
+        #foreach ($item in $content.links)
         <a href="$item.mlink.destination">
             <div class="card-bg-primary no-after mt-0 card-teaser card">
                 <div class="avatar size-lg mr-3">
-                    <!--<img class="icon icon-primary" src="$item.mimg.getImagePath('0')" alt="$item.mimg.text" title="$item.mimg.text">-->
-                  <svg class="icon">
-                    <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-software"></use>
-                  </svg>
+                   <!--<img class="icon icon-primary" src="$item.mimg.getImagePath("0")" alt="$item.mimg.text" title="$item.mimg.text">-->
+                    <svg class="icon">
+                       <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-software"></use>
+                    </svg>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">$item.mtitle.text</h5>
@@ -40,18 +41,24 @@ contentShape: |-
         <div class="link-list-wrapper">
             <ul class="mt-4 link-list">
                 #foreach ($item in $content.links)
-                <li><a href=" $item.mlink.destination" class="icon-left active list-item">
-                        <img class="icon icon-primary" src="$item.mimg.getImagePath("0")" alt="$item.mimg.text" title="$item.mimg.text">
+                <li>
+                    <a href=" $item.mlink.destination" class="icon-left active list-item">
+                         <!--<img class="icon icon-primary" src="$item.mimg.getImagePath("0")" alt="$item.mimg.text" title="$item.mimg.text">-->
+                        <svg class="icon">
+                            <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-software"></use>
+                        </svg>
                         <span>$item.mtitle.text</span>
+                    </a>
                 </li>
                 #end
             </ul>
         </div>
-        #end</div>
+        #end
+    </div>
     <a class="read-more" href="$content.link.destination">
         <span class="text">$content.link.text</span>
         <svg class="icon">
-        <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-arrow-right"></use>
+           <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-arrow-right"></use>
         </svg>
     </a>
   </div>
