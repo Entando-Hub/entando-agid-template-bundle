@@ -23,8 +23,9 @@ spec:
     name: Agid Template
     description: Agid Template
     dist-tags:
-      latest: v0.0.78
+      latest: v0.0.79
     versions:
+      - v0.0.79
       - v0.0.78
       - v0.0.77
       - v0.0.76
@@ -103,6 +104,11 @@ spec:
       - v0.0.2
       - v0.0.1
   tags:
+    - version: v0.0.79
+      shasum: d3d7f61c5039056ac5316a3969809fc2bee0c7e4
+      integrity: d3d7f61c5039056ac5316a3969809fc2bee0c7e4
+      tarball: >-
+        https://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@github.com/entando-ps/Agid-PA-template.git
     - version: v0.0.78
       shasum: 066ca07e6e61898a16cbbaac49a819f68ac0cb3c
       integrity: 066ca07e6e61898a16cbbaac49a819f68ac0cb3c

@@ -21,8 +21,8 @@ attributes:
   - code: title
     value: null
     values:
-      en: 363th Feast of Sant'Efisio
-      it: 363 Festa di Sant'Efisio
+      en: New toponyms, green light from the Capitoline Council
+      it: Nuovi toponimi, via libera della Giunta Capitolina
     elements: []
     compositeelements: []
     listelements: {}
@@ -36,7 +36,7 @@ attributes:
     value: null
     values:
       en: |
-        <p>On 1 May 2019 Cagliari and all of Sardinia celebrate the 363rd Feast of Sant&#39;Efisio. An intense moment of devotion, faith, culture and centuries-old traditions that come together in a procession that has no equal.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis</p>
       it: |
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis</p>
     elements: []
@@ -72,11 +72,11 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: entandoAtPlan
-        name: Entando at Plan
+        correlationCode: entandoAtWork
+        name: Entando at Work
       it:
-        correlationCode: entandoAtPlan
-        name: Entando at Plan
+        correlationCode: entandoAtWork
+        name: Entando at Work
     elements: []
     compositeelements: []
     listelements: {}
