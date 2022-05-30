@@ -1,6 +1,6 @@
 id: NOV386
 typeCode: NOV
-description: 363^ Festa di Sant'Efisio
+description: Nuovi toponimi, via libera della Giunta Capitolina
 mainGroup: free
 status: PUBLIC
 categories:
@@ -21,8 +21,8 @@ attributes:
   - code: title
     value: null
     values:
-      en: 363th Feast of Sant'Efisio
-      it: 363^ Festa di Sant'Efisio
+      en: New toponyms, green light from the Capitoline Council
+      it: Nuovi toponimi, via libera della Giunta Capitolina
     elements: []
     compositeelements: []
     listelements: {}
@@ -48,7 +48,7 @@ attributes:
       en: |
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex? Libero magni ipsa est, ut rem quas laborum fugit dolor facere qui fuga? Facere, tempora voluptatem, doloribus, cum eum pariatur veniam eos suscipit facilis illo quam maiores fuga iusto at optio!</p>
       it: |
-        <p>Il 1&deg; maggio 2019 Cagliari e tutta la Sardegna festeggiano la 363&ordf; Festa di Sant&#39;Efisio. Un intenso momento di devozione, fede, cultura e tradizioni centenarie che si fondono in una processione che non ha eguali. Il 1&deg; maggio 2019 Cagliari e tutta la Sardegna festeggiano la 363&ordf; Festa di Sant&#39;Efisio. Un intenso momento di devozione, fede, cultura e tradizioni centenarie che si fondono in una processione che non ha eguali.Il 1&deg; maggio 2019 Cagliari e tutta la Sardegna festeggiano la 363&ordf; Festa di Sant&#39;Efisio. Un intenso momento di devozione, fede, cultura e tradizioni centenarie che si fondono in una processione che non ha eguali. Il 1&deg; maggio 2019 Cagliari e tutta la Sardegna festeggiano la 363&ordf; Festa di Sant&#39;Efisio. Un intenso momento di devozione, fede, cultura e tradizioni centenarie che si fondono in una processione che non ha eguali.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae. Perspiciatis in esse maxime, dolores doloribus soluta. Provident, in harum delectus dolorem quo corrupti. Odit aliquid accusamus labore quo odio sint, dolore omnis officiis quos aliquam nihil impedit? Ratione numquam, ullam aut ea alias tempora sed nesciunt odit. Voluptas laboriosam distinctio exercitationem quisquam, placeat sit debitis incidunt nam odio accusantium explicabo labore fuga vitae illum voluptatem, error praesentium sed doloremque iure magnam, necessitatibus ut consequatur. Iste nobis repellat ex laboriosam culpa eligendi consectetur eum cumque assumenda! Dignissimos, dolor iste esse minima, nulla assumenda excepturi, fugiat aliquid magnam numquam corporis ipsa maiores ex? Dicta cumque dolore repudiandae nesciunt eligendi laudantium accusantium quibusdam excepturi corporis. Sint adipisci quasi dignissimos ex?
     elements: []
     compositeelements: []
     listelements: {}
