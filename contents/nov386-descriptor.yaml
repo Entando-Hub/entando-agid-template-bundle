@@ -36,9 +36,9 @@ attributes:
     value: null
     values:
       en: |
-        <p>On 1 May 2019 Cagliari and all of Sardinia celebrate the 363rd Feast of Sant&#39;Efisio. An intense moment of devotion, faith, culture and centuries-old traditions that come together in a procession that has no equal.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae.</p>
       it: |
-        <p>Il 1&deg; maggio 2019 Cagliari e tutta la Sardegna festeggiano la 363&ordf; Festa di Sant&#39;Efisio. Un intenso momento di devozione, fede, cultura e tradizioni centenarie che si fondono in una processione che non ha eguali.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam esse suscipit itaque hic vitae id corrupti labore illo iure repellendus reiciendis consectetur, totam earum dolor atque cumque reprehenderit accusantium quae.</p>
     elements: []
     compositeelements: []
     listelements: {}

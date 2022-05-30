@@ -72,11 +72,11 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: entandoAtWork
-        name: Entando at Work
+        correlationCode: entandoAtPlan
+        name: Entando at Plan
       it:
-        correlationCode: entandoAtWork
-        name: Entando at Work
+        correlationCode: entandoAtPlan
+        name: Entando at Plan
     elements: []
     compositeelements: []
     listelements: {}
