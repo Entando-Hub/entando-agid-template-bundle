@@ -18,9 +18,7 @@ widgets:
     config: null
     pos: 2
   - code: agi_logo_comune
-    config:
-      modelId: '1'
-      contentId: TTL58
+    config: null
     pos: 3
   - code: agi_followus
     config: null
@@ -29,12 +27,10 @@ widgets:
     config: null
     pos: 5
   - code: agi-1-menu
-    config:
-      navSpec: code(administration) + code(news) + code(documents_and_data) + code(servizi)
+    config: null
     pos: 6
   - code: agi-2-menu
-    config:
-      navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
+    config: null
     pos: 7
   - code: agi_breadcrumb
     config: null
@@ -70,47 +66,29 @@ widgets:
       contentType: CRA
     pos: 12
   - code: agi_logo_comune_footer
-    config:
-      modelId: '2'
-      contentId: TTL58
+    config: null
     pos: 16
   - code: agi_menu_amm
-    config:
-      modelId: '7'
-      contentId: LST68
+    config: null
     pos: 17
   - code: agi_services_footer
-    config:
-      modelId: '7'
-      contentId: LST101
+    config: null
     pos: 18
   - code: agi_news_footer
-    config:
-      modelId: '7'
-      contentId: LST72
+    config: null
     pos: 19
   - code: agi_docs_footer
-    config:
-      modelId: '7'
-      contentId: LST74
+    config: null
     pos: 20
   - code: agi_transp_footer
-    config:
-      modelId: '6'
-      contentId: LST76
+    config: null
     pos: 21
   - code: agi_contacts_footer
-    config:
-      modelId: '5'
-      contentId: LST70
+    config: null
     pos: 22
   - code: agi_follow_footer
-    config:
-      modelId: '8'
-      contentId: LST79
+    config: null
     pos: 24
   - code: agi_extralinks_footer
-    config:
-      modelId: '4'
-      contentId: LST82
+    config: null
     pos: 25

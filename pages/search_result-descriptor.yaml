@@ -3,7 +3,7 @@ parentCode: homepage
 titles:
   en: Search result
   it: Risultato ricerca
-pageModel: agid_template
+pageModel: agid_template_internal-base
 ownerGroup: free
 joinGroups: []
 displayedInMenu: true

@@ -3,7 +3,7 @@ parentCode: homepage
 titles:
   en: Service
   it: Pagine di Servizio
-pageModel: single_frame_page
+pageModel: agid_template_internal-base
 ownerGroup: free
 joinGroups: []
 displayedInMenu: false
