@@ -57,7 +57,8 @@ contentShape: |-
     </div>
     <a class="read-more" href="$content.link.destination">
         <span class="text">$content.link.text</span>
-        <svg class="icon" aria-labelledby="$content.getId() - $content.link.text">
+        <svg class="icon" aria-labelledby="$content.getId()-$content.link.text">
+           <title id="$content.getId()-$i18n.getLabel('READ_MORE')">$content.getId()-$i18n.getLabel('READ_MORE')</title>
            <use href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-arrow-right"></use>
         </svg>
     </a>
