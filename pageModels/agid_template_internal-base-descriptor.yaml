@@ -1,4 +1,4 @@
-code: agid_template_internal
+code: agid_template_internal-base
 description: template agid Internal
 configuration:
   frames:
