@@ -29,13 +29,13 @@ contentShape: |-
                  <p class="card-text">
                      $content.subtitle.text
                  </p>
-#                 <div class="chip chip-simple chip-primary">
-#                     #foreach ($contentCategory in $content.getCategories() )
-#                     <a href="#" class="chip-label">
-#                         $contentCategory.title
-#                     </a>
-#                     #end
-#                 </div>
+#-                 <div class="chip chip-simple chip-primary">
+#-                    #foreach ($contentCategory in $content.getCategories() )
+#-                    <a href="#" class="chip-label">
+#-                        $contentCategory.title
+#-                    </a>
+#-                    #end
+#-                </div>
              </div>
          </div>
      </div>
