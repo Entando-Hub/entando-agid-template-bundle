@@ -568,8 +568,8 @@
     it: Contatti
 - key: INDIRIZZO
   titles:
-    en: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
-    it: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+    en: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
+    it: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
 - key: POSTA
   titles:
     en: Contact us
