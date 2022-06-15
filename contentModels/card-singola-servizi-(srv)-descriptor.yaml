@@ -34,7 +34,7 @@ contentShape: |-
                     <span class="text">
                         $i18n.getLabel('READ_MORE')
                     </span>
-                    <svg class="icon">
+                    <svg class="icon" role="img" aria-labelledby="$i18n.getLabel('READ_MORE')" >
                     <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-arrow-right"></use>
                     </svg>
                 </a>
