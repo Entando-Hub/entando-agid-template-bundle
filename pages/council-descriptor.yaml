@@ -39,10 +39,10 @@ widgets:
   - code: agi_breadcrumb
     config: null
     pos: 8
-  - code: agi-3-menu
-    config:
-      navSpec: current.children
-    pos: 10
+#  - code: agi-3-menu
+#    config:
+#      navSpec: current.children
+#    pos: 10
   - code: agi_logo_comune_footer
     config:
       modelId: '2'
