@@ -610,3 +610,19 @@
   titles:
     en: Culture
     it: Cultura
+- key: FILTRO
+  titles:
+    en: Add filter
+    it: Aggiungi filtro
+- key: ETICHETTA
+  titles:
+    en: Delete label
+    it: Elimina etichetta
+- key: AGI_CERCA
+  titles:
+    en: Search contents on
+    it: Cerca contenuti in
+- key: TUTTO
+  titles:
+    en: All
+    it: Tutto
