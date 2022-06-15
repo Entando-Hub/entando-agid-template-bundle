@@ -321,8 +321,8 @@ attributes:
               resourceDest: null
               symbolicDestination: '#!U; http://www.miosito.it/!#'
             values:
-              en: Richiesta autorizzazioni online
-              it: Authorization request online
+              en: Request online
+              it: Richiesta online
             elements: []
             compositeelements: []
             listelements: {}

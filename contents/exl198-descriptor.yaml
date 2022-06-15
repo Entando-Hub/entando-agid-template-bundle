@@ -47,6 +47,9 @@ attributes:
               en:
                 correlationCode: entandoAtWork
                 name: Entando at Work
+              it:
+                correlationCode: entandoAtWork
+                name: Entando at Work
             elements: []
             compositeelements: []
             listelements: {}
@@ -150,6 +153,9 @@ attributes:
             value: null
             values:
               en:
+                correlationCode: entandoAtPlan
+                name: Entando at Plan
+              it:
                 correlationCode: entandoAtPlan
                 name: Entando at Plan
             elements: []
