@@ -568,20 +568,20 @@
     it: Contatti
 - key: INDIRIZZO
   titles:
-    en: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
+    en: PA name Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
     it: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
 - key: POSTA
   titles:
-    en: Contact us
-    it: Certified mail
+    en: Certified mail
+    it: Posta certificata PEC
 - key: URP
   titles:
     en: URP - Public Relations Office
     it: URP - Ufficio Relazioni con il Pubblico
 - key: AMMINISTRAZIONE_TRASPARENTE
   titles:
-    en: URP - Public Relations Office
-    it: URP - Ufficio Relazioni con il Pubblico
+    en: Transparent administration
+    it: Amministrazione trasparente
 - key: AMMINISTRAZIONE_DATI
   titles:
     en: The personal data published can be reused only under the conditions provided for by the Community Directive 2003/98 / EC and by Legislative Decree 36/2006
@@ -626,3 +626,7 @@
   titles:
     en: All
     it: Tutto
+- key: COMUNICATI
+  titles:
+    en: Notices
+    it: Comunicati
