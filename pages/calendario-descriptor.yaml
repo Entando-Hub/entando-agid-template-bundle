@@ -28,6 +28,7 @@ widgets:
     pos: 5
   - code: agi-1-menu
     config: null
+    pos: 6
   - code: agi-2-menu
     config: null
     pos: 7
