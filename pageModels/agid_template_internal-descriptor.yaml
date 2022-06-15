@@ -378,7 +378,7 @@ template: |-
                             </form>
                         </div>
                         <div id="filtri-ricerca-amministrazione">
-                            <h6 class="small">Filtri</h6>
+                            <h6 class="small"><@wp.i18n key="FILTRI" /></h6>
                             <div class="chip chip-lg">
                                 <span class="chip-label"><@wp.i18n key="TUTTO" /></span>
                                 <button>

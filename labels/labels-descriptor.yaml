@@ -630,3 +630,7 @@
   titles:
     en: Notices
     it: Comunicati
+- key: FILTRI
+  titles:
+    en: Filters
+    it: Filtri
