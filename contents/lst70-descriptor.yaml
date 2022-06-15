@@ -61,7 +61,10 @@ attributes:
     values:
       en: |-
         Nome della PA
-        Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+        Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
+      it: |-
+        Nome della PA
+        Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
     elements: []
     compositeelements: []
     listelements: {}
