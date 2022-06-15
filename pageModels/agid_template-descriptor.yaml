@@ -34,9 +34,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_logo_comune
-        properties:
-          modelId: "1"
-          contentId: TTL58
+        properties: null
       sketch:
         x1: 0
         y1: 1
@@ -69,8 +67,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi-1-menu
-        properties:
-          navSpec: code(administration) + code(news) + code(servizi) + code(documents_and_data)
+        properties: null
       sketch:
         x1: 0
         y1: 2
@@ -81,8 +78,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi-2-menu
-        properties:
-          navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
+        properties: null
       sketch:
         x1: 6
         y1: 2

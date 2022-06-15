@@ -319,7 +319,7 @@ attributes:
           name: Argomenti
           names:
             en: margs
-            it: XXX
+            it: margs
           roles: []
           disablingCodes: []
           mandatory: false
@@ -358,7 +358,7 @@ attributes:
           name: Entando at Work
           names:
             en: mimg
-            it: XXX
+            it: mimg
           roles: []
           disablingCodes: []
           mandatory: false
@@ -397,7 +397,7 @@ attributes:
           name: Descrizione breve (abstract)
           names:
             en: mdescr
-            it: XXX
+            it: mdescr
           roles: []
           disablingCodes: []
           mandatory: false
@@ -436,7 +436,7 @@ attributes:
           name: Competenze
           names:
             en: mcompete
-            it: XXX
+            it: mcompete
           roles: []
           disablingCodes: []
           mandatory: false
@@ -475,7 +475,7 @@ attributes:
           name: Unita organizzativa genitore
           names:
             en: munita
-            it: XXX
+            it: munita
           roles: []
           disablingCodes: []
           mandatory: false
@@ -514,7 +514,7 @@ attributes:
           name: Responsabile link
           names:
             en: mlink
-            it: XXX
+            it: mlink
           roles: []
           disablingCodes: []
           mandatory: false
@@ -553,7 +553,7 @@ attributes:
           name: Assessore di riferimento
           names:
             en: massessor
-            it: XXX
+            it: massessor
           roles: []
           disablingCodes: []
           mandatory: false
@@ -592,7 +592,7 @@ attributes:
           name: Persone che compongono la struttura
           names:
             en: mpersonal
-            it: XXX
+            it: mpersonal
           roles: []
           disablingCodes: []
           mandatory: false
@@ -631,7 +631,7 @@ attributes:
           name: Elenco servizi offerti
           names:
             en: melenco
-            it: XXX
+            it: melenco
           roles: []
           disablingCodes: []
           mandatory: false
@@ -670,7 +670,7 @@ attributes:
           name: Eventuali altri luoghi definibili come sedi
           names:
             en: msedi
-            it: XXX
+            it: msedi
           roles: []
           disablingCodes: []
           mandatory: false
@@ -709,7 +709,7 @@ attributes:
           name: allegato 1
           names:
             en: mattach1
-            it: XXX
+            it: mattach1
           roles: []
           disablingCodes: []
           mandatory: false
@@ -748,7 +748,7 @@ attributes:
           name: Allegato 2
           names:
             en: mattach2
-            it: XXX
+            it: mattach2
           roles: []
           disablingCodes: []
           mandatory: false
@@ -787,7 +787,7 @@ attributes:
           name: Ulteriori informazioni
           names:
             en: mmoreinfo
-            it: XXX
+            it: mmoreinfo
           roles: []
           disablingCodes: []
           mandatory: false
@@ -825,7 +825,7 @@ attributes:
     type: Hypertext
     names:
       en: testo
-      it: XXX
+      it: testo
     roles: []
     disablingCodes: []
     mandatory: true
@@ -858,7 +858,7 @@ attributes:
     type: Image
     names:
       en: img
-      it: XXX
+      it: img
     roles: []
     disablingCodes: []
     mandatory: false
@@ -891,7 +891,7 @@ attributes:
     type: Link
     names:
       en: link
-      it: XXX
+      it: link
     roles: []
     disablingCodes: []
     mandatory: false
@@ -924,7 +924,7 @@ attributes:
     type: Monolist
     names:
       en: images
-      it: XXX
+      it: images
     roles: []
     disablingCodes: []
     mandatory: false
@@ -959,7 +959,7 @@ attributes:
       name: images
       names:
         en: images
-        it: XXX
+        it: images
       roles: []
       disablingCodes: []
       mandatory: false
@@ -997,7 +997,7 @@ attributes:
     type: Monolist
     names:
       en: videos
-      it: XXX
+      it: videos
     roles: []
     disablingCodes: []
     mandatory: false
@@ -1032,7 +1032,7 @@ attributes:
       name: videos
       names:
         en: videos
-        it: XXX
+        it: videos
       roles: []
       disablingCodes: []
       mandatory: false
@@ -1070,7 +1070,7 @@ attributes:
     type: Monolist
     names:
       en: docs
-      it: XXX
+      it: docs
     roles: []
     disablingCodes: []
     mandatory: false
@@ -1105,7 +1105,7 @@ attributes:
       name: docs
       names:
         en: docs
-        it: XXX
+        it: docs
       roles: []
       disablingCodes: []
       mandatory: false
@@ -1143,7 +1143,7 @@ attributes:
     type: Number
     names:
       en: number
-      it: XXX
+      it: number
     roles: []
     disablingCodes: []
     mandatory: false
@@ -1176,7 +1176,7 @@ attributes:
     type: Monolist
     names:
       en: places
-      it: XXX
+      it: places
     roles: []
     disablingCodes: []
     mandatory: false
@@ -1211,7 +1211,7 @@ attributes:
       name: places
       names:
         en: places
-        it: XXX
+        it: places
       roles: []
       disablingCodes: []
       mandatory: false
@@ -1250,7 +1250,7 @@ attributes:
           name: Argomenti
           names:
             en: margs
-            it: XXX
+            it: margs
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1289,7 +1289,7 @@ attributes:
           name: Tipo di luogo
           names:
             en: mplaces
-            it: XXX
+            it: mplaces
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1328,7 +1328,7 @@ attributes:
           name: Entando at Work
           names:
             en: mimg
-            it: XXX
+            it: mimg
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1367,7 +1367,7 @@ attributes:
           name: Descrizione breve
           names:
             en: mshrtdescr
-            it: XXX
+            it: mshrtdescr
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1406,7 +1406,7 @@ attributes:
           name: Descrizione estesa con POI
           names:
             en: mpoi
-            it: XXX
+            it: mpoi
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1445,7 +1445,7 @@ attributes:
           name: Luoghi collegati
           names:
             en: mlnkplac
-            it: XXX
+            it: mlnkplac
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1484,7 +1484,7 @@ attributes:
           name: Servizi presenti nel luogo
           names:
             en: mservices
-            it: XXX
+            it: mservices
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1523,7 +1523,7 @@ attributes:
           name: Modalita di accesso informazioni
           names:
             en: maccess
-            it: XXX
+            it: maccess
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1562,7 +1562,7 @@ attributes:
           name: Indirizzo
           names:
             en: maddress
-            it: XXX
+            it: maddress
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1601,7 +1601,7 @@ attributes:
           name: Quartiere
           names:
             en: mquartier
-            it: XXX
+            it: mquartier
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1640,7 +1640,7 @@ attributes:
           name: Circoscrizione
           names:
             en: mcircoscr
-            it: XXX
+            it: mcircoscr
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1679,7 +1679,7 @@ attributes:
           name: GPS coordinate
           names:
             en: mgps
-            it: XXX
+            it: mgps
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1718,7 +1718,7 @@ attributes:
           name: CAP
           names:
             en: mcap
-            it: XXX
+            it: mcap
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1757,7 +1757,7 @@ attributes:
           name: 'Orario, Punti di contatto, informazioni'
           names:
             en: mothrinfo
-            it: XXX
+            it: mothrinfo
           roles: []
           disablingCodes: []
           mandatory: false
@@ -1796,7 +1796,7 @@ attributes:
           name: Identificativo
           names:
             en: midentity
-            it: XXX
+            it: midentity
           roles: []
           disablingCodes: []
           mandatory: false

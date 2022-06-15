@@ -466,3 +466,147 @@
   titles:
     en: Service status halted
     it: Servizio sospseso momentaneamente
+- key: READ_MORE
+  titles:
+    en: Read more
+    it: Approfondisci
+- key: ADMINISTRATION
+  titles:
+    en: Administration
+    it: Amministrazione
+- key: GIUNTA
+  titles:
+    en: Council
+    it: Giunta e consiglio
+- key: COMPETENZA
+  titles:
+    en: Areas of expertise
+    it: Aree di competenza
+- key: DIPENDENTI
+  titles:
+    en: Employees
+    it: Dipendenti
+- key: LUOGHI
+  titles:
+    en: Places
+    it: Luoghi
+- key: ASSOCIAZIONI
+  titles:
+    en: Associations and investee companies
+    it: Associazioni e società partecipate
+- key: VAI_A
+  titles:
+    en: Go to page:
+    it: Vai alla pagina:
+- key: AUTORIZZAZIONI
+  titles:
+    en: Authorizations
+    it: Autorizzazioni
+- key: CERTIFICATI
+  titles:
+    en: Certificates
+    it: Certificati
+- key: SEGNALAZIONI
+  titles:
+    en: Reports
+    it: Segnalazioni
+- key: DOMANDE
+  titles:
+    en: Questions
+    it: Domande
+- key: SOSTEGNO
+  titles:
+    en: Support
+    it: Sostegno
+- key: PAGAMENTI
+  titles:
+    en: Payments
+    it: Pagamenti
+- key: SERVIZI_F
+  titles:
+    en: Services
+    it: Servizi
+- key: NOTIZIE
+  titles:
+    en: News
+    it: Notizie
+- key: EVENTI
+  titles:
+    en: Events
+    it: Eventi
+- key: NOVITA
+  titles:
+    en: News
+    it: Novità
+- key: DOCUMENTI
+  titles:
+    en: Documents
+    it: Documenti
+- key: ALBO
+  titles:
+    en: Praetorian notice board
+    it: Albo pretorio
+- key: CONCORSI
+  titles:
+    en: Contests
+    it: Concorsi
+- key: BANDI
+  titles:
+    en: Notices
+    it: Bandi
+- key: PROGETTI
+  titles:
+    en: Projects
+    it: Progetti
+- key: PROGETTI
+  titles:
+    en: Resolutions
+    it: Delibere
+- key: CONTATTI
+  titles:
+    en: Contact us
+    it: Contatti
+- key: INDIRIZZO
+  titles:
+    en: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+    it: Nome della PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+- key: POSTA
+  titles:
+    en: Contact us
+    it: Certified mail
+- key: URP
+  titles:
+    en: URP - Public Relations Office
+    it: URP - Ufficio Relazioni con il Pubblico
+- key: AMMINISTRAZIONE_TRASPARENTE
+  titles:
+    en: URP - Public Relations Office
+    it: URP - Ufficio Relazioni con il Pubblico
+- key: AMMINISTRAZIONE_DATI
+  titles:
+    en: The personal data published can be reused only under the conditions provided for by the Community Directive 2003/98 / EC and by Legislative Decree 36/2006
+    it: I dati personali pubblicati sono riutilizzabili solo alle condizioni previste dalla direttiva comunitaria 2003/98/CE e dal d.lgs. 36/2006
+- key: NOME
+  titles:
+    en: Municipality name
+    it: Nome del Comune
+- key: STRAPLINE_NOME
+  titles:
+    en: Municipality  strapline
+    it: Uno dei tanti comuni
+- key: CANTIERI
+  titles:
+    en: Construction sites
+    it: Cantieri in città
+- key: ARGOMENTI
+  titles:
+    en: Topics
+    it: ARGOMENTI
+- key: SPORT
+  titles:
+    en: Sport
+    it: Sport
+- key: CULTURA
+  titles:
+    en: Culture
+    it: Cultura

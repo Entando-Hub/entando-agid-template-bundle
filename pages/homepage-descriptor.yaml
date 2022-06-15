@@ -48,7 +48,7 @@ widgets:
           key: highlight
           order: DESC
       linkDescr_it: Tutte le novità
-      linkDescr_en: Alle news
+      linkDescr_en: All news
       maxElements: '1'
       categories:
         - news

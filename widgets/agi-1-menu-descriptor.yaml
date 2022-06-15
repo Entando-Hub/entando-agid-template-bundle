@@ -5,19 +5,15 @@ titles:
 group: free
 customUi: |-
   <#assign wp=JspTaglibs["/aps-core"]>
-
-  <@wp.currentPage param="code" var="currentPageCode" />
-
-  <@wp.fragment code="entando_ootb_carbon_include" escapeXml=false />
-
-  <#assign navstrs = [] />
-  <@wp.nav var="page">
-    <#assign navstr = ["{\"code\": \"" + page.code + "\", \"title\": \"" + page.title + "\", \"level\": \"" + page.level + "\", \"url\": \""+ page.url +"\", \"voidPage\": " + page.voidPage?string("true", "false") + "}"]  />
-    <#assign navstrs = navstrs + navstr />
-  </@wp.nav>
-  <#assign nav_json_string = navstrs?join(", ") />
-
-  <navigation-bar-widget
-    current-page="${currentPageCode}"
-    nav-items="[${nav_json_string?html}]"
-  ></navigation-bar-widget>
+    <li class="nav-item dropdown no-son-page" padre="">
+        <a href="<@wp.url page="administration" />" class="nav-link no-son-page" data-focus-mouse="false"><@wp.i18n key="ADMINISTRATION" /></a>
+    </li>
+    <li class="nav-item dropdown no-son-page" padre="">
+        <a href="<@wp.url page="news" />" class="nav-link no-son-page"><@wp.i18n key="NOTIZIE" /></a>
+    </li>
+    <li class="nav-item dropdown no-son-page" padre="">
+        <a href="<@wp.url page="servizi" />" class="nav-link no-son-page"><@wp.i18n key="SERVIZI_F" /></a>
+    </li>
+    <li class="nav-item dropdown no-son-page" padre="">
+        <a href="<@wp.url page="documents_and_data" />" class="nav-link no-son-page"><@wp.i18n key="DOCUMENTI" /></a>
+    </li>

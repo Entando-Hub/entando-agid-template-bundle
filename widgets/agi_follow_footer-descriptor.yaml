@@ -4,13 +4,45 @@ titles:
   it: Seguici footer
 group: free
 customUi: |-
-  <#assign jacms=JspTaglibs["/jacms-aps-core"]>
   <#assign wp=JspTaglibs["/aps-core"]>
-  <@jacms.contentInfo param="authToEdit" var="canEditThis" />
-  <@jacms.contentInfo param="contentId" var="myContentId" />
-  <#if (canEditThis?? && canEditThis)>
-  <div class="bar-content-edit-container"><div class="bar-content-edit"><a href="<@wp.info key="systemParam" paramName="appBuilderBaseURL" />cms/content/edit/<@jacms.contentInfo param="contentId" />" class="btn btn-info"><@wp.i18n key="EDIT_THIS_CONTENT" /> <i class="icon-edit icon-white"></i></a></div><@jacms.content publishExtraTitle=true />
+   <!--titolo link + lista link footer (LST)-->
+    <h4>
+        <a href="#!!#" title="Vai alla pagina: Seguici su">
+            <@wp.i18n key="FOLLOW_US_ON" />
+        </a>
+    </h4>
+    <ul class="list-inline text-left social">
+        <li class="list-inline-item">
+            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank" data-focus-mouse="false">
+                <svg class="icon icon-sm icon-white align-top">
+                <title>designers-italia</title>
+                <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-designers-italia"></use>
+                </svg>
+                <span class="sr-only">designers-italia</span></a>
+        </li>
+        <li class="list-inline-item">
+            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank">
+                <svg class="icon icon-sm icon-white align-top">
+                <title>twitter</title>
+                <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-twitter"></use>
+                </svg>
+                <span class="sr-only">twitter</span></a>
+        </li>
+        <li class="list-inline-item">
+            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank">
+                <svg class="icon icon-sm icon-white align-top">
+                <title>medium</title>
+                <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-medium"></use>
+                </svg>
+                <span class="sr-only">medium</span></a>
+        </li>
+        <li class="list-inline-item">
+            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank">
+                <svg class="icon icon-sm icon-white align-top">
+                <title>Behance</title>
+                <use xlink:href="/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-Behance"></use>
+                </svg>
+                <span class="sr-only">Behance</span></a>
+        </li>
+    </ul>
   </div>
-  <#else>
-  <@jacms.content publishExtraTitle=true />
-  </#if>

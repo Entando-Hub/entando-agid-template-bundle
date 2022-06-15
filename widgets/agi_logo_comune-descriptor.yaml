@@ -4,13 +4,13 @@ titles:
   it: Logo comune con intestazione
 group: free
 customUi: |-
-  <#assign jacms=JspTaglibs["/jacms-aps-core"]>
   <#assign wp=JspTaglibs["/aps-core"]>
-  <@jacms.contentInfo param="authToEdit" var="canEditThis" />
-  <@jacms.contentInfo param="contentId" var="myContentId" />
-  <#if (canEditThis?? && canEditThis)>
-  <div class="bar-content-edit-container"><div class="bar-content-edit"><a href="<@wp.info key="systemParam" paramName="appBuilderBaseURL" />cms/content/edit/<@jacms.contentInfo param="contentId" />" class="btn btn-info"><@wp.i18n key="EDIT_THIS_CONTENT" /> <i class="icon-edit icon-white"></i></a></div><@jacms.content publishExtraTitle=true />
-  </div>
-  <#else>
-  <@jacms.content publishExtraTitle=true />
-  </#if>
+    <div class="it-brand-wrapper">
+    <a href="#" class="" data-focus-mouse="false">
+        <img class="icon" src="/entando-de-app/cmsresources/cms/images/logorepubblica_1_d0.png" aria-hidden="true" alt="Logo - <@wp.i18n key="NOME" />">
+        <div class="it-brand-text">
+            <h2 class="no_toc"><@wp.i18n key="NOME" /></h2>
+            <h3 class="no_toc d-none d-md-block"><@wp.i18n key="STRAPLINE_NOME" /></h3>
+        </div>
+    </a>
+    </div>

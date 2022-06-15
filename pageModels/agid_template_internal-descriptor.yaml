@@ -34,9 +34,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_logo_comune
-        properties:
-          modelId: "1"
-          contentId: TTL58
+        properties: null
       sketch:
         x1: 0
         y1: 1
@@ -69,8 +67,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi-1-menu
-        properties:
-          navSpec: code(administration) + code(news) + code(servizi) + code(documents_and_data)
+        properties: null
       sketch:
         x1: 0
         y1: 2
@@ -81,8 +78,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi-2-menu
-        properties:
-          navSpec: code(topics) + code(cantieri) + code(sport) + code(cultura)
+        properties: null
       sketch:
         x1: 6
         y1: 2
@@ -112,8 +108,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi-3-menu
-        properties:
-          navSpec: current.children
+        properties: null
       sketch:
         x1: 8
         y1: 4
@@ -164,9 +159,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_logo_comune_footer
-        properties:
-          modelId: "2"
-          contentId: TTL58
+        properties: null
       sketch:
         x1: 0
         y1: 10
@@ -177,9 +170,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_menu_amm
-        properties:
-          modelId: "7"
-          contentId: LST68
+        properties: null
       sketch:
         x1: 0
         y1: 11
@@ -190,9 +181,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_services_footer
-        properties:
-          modelId: "7"
-          contentId: LST101
+        properties: null
       sketch:
         x1: 3
         y1: 11
@@ -203,9 +192,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_news_footer
-        properties:
-          modelId: "7"
-          contentId: LST72
+        properties: null
       sketch:
         x1: 6
         y1: 11
@@ -216,9 +203,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_docs_footer
-        properties:
-          modelId: "7"
-          contentId: LST74
+        properties: null
       sketch:
         x1: 9
         y1: 11
@@ -229,9 +214,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_transp_footer
-        properties:
-          modelId: "6"
-          contentId: LST76
+        properties: null
       sketch:
         x1: 0
         y1: 12
@@ -242,9 +225,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_contacts_footer
-        properties:
-          modelId: "5"
-          contentId: LST70
+        properties: null
       sketch:
         x1: 3
         y1: 12
@@ -263,9 +244,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_follow_footer
-        properties:
-          modelId: "8"
-          contentId: LST79
+        properties: null
       sketch:
         x1: 9
         y1: 12
@@ -276,9 +255,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: agi_extralinks_footer
-        properties:
-          modelId: "4"
-          contentId: LST82
+        properties: null
       sketch:
         x1: 0
         y1: 13

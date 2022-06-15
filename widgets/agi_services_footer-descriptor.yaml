@@ -1,16 +1,35 @@
 code: agi_services_footer
 titles:
   en: Services footer
-  it: SErvizi footer
+  it: Servizi footer
 group: free
 customUi: |-
-  <#assign jacms=JspTaglibs["/jacms-aps-core"]>
   <#assign wp=JspTaglibs["/aps-core"]>
-  <@jacms.contentInfo param="authToEdit" var="canEditThis" />
-  <@jacms.contentInfo param="contentId" var="myContentId" />
-  <#if (canEditThis?? && canEditThis)>
-  <div class="bar-content-edit-container"><div class="bar-content-edit"><a href="<@wp.info key="systemParam" paramName="appBuilderBaseURL" />cms/content/edit/<@jacms.contentInfo param="contentId" />" class="btn btn-info"><@wp.i18n key="EDIT_THIS_CONTENT" /> <i class="icon-edit icon-white"></i></a></div><@jacms.content publishExtraTitle=true />
-  </div>
-  <#else>
-  <@jacms.content publishExtraTitle=true />
-  </#if>
+    <!--titolo link + lista link footer (LST)-->
+    <h4>
+        <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /> <@wp.i18n key="SERVIZI_F" />" class="" data-focus-mouse="false">
+            <@wp.i18n key="SERVIZI_F" />
+        </a>
+    </h4>
+    <div class="link-list-wrapper">
+        <ul class="footer-list link-list clearfix">
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="PAGAMENTI" />"><@wp.i18n key="PAGAMENTI" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="SOSTEGNO" />"><@wp.i18n key="SOSTEGNO" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="DOMANDE" />"><@wp.i18n key="DOMANDE" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="SEGNALAZIONI" />"><@wp.i18n key="SEGNALAZIONI" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="CERTIFICATI" />"><@wp.i18n key="CERTIFICATI" /></a>
+            </li>
+             <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="AUTORIZZAZIONI" />"><@wp.i18n key="AUTORIZZAZIONI" /></a>
+            </li>
+        </ul>
+    </div>

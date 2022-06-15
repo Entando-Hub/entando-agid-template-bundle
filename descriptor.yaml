@@ -32,6 +32,7 @@ components:
     - pageModels/agid_template-descriptor.yaml
     - pageModels/agid_template_detail-descriptor.yaml
     - pageModels/agid_template_internal-descriptor.yaml
+    - pageModels/agid_template_internal-base-descriptor.yaml
     - pageModels/content-page-descriptor.yaml
     - pageModels/single_frame_page-descriptor.yaml
   fragments:
