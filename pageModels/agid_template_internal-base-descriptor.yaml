@@ -1,5 +1,5 @@
 code: agid_template_internal-base
-description: template agid pagina base
+description: template agid pagina vuota
 configuration:
   frames:
     - pos: 0
