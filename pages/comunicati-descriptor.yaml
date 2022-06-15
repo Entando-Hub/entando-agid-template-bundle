@@ -47,6 +47,7 @@ widgets:
     pos: 17
   - code: agi_services_footer
     config: null
+    pos: 18
   - code: agi_news_footer
     config: null
     pos: 19
