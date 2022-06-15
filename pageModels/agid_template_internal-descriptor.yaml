@@ -371,7 +371,8 @@ template: |-
                                 <input id="ricerca-amministrazione" type="search">
                                 <label for="ricerca-amministrazione" style="width: auto;"><@wp.i18n key="AGI_CERCA" />                                    "<@wp.currentPage param="title" />"</label>
                                 <span aria-hidden="true" class="autocomplete-icon">
-                                    <svg class="icon icon-sm">
+                                    <svg class="icon icon-sm" aria-labelledby="Cerca-mocked">
+                                    <title id="Cerca-mocked">Cerca-mocked</title>
                                     <use xlink:href="<@wp.resourceURL />agi-template/img/sprite.svg#it-search"></use>
                                     </svg>
                                 </span>
