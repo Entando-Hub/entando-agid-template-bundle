@@ -106,9 +106,6 @@ configuration:
     - pos: 10
       description: menu laterale 10
       mainFrame: false
-      defaultWidget:
-        code: agi-3-menu
-        properties: null
       sketch:
         x1: 8
         y1: 4
