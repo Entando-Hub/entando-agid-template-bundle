@@ -984,9 +984,10 @@ attributes:
           compositeAttributes: null
         - code: mimg
           type: Image
-          name: Entando at Work responsabile
+          name: Entando at Work
           names:
             en: mimg
+            it: mimg
           roles: []
           disablingCodes: []
           mandatory: false

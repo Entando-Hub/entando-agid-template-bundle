@@ -49,7 +49,7 @@ attributes:
                 name: Entando at Work
               it:
                 correlationCode: entandoAtWork
-                name: Entando at Work
+                name: Template esempio
             elements: []
             compositeelements: []
             listelements: {}
@@ -103,7 +103,7 @@ attributes:
                 name: Entando at Work
               it:
                 correlationCode: entandoAtWork
-                name: Entando at Work
+                name: Template esempio
             elements: []
             compositeelements: []
             listelements: {}

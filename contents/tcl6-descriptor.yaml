@@ -12,6 +12,9 @@ attributes:
       en:
         correlationCode: entandoAtPlan
         name: Entando at Work
+      it:
+        correlationCode: entandoAtPlan
+        name: Template esempio
     elements: []
     compositeelements: []
     listelements: {}
