@@ -94,6 +94,7 @@ components:
     - pages/topics-descriptor.yaml
     - pages/cantieri-descriptor.yaml
     - pages/sport-descriptor.yaml
+    - pages/risultato_ricerca-descriptor.yaml
     - pages/cultura-descriptor.yaml
     - pages/news-descriptor.yaml
     - pages/comunicati-descriptor.yaml
@@ -117,6 +118,10 @@ components:
     - contentTypes/tcl-descriptor.yaml
     - contentTypes/ttl-descriptor.yaml
   contentModels:
+    - contentModels/lista-(crn)-descriptor.yaml
+    - contentModels/lista-(srv)-descriptor.yaml
+    - contentModels/lista-(arg)-descriptor.yaml
+    - contentModels/lista-(nov)-descriptor.yaml
     - contentModels/intestazione-pa-con-logo-(ttl)-descriptor.yaml
     - contentModels/intestazione-pa-con-logo-footer-(ttl)-descriptor.yaml
     - contentModels/lista-link-footer-titolo-e-textarea(lst)-descriptor.yaml

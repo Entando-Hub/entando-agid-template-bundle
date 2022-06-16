@@ -1,7 +1,7 @@
-code: search_result
+code: risultato_ricerca
 parentCode: homepage
 titles:
-  en: Search result
+  en: Search results
   it: Risultato ricerca
 pageModel: agid_template_internal
 ownerGroup: free
@@ -39,6 +39,9 @@ widgets:
 #    config:
 #      navSpec: current.children
 #    pos: 10
+  - code: search_result
+    config: null
+    pos: 10
   - code: agi_logo_comune_footer
     config: null
     pos: 16

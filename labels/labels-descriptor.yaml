@@ -40,8 +40,8 @@
     it: Continua
 - key: COOKIE_SAVE_LABEL
   titles:
-    en: SAVE PREFERENCES
-    it: SALVA PREFERENZE
+    en: Save preferencies
+    it: Salva preferenze
 - key: COOKIE_SETTINGS_LABEL
   titles:
     en: Cookie settings

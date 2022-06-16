@@ -10,7 +10,7 @@ attributes:
     disablingCodes: []
     mandatory: true
     listFilter: true
-    indexable: false
+    indexable: true
     validationRules:
       minLength: null
       maxLength: null

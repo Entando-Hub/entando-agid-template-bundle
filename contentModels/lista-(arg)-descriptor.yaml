@@ -1,0 +1,18 @@
+id: 23
+contentType: ARG
+description: Lista (ARG)
+contentShape: |-
+  <!--lista (ARG)-->
+   <div class="it-list-wrapper">
+    <ul class="it-list">
+    <li>
+     <a href="$content.getContentOnPageLink('dettaglio_novita')&modelId=11">
+        <div class="it-right-zone">
+        <span class="text">
+          $content.title.text
+        </span>
+        </div>
+     </a>
+     </li>
+    </ul>
+   </div>

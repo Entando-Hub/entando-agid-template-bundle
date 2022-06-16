@@ -1,0 +1,18 @@
+id: 22
+contentType: NOV
+description: Lista (NOV)
+contentShape: |-
+  <!--lista (NOV)-->
+   <div class="it-list-wrapper">
+    <ul class="it-list">
+    <li>
+     <a href="$content.getContentOnPageLink('dettaglio_novita')&modelId=21">
+        <div class="it-right-zone">
+        <span class="text">
+          $content.title.text
+        </span>
+        </div>
+     </a>
+     </li>
+    </ul>
+   </div>

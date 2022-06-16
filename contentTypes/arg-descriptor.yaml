@@ -75,7 +75,7 @@ attributes:
     roles: []
     disablingCodes: []
     mandatory: false
-    listFilter: false
+    listFilter: true
     indexable: true
     validationRules:
       minLength: null
@@ -107,7 +107,7 @@ attributes:
     roles: []
     disablingCodes: []
     mandatory: false
-    listFilter: false
+    listFilter: true
     indexable: true
     validationRules:
       minLength: null
@@ -212,7 +212,7 @@ attributes:
           disablingCodes: []
           mandatory: false
           listFilter: false
-          indexable: false
+          indexable: true
           enumeratorStaticItems: null
           enumeratorStaticItemsSeparator: null
           enumeratorExtractorBean: null

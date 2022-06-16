@@ -10,7 +10,7 @@ attributes:
     disablingCodes: []
     mandatory: true
     listFilter: false
-    indexable: false
+    indexable: true
     validationRules:
       minLength: null
       maxLength: null
@@ -183,7 +183,7 @@ attributes:
           compositeAttributes: null
         - code: mlink
           type: Link
-          name: Llink esterno
+          name: Link esterno
           names:
             en: mlink
           roles: []

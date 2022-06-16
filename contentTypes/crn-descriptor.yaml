@@ -44,7 +44,7 @@ attributes:
     disablingCodes: []
     mandatory: true
     listFilter: false
-    indexable: false
+    indexable: true
     validationRules:
       minLength: null
       maxLength: null
@@ -76,7 +76,7 @@ attributes:
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: false
+    indexable: true
     validationRules:
       minLength: null
       maxLength: null
