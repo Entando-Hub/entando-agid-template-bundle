@@ -1,2 +1,21 @@
-body {
+@media only screen and (max-width: 1024px) {
+     .it-header-navbar-wrapper {
+         background: #0066cc;
+    }
+     .card.card-big .etichetta {
+         position: absolute;
+         right: 48px;
+         top: 32px;
+         max-width: 160px;
+    }
+     .section {
+         padding: 0px 24px;
+    }
+     .modal .modal-dialog .modal-content .modal-body, .modal .modal-dialog .modal-content .modal-header {
+         width: 100%;
+         margin: 0 auto;
+    }
+     #novita .section {
+         padding: 48px 24px;
+    }
 }

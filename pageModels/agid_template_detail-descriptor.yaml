@@ -357,18 +357,8 @@ template: |-
             </div>
         </section>
         <section id="intro" class="container px-4 my-4">
-            <div class="row">
-                <div class="col-lg-7 px-lg-4 py-lg-2">
-                    <@wp.show frame=9 />
-                </div>
-                <div class="col-lg-4 offset-lg-1 pt-5 pt-lg-2">
-                    <div class="link-list-wrapper link-menu-custom">
-                        <ul class="link-list">
-                            <@wp.show frame=10 />
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <@wp.show frame=9 />
+            <@wp.show frame=10 />
         </section>
         <section id="in-evidenza">
             <div class="py-0">
