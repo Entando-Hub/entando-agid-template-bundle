@@ -634,3 +634,19 @@
   titles:
     en: Filters
     it: Filtri
+- key: MEDIA
+  titles:
+    en: Media policy
+    it: Media policy
+- key: NOTE
+  titles:
+    en: Legal notes
+    it: Note legali
+- key: PRIVACY_P
+  titles:
+    en: Privacy policy
+    it: Privacy policy
+- key: MAPPA
+  titles:
+    en: Sitemap
+    it: Mappa del sito
