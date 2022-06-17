@@ -3,7 +3,7 @@ parentCode: homepage
 titles:
   en: Search results
   it: Risultato ricerca
-pageModel: agid_template_internal
+pageModel: agid_template_internal-base
 ownerGroup: free
 joinGroups: []
 displayedInMenu: true
@@ -41,7 +41,7 @@ widgets:
 #    pos: 10
   - code: search_result
     config: null
-    pos: 10
+    pos: 11
   - code: agi_logo_comune_footer
     config: null
     pos: 16
