@@ -151,6 +151,9 @@ configuration:
     - pos: 16
       description: footer logo PA 16
       mainFrame: false
+      defaultWidget:
+        code: agi_logo_comune_footer
+        properties: null
       sketch:
         x1: 0
         y1: 11
@@ -159,6 +162,9 @@ configuration:
     - pos: 17
       description: footer 17
       mainFrame: false
+      defaultWidget:
+        code: agi_menu_amm
+        properties: null
       sketch:
         x1: 0
         y1: 12
@@ -167,6 +173,9 @@ configuration:
     - pos: 18
       description: footer 18
       mainFrame: false
+      defaultWidget:
+        code: agi_services_footer
+        properties: null
       sketch:
         x1: 3
         y1: 12
@@ -175,6 +184,9 @@ configuration:
     - pos: 19
       description: Footer 19
       mainFrame: false
+      defaultWidget:
+        code: agi_news_footer
+        properties: null
       sketch:
         x1: 6
         y1: 12
@@ -183,6 +195,9 @@ configuration:
     - pos: 20
       description: Footer 20
       mainFrame: false
+      defaultWidget:
+        code: agi_docs_footer
+        properties: null
       sketch:
         x1: 9
         y1: 12
@@ -191,6 +206,9 @@ configuration:
     - pos: 21
       description: Footer 21
       mainFrame: false
+      defaultWidget:
+        code: agi_transp_footer
+        properties: null
       sketch:
         x1: 0
         y1: 13
@@ -199,6 +217,9 @@ configuration:
     - pos: 22
       description: Footer 22
       mainFrame: false
+      defaultWidget:
+        code: agi_contacts_footer
+        properties: null
       sketch:
         x1: 3
         y1: 13
@@ -215,6 +236,9 @@ configuration:
     - pos: 24
       description: Footer 24
       mainFrame: false
+      defaultWidget:
+        code: agi_follow_footer
+        properties: null
       sketch:
         x1: 9
         y1: 13
@@ -223,6 +247,9 @@ configuration:
     - pos: 25
       description: Footer colonna 12 25
       mainFrame: false
+      defaultWidget:
+        code: agi_extralinks_footer
+        properties: null
       sketch:
         x1: 0
         y1: 14

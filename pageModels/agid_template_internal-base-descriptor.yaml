@@ -260,39 +260,25 @@ configuration:
         y2: 13
 template: |-
   <#assign wp=JspTaglibs["/aps-core"]>
-  <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core">
-
-  <@wp.fragment code="agi_header" escapeXml=false />
-
-  <@wp.fragment code="keycloak_auth" escapeXml=false />
-
-  <body class="internal">
+  <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
+    <@wp.fragment code="agi_header" escapeXml=false />
+    <@wp.fragment code="keycloak_auth" escapeXml=false />
+    <body class="internal">
     <header class="it-header-wrapper it-header-sticky">
         <a class="skip-link" href='#main-content'>
-            <@wp.i18n key="CONTENUTO_CENTRALE" />
-        </a>
+            <@wp.i18n key="CONTENUTO_CENTRALE" /></a>
         <a class="skip-link" href='#seleziona-lingua'>
-            <@wp.i18n key="SELEZIONE_LINGUA" />
-        </a>
+            <@wp.i18n key="SELEZIONE_LINGUA" /></a>
         <a class="skip-link" href='#main-seguici'>
-            <@wp.i18n key="SEGUICI" />
-        </a><a class="skip-link" href='#main-navigazione'>
-            <@wp.i18n key="NAVIGAZIONE_PRIMARIA" />
-        </a>
+            <@wp.i18n key="SEGUICI" /></a>
+        <a class="skip-link" href='#main-navigazione'>
+            <@wp.i18n key="NAVIGAZIONE_PRIMARIA" /></a>
         <a class="skip-link" href='#second-navigazione'>
-            <@wp.i18n key="NAVIGAZIONE_SECONDARIA" />
-        </a><a class="skip-link" href='#briciole'>
-            <@wp.i18n key="BREADCRUMBS" />
-        </a>
-        <a class="skip-link" href='#evidenza'>
-            <@wp.i18n key="EVIDENZA" />
-        </a>
-        <a class="skip-link" href='#main-footer'>
-            <@wp.i18n key="FOOTER_PAGINA" />
-        </a>
-        <a class="skip-link" href='#second-footer'>
-            <@wp.i18n key="FOOTER_SECONDARIO" />
-        </a>
+            <@wp.i18n key="NAVIGAZIONE_SECONDARIA" /></a>
+        <a class="skip-link" href='#briciole'><@wp.i18n key="BREADCRUMBS" /></a>
+        <a class="skip-link" href='#evidenza'><@wp.i18n key="EVIDENZA" /></a>
+        <a class="skip-link" href='#main-footer'><@wp.i18n key="FOOTER_PAGINA" /></a>
+        <a class="skip-link" href='#second-footer'><@wp.i18n key="FOOTER_SECONDARIO" /></a>
         <div class="it-header-slim-wrapper">
             <div class="container">
                 <div class="row">
@@ -303,8 +289,10 @@ template: |-
                                 <@wp.show frame=0 />
                             </a>
                             <div class="it-header-slim-right-zone">
-                                <!--lingua--><@wp.show frame=1 />
-                                <!--accedi--><@wp.show frame=2 />
+                                <!--lingua-->
+                                <@wp.show frame=1 />
+                                <!--accedi-->
+                                <@wp.show frame=2 />
                             </div>
                         </div>
                     </div>
@@ -317,10 +305,13 @@ template: |-
                     <div class="row">
                         <div class="col-12">
                             <div class="it-header-center-content-wrapper">
-                                <!--Nome PA-->     <@wp.show frame=3 />
+                                <!--Nome PA-->
+                                <@wp.show frame=3 />
                                 <div class="it-right-zone">
-                                    <!--Social--><@wp.show frame=4 />
-                                    <!--Cerca--><@wp.show frame=5 />
+                                    <!--Social-->
+                                    <@wp.show frame=4 />
+                                    <!--Cerca-->
+                                    <@wp.show frame=5 />
                                 </div>
                             </div>
                         </div>
@@ -332,28 +323,33 @@ template: |-
                     <div class="row">
                         <div class="col-12">
                             <nav class="navbar navbar-expand-lg has-megamenu">
-                                <buttonaria-controls="nav10"aria-expanded="false"aria-label="Toggle navigation"class="custom-navbar-toggler"data-target="#nav10"type="button">
+                                <button  aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" class="custom-navbar-toggler"  data-target="#nav10"                                    type="button"                                    >
                                     <svg class="icon" aria-labelledby="mobile_access">
                                     <title id="mobile_access">
                                         <@wp.i18n key="MOBILE_MENU_MENU" />
                                     </title>
                                     <use xlink:href="<@wp.resourceURL />agi-template/img/sprite.svg#it-burger"></use>
                                     </svg>
-                                    </button>
-                                    <div class="navbar-collapsable" id="nav10">
-                                        <div class="overlay"></div>
-                                        <div class="close-div sr-only">    <button class="btn close-menu" type="button"><span class="it-close"></span><@wp.i18n key="CLOSE" />    </button></div>
-                                        <div class="menu-wrapper">
-                                            <!--navigazione menu-->
-                                            <ul class="navbar-nav" id="main-navigazione">
-                                                <@wp.show frame=6 />
-                                            </ul>
-                                            <!-- secondo menu navigazione-->
-                                            <ul class="navbar-nav navbar-secondary" id="second-navigazione">
-                                                <@wp.show frame=7 />
-                                            </ul>
-                                        </div>
+                                </button>
+                                <div class="navbar-collapsable" id="nav10">
+                                    <div class="overlay"></div>
+                                    <div class="close-div sr-only">
+                                        <button class="btn close-menu" type="button">
+                                            <span class="it-close"></span>
+                                            <@wp.i18n key="CLOSE" />
+                                        </button>
                                     </div>
+                                    <div class="menu-wrapper">
+                                        <!--navigazione menu-->
+                                        <ul class="navbar-nav" id="main-navigazione">
+                                            <@wp.show frame=6 />
+                                        </ul>
+                                        <!-- secondo menu navigazione-->
+                                        <ul class="navbar-nav navbar-secondary" id="second-navigazione">
+                                            <@wp.show frame=7 />
+                                        </ul>
+                                    </div>
+                                </div>
                             </nav>
                         </div>
                     </div>
@@ -426,15 +422,21 @@ template: |-
                 <section class="py-4 border-white border-top">
                     <div class="row">
                         <div class="col-lg-3 col-md-3 pb-2">
-                           <@wp.show frame=21 />
-                       </div>
+                            <@wp.show frame=21 />
+                        </div>
                         <div class="col-lg-3 col-md-3 pb-2">
-                          <@wp.show frame=22 /> </div>
+                            <@wp.show frame=22 />
+                        </div>
                         <div class="col-lg-3 col-md-3 pb-2">
                             <@wp.show frame=23 />
-                            <h4>     <a href="#" title="Vai alla pagina: Newsletter"><@wp.i18n key="NEWSLETTER" /></a> </h4>
+                            <h4>
+                                <a href="#" title="Vai alla pagina: Newsletter">
+                                    <@wp.i18n key="NEWSLETTER" />
+                                </a>
+                            </h4>
                             <form action="#" class="form-newsletter" method="post">
-                                <label class="text-white font-weight-semibold" for="input-newsletter"><@wp.i18n key="ISCRIVITI_PER_RICEVERLA" /></label>     <input class="form-control" id="input-newsletter" name="input-newsletter" placeholder="mail@example.com" type="email" />
+                                <label class="text-white font-weight-semibold" for="input-newsletter"><@wp.i18n key="ISCRIVITI_PER_RICEVERLA" /></label>
+                                <input class="form-control" id="input-newsletter" name="input-newsletter" placeholder="mail@example.com" type="email" />
                                 <button class="btn btn-primary btn-icon" type="submit">
                                     <svg class="icon icon-white" aria-labelledby="send_mail">
                                     <title id="send_mail"><@wp.i18n key="SEND_SUBMIT" /></title>
@@ -445,16 +447,19 @@ template: |-
                             </form>
                         </div>
                         <div class="col-lg-3 col-md-3 pb-2">
-                          <@wp.show frame=24 />
+                            <@wp.show frame=24 />
                         </div>
                     </div>
                 </section>
             </div>
         </div>
         <div class="it-footer-small-prints clearfix">
-            <div class="container" id="second-footer"><@wp.show frame=25 />    </div>
+            <div class="container" id="second-footer">
+                <@wp.show frame=25 />
+            </div>
         </div>
     </footer>
-    <@wp.fragment code="agi_check" escapeXml=false />   <@wp.fragment code="agi_footer" escapeXml=false />
-   </body>
-  </html>
+    <@wp.fragment code="agi_check" escapeXml=false />
+    <@wp.fragment code="agi_footer" escapeXml=false />
+    </body>
+    </html>
