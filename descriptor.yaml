@@ -97,11 +97,8 @@ components:
     - pages/dettagli_news-descriptor.yaml
     - pages/dettaglio_novita-descriptor.yaml
     - pages/calendario-descriptor.yaml
-  groups:
-    - groups/groups-descriptor.yaml
   contentTypes:
     - contentTypes/arg-descriptor.yaml
-    - contentTypes/bnr-descriptor.yaml
     - contentTypes/cra-descriptor.yaml
     - contentTypes/crn-descriptor.yaml
     - contentTypes/exl-descriptor.yaml
@@ -109,7 +106,6 @@ components:
     - contentTypes/nov-descriptor.yaml
     - contentTypes/nws-descriptor.yaml
     - contentTypes/srv-descriptor.yaml
-    - contentTypes/tcl-descriptor.yaml
     - contentTypes/ttl-descriptor.yaml
   contentModels:
     - contentModels/lista-(crn)-descriptor.yaml
@@ -151,11 +147,8 @@ components:
     - assets/59/59-descriptor.yaml
     - assets/174/174-descriptor.yaml
   contents:
-    - contents/bnr2-descriptor.yaml
-    - contents/bnr3-descriptor.yaml
     - contents/tcl6-descriptor.yaml
     - contents/nws4-descriptor.yaml
-    - contents/nws5-descriptor.yaml
     - contents/ttl58-descriptor.yaml
     - contents/lst68-descriptor.yaml
     - contents/lst70-descriptor.yaml
