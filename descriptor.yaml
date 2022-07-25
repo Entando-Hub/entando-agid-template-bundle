@@ -154,7 +154,6 @@ components:
     - assets/testo/testo-descriptor.yaml
     - assets/entandoatplan/entandoatplan-descriptor.yaml
     - assets/entandoatwork/entandoatwork-descriptor.yaml
-    - assets/htmlcode/htmlcode-descriptor.yaml
     - assets/59/59-descriptor.yaml
     - assets/174/174-descriptor.yaml
   contents:
