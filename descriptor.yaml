@@ -23,7 +23,6 @@ components:
     - widgets/agi_secondary_menu-descriptor.yaml
     - widgets/agi_services_footer-descriptor.yaml
     - widgets/agi_transp_footer-descriptor.yaml
-    - widgets/search_form-descriptor.yaml
   pageModels:
     - pageModels/1-2-column-descriptor.yaml
     - pageModels/1-2x2-1-column-descriptor.yaml
