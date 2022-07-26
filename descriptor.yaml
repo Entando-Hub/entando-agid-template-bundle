@@ -31,40 +31,18 @@ components:
     - pageModels/agid_template_internal-base-descriptor.yaml
   fragments:
     - fragments/agi_check-descriptor.yaml
-    - fragments/agi_service-descriptor.yaml
     - fragments/agi_footer-descriptor.yaml
     - fragments/agi_header-descriptor.yaml
+    - fragments/agi_service-descriptor.yaml
     - fragments/breadcrumb-descriptor.yaml
     - fragments/cookie-descriptor.yaml
-    - fragments/default_pagerblock-descriptor.yaml
-    - fragments/default_pagerformblock_is-descriptor.yaml
-    - fragments/default_pagerinfo_is-descriptor.yaml
-    - fragments/entandoapi_is_resource_detail-descriptor.yaml
-    - fragments/entandoapi_is_resource_detail_include-descriptor.yaml
-    - fragments/entandoapi_is_resource_list-descriptor.yaml
-    - fragments/entandoapi_is_service_detail-descriptor.yaml
-    - fragments/entandoapi_is_service_list-descriptor.yaml
     - fragments/entando_widget_navigation_bar-descriptor.yaml
     - fragments/entando_widget_navigation_bar_include-descriptor.yaml
-    - fragments/internal_servlet_generic_error-descriptor.yaml
-    - fragments/internal_servlet_user_not_allowed-descriptor.yaml
     - fragments/jacms_content_viewer-descriptor.yaml
     - fragments/jacms_content_viewer_list-descriptor.yaml
-    - fragments/jacms_content_viewer_list_userfilters-descriptor.yaml
-    - fragments/jacms_row_content_viewer_list-descriptor.yaml
-    - fragments/jpseo_content_viewer-descriptor.yaml
-    - fragments/jpseo_model_meta_info-descriptor.yaml
+    - fragments/jacms_content_viewer_list_internal-descriptor.yaml
     - fragments/keycloak_auth-descriptor.yaml
-    - fragments/keycloak_auth_with_redirect-descriptor.yaml
-    - fragments/keycloak_login-descriptor.yaml
-    - fragments/language-descriptor.yaml
     - fragments/login_form-descriptor.yaml
-    - fragments/logo-descriptor.yaml
-    - fragments/messages_system-descriptor.yaml
-    - fragments/navigation_menu-descriptor.yaml
-    - fragments/search_result-descriptor.yaml
-    - fragments/sitemap-descriptor.yaml
-    - fragments/sitemap_menu_include-descriptor.yaml
   pages:
     - pages/homepage-descriptor.yaml
     - pages/service-descriptor.yaml
