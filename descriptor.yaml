@@ -46,9 +46,6 @@ components:
   pages:
     - pages/homepage-descriptor.yaml
     - pages/service-descriptor.yaml
-    - pages/notfound-descriptor.yaml
-    - pages/errorpage-descriptor.yaml
-    - pages/login-descriptor.yaml
     - pages/search_result-descriptor.yaml
     - pages/administration-descriptor.yaml
     - pages/council-descriptor.yaml
@@ -68,7 +65,6 @@ components:
     - pages/sport-descriptor.yaml
     - pages/risultato_ricerca-descriptor.yaml
     - pages/cultura-descriptor.yaml
-    - pages/news-descriptor.yaml
     - pages/comunicati-descriptor.yaml
     - pages/latest_news-descriptor.yaml
     - pages/bulletin-descriptor.yaml
@@ -110,14 +106,6 @@ components:
     - contentModels/dettaglio-servizi-con-sharing-(srv)-descriptor.yaml
     - contentModels/card-singola-servizi-(srv)-descriptor.yaml
     - contentModels/novita-card-dettaglio-(nov)-descriptor.yaml
-    - contentModels/news-detail-descriptor.yaml
-    - 'contentModels/banner-text,-image,-cta-descriptor.yaml'
-    - contentModels/2-column-content-descriptor.yaml
-    - contentModels/news-list-bullet-descriptor.yaml
-    - contentModels/news-list-item-descriptor.yaml
-    - contentModels/news-search-results-descriptor.yaml
-    - contentModels/banner-search-results-descriptor.yaml
-    - contentModels/tcl-search-results-descriptor.yaml
   assets:
     - assets/testo/testo-descriptor.yaml
     - assets/entandoatplan/entandoatplan-descriptor.yaml
