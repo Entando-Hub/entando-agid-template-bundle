@@ -108,8 +108,8 @@ components:
     - contentModels/novita-card-dettaglio-(nov)-descriptor.yaml
   assets:
     - assets/testo/testo-descriptor.yaml
-    - assets/entandoatplan/entandoatplan-descriptor.yaml
-    - assets/entandoatwork/entandoatwork-descriptor.yaml
+    - assets/agidatplan/agidatplan-descriptor.yaml
+    - assets/agidatwork/agidatwork-descriptor.yaml
     - assets/59/59-descriptor.yaml
     - assets/174/174-descriptor.yaml
   contents:

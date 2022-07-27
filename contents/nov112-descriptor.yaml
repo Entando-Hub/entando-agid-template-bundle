@@ -79,10 +79,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Entando at Work
               it:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Template esempio
             elements: []
             compositeelements: []
@@ -188,10 +188,10 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: entandoAtWork
+        correlationCode: agidAtWork
         name: Entando at Work
       it:
-        correlationCode: entandoAtWork
+        correlationCode: agidAtWork
         name: Template esempio
     elements: []
     compositeelements: []
@@ -230,10 +230,10 @@ attributes:
         value: null
         values:
           en:
-            correlationCode: entandoAtWork
+            correlationCode: agidAtWork
             name: Documento
           it:
-            correlationCode: entandoAtWork
+            correlationCode: agidAtWork
             name: Documento
         elements: []
         compositeelements: []
@@ -242,10 +242,10 @@ attributes:
         value: null
         values:
           en:
-            correlationCode: entandoAtWork
+            correlationCode: agidAtWork
             name: Documento 2
           it:
-            correlationCode: entandoAtWork
+            correlationCode: agidAtWork
             name: Documento 2
         elements: []
         compositeelements: []
@@ -303,10 +303,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtPlan
+                correlationCode: agidAtPlan
                 name: Entando at Plan
               it:
-                correlationCode: entandoAtPlan
+                correlationCode: agidAtPlan
                 name: place
             elements: []
             compositeelements: []

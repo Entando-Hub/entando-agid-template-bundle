@@ -10,10 +10,10 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: entandoAtPlan
+        correlationCode: agidAtPlan
         name: Entando at Work
       it:
-        correlationCode: entandoAtPlan
+        correlationCode: agidAtPlan
         name: Template esempio
     elements: []
     compositeelements: []

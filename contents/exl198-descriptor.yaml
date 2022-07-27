@@ -45,10 +45,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Entando at Work
               it:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Template esempio
             elements: []
             compositeelements: []
@@ -99,10 +99,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Entando at Work
               it:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Template esempio
             elements: []
             compositeelements: []
@@ -153,10 +153,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtPlan
+                correlationCode: agidAtPlan
                 name: Entando at Plan
               it:
-                correlationCode: entandoAtPlan
+                correlationCode: agidAtPlan
                 name: Entando at Plan
             elements: []
             compositeelements: []
