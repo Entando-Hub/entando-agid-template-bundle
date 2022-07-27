@@ -1,2 +1,29 @@
 code: breadcrumb
-guiCode: "<#assign wp=JspTaglibs[\"/aps-core\"]>\r\n<@wp.currentPage param=\"code\" var=\"currentViewCode\" />\r\n<nav class=\"breadcrumb\">\r\n  <span class=\"noscreen\">\r\n     <@wp.i18n key=\"ESNB_YOU_ARE_HERE\" />:\r\n  </span>\r\n  <#assign first=true>\r\n  <@wp.nav spec=\"current.path\" var=\"currentTarget\">\r\n  <#assign currentCode=currentTarget.code>\r\n  <#if first>\r\n     <span class=\"divider\">/</span>\r\n  </#if>\r\n\r\n  <#if !currentTarget.voidPage>\r\n    <#if (currentCode == currentViewCode)>\r\n      <span class=\"active\">${currentTarget.title}</span>\r\n  <#else>\r\n    <a href=\"${currentTarget.url}\">${currentTarget.title}</a>\r\n  </#if>\r\n\r\n  <#else>\r\n  ${currentTarget.title}\r\n  </#if>\r\n\r\n<#assign first=false>\r\n</@wp.nav>\r\n</nav>"
+guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <@wp.currentPage param="code" var="currentViewCode" />
+  <nav class="breadcrumb">
+    <span class="noscreen">
+       <@wp.i18n key="ESNB_YOU_ARE_HERE" />:
+    </span>
+    <#assign first=true>
+    <@wp.nav spec="current.path" var="currentTarget">
+    <#assign currentCode=currentTarget.code>
+    <#if first>
+       <span class="divider">/</span>
+    </#if>
+
+    <#if !currentTarget.voidPage>
+      <#if (currentCode == currentViewCode)>
+        <span class="active">${currentTarget.title}</span>
+    <#else>
+      <a href="${currentTarget.url}">${currentTarget.title}</a>
+    </#if>
+
+    <#else>
+    ${currentTarget.title}
+    </#if>
+
+  <#assign first=false>
+  </@wp.nav>
+  </nav>
