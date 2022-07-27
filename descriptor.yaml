@@ -33,6 +33,7 @@ components:
     - fragments/agi_check-descriptor.yaml
     - fragments/agi_footer-descriptor.yaml
     - fragments/agi_header-descriptor.yaml
+    - fragments/agi_keycloak_auth-descriptor.yaml
     - fragments/agi_service-descriptor.yaml
     - fragments/breadcrumb-descriptor.yaml
     - fragments/cookie-descriptor.yaml
@@ -41,7 +42,6 @@ components:
     - fragments/jacms_content_viewer-descriptor.yaml
     - fragments/jacms_content_viewer_list-descriptor.yaml
     - fragments/jacms_content_viewer_list_internal-descriptor.yaml
-    - fragments/keycloak_auth-descriptor.yaml
     - fragments/login_form-descriptor.yaml
   pages:
     - pages/homepage_agid-descriptor.yaml

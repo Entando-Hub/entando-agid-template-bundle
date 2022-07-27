@@ -1,4 +1,4 @@
-code: keycloak_auth
+code: agi_keycloak_auth
 guiCode: |-
   <#assign wp=JspTaglibs[ "/aps-core"]>
     <#assign wp = JspTaglibs["/aps-core"]>

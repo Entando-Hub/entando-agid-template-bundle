@@ -262,7 +262,7 @@ template: |-
   <#assign wp=JspTaglibs["/aps-core"]>
   <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
   <@wp.fragment code="agi_header" escapeXml=false />
-  <@wp.fragment code="keycloak_auth" escapeXml=false />
+  <@wp.fragment code="agi_keycloak_auth" escapeXml=false />
   <body class="internal">
     <header class="it-header-wrapper it-header-sticky">
         <a class="skip-link" href='#main-content'>
