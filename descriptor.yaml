@@ -24,7 +24,7 @@ components:
     - widgets/agi_services_footer-descriptor.yaml
     - widgets/agi_transp_footer-descriptor.yaml
   pageModels:
-    - pageModels/1-column-descriptor.yaml
+    - pageModels/agid_1-column-descriptor.yaml
     - pageModels/agid_template-descriptor.yaml
     - pageModels/agid_template_detail-descriptor.yaml
     - pageModels/agid_template_internal-descriptor.yaml
