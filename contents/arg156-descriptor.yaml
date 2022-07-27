@@ -48,7 +48,7 @@ attributes:
             values:
               en:
                 correlationCode: agidAtWork
-                name: Entando at Work
+                name: AGID at Work
               it:
                 correlationCode: agidAtWork
                 name: Template esempio
@@ -94,10 +94,10 @@ attributes:
             values:
               en:
                 correlationCode: agidAtPlan
-                name: Entando at Plan
+                name: AGID at Plan
               it:
                 correlationCode: agidAtPlan
-                name: Entando at Plan
+                name: AGID at Plan
             elements: []
             compositeelements: []
             listelements: {}
@@ -140,7 +140,7 @@ attributes:
             values:
               en:
                 correlationCode: agidAtWork
-                name: Entando at Work
+                name: AGID at Work
               it:
                 correlationCode: agidAtWork
                 name: Template esempio

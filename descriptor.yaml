@@ -72,13 +72,13 @@ components:
     - pages/dettaglio_novita-descriptor.yaml
     - pages/calendario-descriptor.yaml
   contentTypes:
+    - contentTypes/agn-descriptor.yaml
     - contentTypes/arg-descriptor.yaml
     - contentTypes/cra-descriptor.yaml
     - contentTypes/crn-descriptor.yaml
     - contentTypes/exl-descriptor.yaml
     - contentTypes/lst-descriptor.yaml
     - contentTypes/nov-descriptor.yaml
-    - contentTypes/nws-descriptor.yaml
     - contentTypes/srv-descriptor.yaml
     - contentTypes/ttl-descriptor.yaml
   contentModels:
@@ -113,8 +113,7 @@ components:
     - assets/59/59-descriptor.yaml
     - assets/174/174-descriptor.yaml
   contents:
-    - contents/tcl6-descriptor.yaml
-    - contents/nws4-descriptor.yaml
+    - contents/agn4-descriptor.yaml
     - contents/ttl58-descriptor.yaml
     - contents/lst68-descriptor.yaml
     - contents/lst70-descriptor.yaml

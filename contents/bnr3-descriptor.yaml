@@ -41,7 +41,7 @@ attributes:
     values:
       en:
         correlationCode: agidAtPlan
-        name: Entando at Plan
+        name: AGID at Plan
     elements: []
     compositeelements: []
     listelements: {}

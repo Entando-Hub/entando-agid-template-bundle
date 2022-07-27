@@ -48,7 +48,7 @@ attributes:
             values:
               en:
                 correlationCode: agidAtWork
-                name: Entando at Work
+                name: AGID at Work
               it:
                 correlationCode: agidAtWork
                 name: Template esempio

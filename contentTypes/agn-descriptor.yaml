@@ -1,5 +1,5 @@
-code: NWS
-name: News
+code: AGN
+name: AGI News
 status: '0'
 attributes:
   - code: date

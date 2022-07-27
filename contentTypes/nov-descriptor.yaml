@@ -355,7 +355,7 @@ attributes:
           compositeAttributes: null
         - code: mimg
           type: Image
-          name: Entando at Work
+          name: AGID at Work
           names:
             en: mimg
             it: mimg
@@ -1325,7 +1325,7 @@ attributes:
           compositeAttributes: null
         - code: mimg
           type: Image
-          name: Entando at Work
+          name: AGID at Work
           names:
             en: mimg
             it: mimg

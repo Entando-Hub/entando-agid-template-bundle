@@ -1,6 +1,6 @@
-id: NWS4
-typeCode: NWS
-description: Why You Need a Micro Frontend Platform for Kubernetes
+id: AGN4
+typeCode: AGN
+description: Why You Need an Application Composition Platform for Kubernetes
 mainGroup: free
 status: PUBLIC
 viewPage: news
@@ -16,7 +16,7 @@ attributes:
   - code: title
     value: null
     values:
-      en: Why You Need a Micro Frontend Platform for Kubernetes
+      en: Why You Need a Application Composition Platform for Kubernetes
     elements: []
     compositeelements: []
     listelements: {}
@@ -39,7 +39,7 @@ attributes:
     values:
       en:
         correlationCode: agidAtWork
-        name: Entando at Work
+        name: AGID at Work
       it:
         correlationCode: agidAtWork
         name: Template esempio
