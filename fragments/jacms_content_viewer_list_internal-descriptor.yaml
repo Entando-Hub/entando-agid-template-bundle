@@ -47,7 +47,7 @@ guiCode: |-
             <a class="pb-3 read-more" href="<@wp.url page="${pageLinkVar}"/>">
             <span class="text">${pageLinkDescriptionVar}</span>
             <svg class="icon" aria-labelledby="<@wp.i18n key="READ_MORE" />">
-          <title id="<@wp.i18n key="READ_MORE" />"><@wp.i18n key="\READ_MORE" /></title>
+          <title id="<@wp.i18n key="READ_MORE" />"><@wp.i18n key="READ_MORE" /></title>
           <use href="<@wp.resourceURL />agi-template/img/sprite.svg#it-arrow-right"></use>
             </svg>
             </a>
