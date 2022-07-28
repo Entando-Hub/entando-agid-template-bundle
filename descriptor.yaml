@@ -45,7 +45,6 @@ components:
     - fragments/login_form-descriptor.yaml
   pages:
     - pages/homepage_agid-descriptor.yaml
-    - pages/service-descriptor.yaml
     - pages/search_result-descriptor.yaml
     - pages/administration-descriptor.yaml
     - pages/council-descriptor.yaml
