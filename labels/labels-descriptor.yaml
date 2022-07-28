@@ -24,7 +24,7 @@
     it: Italiano
 - key: ESSF_SEARCH_CONTENT
   titles:
-    en: Enter your search tearm
+    en: Enter your search term
     it: Ricerca per contenuti e informazioni
 - key: FOLLOW_US_ON
   titles:
@@ -64,12 +64,8 @@
     it: Invia
 - key: SIGN_IN
   titles:
-    en: Accedi
-    it: Log in
-- key: LOGOUT
-  titles:
-    en: Esci
-    it: Logout
+    en: Log in
+    it: Accedi
 - key: AUTENTICATO_NO
   titles:
     en: Login first

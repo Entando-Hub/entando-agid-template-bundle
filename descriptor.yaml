@@ -44,7 +44,7 @@ components:
     - fragments/jacms_content_viewer_list_internal-descriptor.yaml
     - fragments/login_form-descriptor.yaml
   pages:
-    - pages/homepage_agid-descriptor.yaml
+    - pages/homepage-descriptor.yaml
     - pages/search_result-descriptor.yaml
     - pages/administration-descriptor.yaml
     - pages/council-descriptor.yaml
