@@ -5,8 +5,9 @@ titles:
 group: free
 customUi: |-
   <#assign wp=JspTaglibs["/aps-core"]>
+  <@wp.info key="systemParam" paramName="applicationBaseURL" var="appUrl" />
     <div class="it-brand-wrapper">
-    <a href="#" class="" data-focus-mouse="false">
+    <a href="${appUrl}" class="" data-focus-mouse="false">
         <img class="icon" src="<@wp.resourceURL />agi-template/img/logorepubblica.png" aria-hidden="true" alt="Logo - <@wp.i18n key="NOME" />">
         <div class="it-brand-text">
             <h2 class="no_toc"><@wp.i18n key="NOME" /></h2>
