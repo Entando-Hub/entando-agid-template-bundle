@@ -35,8 +35,8 @@ components:
     - fragments/agi_header-descriptor.yaml
     - fragments/agi_keycloak_auth-descriptor.yaml
     - fragments/agi_service-descriptor.yaml
-    - fragments/breadcrumb-descriptor.yaml
     - fragments/cookie-descriptor.yaml
+    - fragments/entando_ootb_carbon_include-descriptor.yaml
     - fragments/entando_widget_navigation_bar-descriptor.yaml
     - fragments/entando_widget_navigation_bar_include-descriptor.yaml
     - fragments/jacms_content_viewer-descriptor.yaml
@@ -45,6 +45,7 @@ components:
     - fragments/login_form-descriptor.yaml
   pages:
     - pages/homepage-descriptor.yaml
+    - pages/news-descriptor.yaml
     - pages/search_result-descriptor.yaml
     - pages/administration-descriptor.yaml
     - pages/council-descriptor.yaml
