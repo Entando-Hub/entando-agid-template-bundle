@@ -365,7 +365,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: sample
             elements: []
             compositeelements: []
@@ -396,7 +396,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: sample
             elements: []
             compositeelements: []

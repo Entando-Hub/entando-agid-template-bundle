@@ -46,10 +46,10 @@ attributes:
           - code: mimg
             values:
               en:
-                correlationCode: entandoAtWork
-                name: Entando at Work
+                correlationCode: agidAtWork
+                name: AGID at Work
               it:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Template esempio
             elements: []
             compositeelements: []
@@ -92,11 +92,11 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtPlan
-                name: Entando at Plan
+                correlationCode: agidAtPlan
+                name: AGID at Plan
               it:
-                correlationCode: entandoAtPlan
-                name: Entando at Plan
+                correlationCode: agidAtPlan
+                name: AGID at Plan
             elements: []
             compositeelements: []
             listelements: {}
@@ -138,10 +138,10 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
-                name: Entando at Work
+                correlationCode: agidAtWork
+                name: AGID at Work
               it:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: Template esempio
             elements: []
             compositeelements: []

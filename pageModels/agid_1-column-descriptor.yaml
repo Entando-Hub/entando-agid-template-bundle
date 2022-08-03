@@ -1,5 +1,5 @@
-code: 1-column
-description: 1 Column
+code: agid_1-column
+description: agid-version of Entando 1 Column
 configuration:
   frames:
     - pos: 0

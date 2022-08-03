@@ -290,7 +290,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: documento 1
             elements: []
             compositeelements: []
@@ -319,7 +319,7 @@ attributes:
             value: null
             values:
               en:
-                correlationCode: entandoAtWork
+                correlationCode: agidAtWork
                 name: sample.pdf
             elements: []
             compositeelements: []

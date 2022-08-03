@@ -40,8 +40,8 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: entandoAtPlan
-        name: Entando at Plan
+        correlationCode: agidAtPlan
+        name: AGID at Plan
     elements: []
     compositeelements: []
     listelements: {}
