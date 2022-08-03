@@ -1,5 +1,5 @@
 code: latest_news
-parentCode: news
+parentCode: agi_news
 titles:
   en: Latest news
   it: Ultime notizie
