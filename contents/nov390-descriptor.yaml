@@ -21,8 +21,8 @@ attributes:
   - code: title
     value: null
     values:
-      en: Heat waves, yellow code alert in Cagliari
-      it: Ondate di calore, allerta codice giallo a Rome
+      en: Heat waves, yellow code alert in Rome
+      it: Ondate di calore, allerta codice giallo a Roma
     elements: []
     compositeelements: []
     listelements: {}
