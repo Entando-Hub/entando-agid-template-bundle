@@ -36,7 +36,6 @@ components:
     - fragments/agi_header-descriptor.yaml
     - fragments/agi_service-descriptor.yaml
     - fragments/cookie-descriptor.yaml
-    - fragments/entando_ootb_carbon_include-descriptor.yaml
     - fragments/entando_widget_navigation_bar-descriptor.yaml
     - fragments/entando_widget_navigation_bar_include-descriptor.yaml
     - fragments/jacms_content_viewer-descriptor.yaml
@@ -62,7 +61,6 @@ components:
     - pages/topics-descriptor.yaml
     - pages/cantieri-descriptor.yaml
     - pages/sport-descriptor.yaml
-    - pages/risultato_ricerca-descriptor.yaml
     - pages/cultura-descriptor.yaml
     - pages/comunicati-descriptor.yaml
     - pages/latest_news-descriptor.yaml
