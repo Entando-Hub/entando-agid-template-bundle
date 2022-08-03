@@ -44,7 +44,6 @@ components:
   pages:
     - pages/homepage-descriptor.yaml
     - pages/news-descriptor.yaml
-    - pages/search_result-descriptor.yaml
     - pages/administration-descriptor.yaml
     - pages/council-descriptor.yaml
     - pages/uffici-descriptor.yaml
