@@ -1,8 +1,0 @@
-code: entando_ootb_carbon_include
-guiCode: |
-  <#assign wp=JspTaglibs["/aps-core"]>
-  <script src="<@wp.resourceURL />ootb-widgets/static/js/2.ootb.chunk.js" nonce="<@wp.cspNonce />"></script>
-  <script src="<@wp.resourceURL />ootb-widgets/static/js/main.ootb.chunk.js" nonce="<@wp.cspNonce />"></script>
-  <script src="<@wp.resourceURL />ootb-widgets/static/js/runtime-main.ootb.js" nonce="<@wp.cspNonce />"></script>
-  <#-- CUSTOM: Disable OOTB styles to allow AGID to control all styles but retain javascript to enable Carbon Design -->
-  <#-- <link href="<@wp.resourceURL />ootb-widgets/static/css/main.ootb.chunk.css" rel="stylesheet"> -->
