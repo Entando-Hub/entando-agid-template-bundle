@@ -106,6 +106,8 @@ components:
     - assets/testo/testo-descriptor.yaml
     - assets/agidatplan/agidatplan-descriptor.yaml
     - assets/agidatwork/agidatwork-descriptor.yaml
+    - assets/agidhot/agidhot-descriptor.yaml
+    - assets/agidwalk/agidwalk-descriptor.yaml
     - assets/59/59-descriptor.yaml
     - assets/174/174-descriptor.yaml
   contents:
