@@ -9,7 +9,7 @@ customUi: |-
         <a href="<@wp.url page="administration" />" class="nav-link no-son-page" data-focus-mouse="false"><@wp.i18n key="ADMINISTRATION" /></a>
     </li>
     <li class="nav-item dropdown no-son-page" padre="">
-        <a href="<@wp.url page="news" />" class="nav-link no-son-page"><@wp.i18n key="NOTIZIE" /></a>
+        <a href="<@wp.url page="agi_news" />" class="nav-link no-son-page"><@wp.i18n key="NOTIZIE" /></a>
     </li>
     <li class="nav-item dropdown no-son-page" padre="">
         <a href="<@wp.url page="servizi" />" class="nav-link no-son-page"><@wp.i18n key="SERVIZI_F" /></a>

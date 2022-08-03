@@ -1,6 +1,6 @@
 id: NOV390
 typeCode: NOV
-description: Sagra di paese
+description: Ondate di calore
 mainGroup: free
 status: PUBLIC
 categories:
@@ -13,7 +13,7 @@ attributes:
     compositeelements: []
     listelements: {}
   - code: date
-    value: '2022-06-16 00:00:00'
+    value: '2022-07-16 00:00:00'
     values: {}
     elements: []
     compositeelements: []
@@ -21,8 +21,8 @@ attributes:
   - code: title
     value: null
     values:
-      en: New toponyms, green light from the Capitoline Council
-      it: Nuovi toponimi, via libera della Giunta Capitolina
+      en: Heat waves, yellow code alert in Cagliari
+      it: Ondate di calore, allerta codice giallo a Rome
     elements: []
     compositeelements: []
     listelements: {}
