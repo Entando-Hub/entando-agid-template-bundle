@@ -33,7 +33,6 @@ components:
     - fragments/agi_check-descriptor.yaml
     - fragments/agi_footer-descriptor.yaml
     - fragments/agi_header-descriptor.yaml
-    - fragments/agi_keycloak_auth-descriptor.yaml
     - fragments/agi_service-descriptor.yaml
     - fragments/cookie-descriptor.yaml
     - fragments/entando_ootb_carbon_include-descriptor.yaml
