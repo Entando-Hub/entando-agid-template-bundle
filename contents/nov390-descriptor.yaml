@@ -72,11 +72,11 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: agidwalk
-        name: AGID Walk
+        correlationCode: agidhot
+        name: AGID summer
       it:
-        correlationCode: agidwalk
-        name: AGID Walk
+        correlationCode: agidhot
+        name: AGID summer
     elements: []
     compositeelements: []
     listelements: {}

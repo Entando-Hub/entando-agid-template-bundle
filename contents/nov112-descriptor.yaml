@@ -72,11 +72,11 @@ attributes:
     value: null
     values:
       en:
-        correlationCode: agidAtWork
-        name: AGID at Work
+        correlationCode: agidwalk
+        name: AGID walk
       it:
-        correlationCode: agidAtWork
-        name: Template esempio
+        correlationCode: agidwalk
+        name: AGID walk
     elements: []
     compositeelements: []
     listelements: {}
