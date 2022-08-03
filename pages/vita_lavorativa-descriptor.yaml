@@ -14,7 +14,7 @@ widgets:
   - code: agi_language
     config: null
     pos: 1
-  - code: login_form
+  - code: agi_login_form
     config: null
     pos: 2
   - code: agi_logo_comune

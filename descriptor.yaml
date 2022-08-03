@@ -42,7 +42,7 @@ components:
     - fragments/jacms_content_viewer-descriptor.yaml
     - fragments/jacms_content_viewer_list-descriptor.yaml
     - fragments/jacms_content_viewer_list_internal-descriptor.yaml
-    - fragments/login_form-descriptor.yaml
+    - fragments/agi_login_form-descriptor.yaml
   pages:
     - pages/homepage-descriptor.yaml
     - pages/news-descriptor.yaml

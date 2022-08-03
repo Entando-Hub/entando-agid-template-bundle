@@ -1,4 +1,4 @@
-code: login_form
+code: agi_login_form
 guiCode: >-
   <#assign wp=JspTaglibs["/aps-core"]>
 
