@@ -2,46 +2,35 @@
 apiVersion: entando.org/v1
 kind: EntandoDeBundle
 metadata:
-  name: pa-bundle
-  namespace: demo-forum-pa
+  name: entando-agid-template-bundle
   labels:
     widget: 'true'
     pageTemplate: 'true'
     fragment: 'true'
     pages: 'true'
-    groups: 'true'
     contentType: 'true'
     contentTemplate: 'true'
     assets: 'true'
     contents: 'true'
     categories: 'true'
     labels: 'true'
-    languages: 'true'
     bundle-type: system-level-bundle
 spec:
   details:
-    name: Agid Template
+    name: agid-template
     description: Agid Template
     dist-tags:
       latest: v1.0.2
     versions:
       - v1.0.2
       - v1.0.1
-      - v1.0.0
   tags:
     - version: v1.0.2
-      shasum: 8cc0f9f6d8149a0f955780d2795444f642ae1ec5
-      integrity: 8cc0f9f6d8149a0f955780d2795444f642ae1ec5
-      tarball: >-
-        https://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@github.com/entando-ps/entando-agid-template-bundle.git
+      shasum: 710f1bd2f6ab5b8b3c82f5f693ce6ada866ae4dc
+      integrity: 710f1bd2f6ab5b8b3c82f5f693ce6ada866ae4dc
+      tarball: 'https://github.com/entando-ps/entando-agid-template-bundle'
     - version: v1.0.1
-      shasum: 2eb86d01deeca9c3a2795ec04cc4c4015dea6d00
-      integrity: 2eb86d01deeca9c3a2795ec04cc4c4015dea6d00
-      tarball: >-
-        https://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@github.com/entando-ps/entando-agid-template-bundle.git
-    - version: v1.0.0
-      shasum: 88e738915105ea455e99e9763fa73bc1e2532528
-      integrity: 88e738915105ea455e99e9763fa73bc1e2532528
-      tarball: >-
-        https://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@github.com/entando-ps/entando-agid-template-bundle.git
+      shasum: 563f325ddf6c6ad0edfbcdf3095b87aee3a16ea1
+      integrity: 563f325ddf6c6ad0edfbcdf3095b87aee3a16ea1
+      tarball: 'https://github.com/entando-ps/entando-agid-template-bundle'
 

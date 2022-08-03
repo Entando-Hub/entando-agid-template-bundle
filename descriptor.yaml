@@ -3,6 +3,7 @@ description: Agid Template
 bundle-type: system-level-bundle
 components:
   widgets:
+    - widgets/agi_login_form-descriptor.yaml
     - widgets/agi_log_spid-descriptor.yaml
     - widgets/agi-1-menu-descriptor.yaml
     - widgets/agi-2-menu-descriptor.yaml
@@ -41,7 +42,6 @@ components:
     - fragments/jacms_content_viewer-descriptor.yaml
     - fragments/jacms_content_viewer_list-descriptor.yaml
     - fragments/jacms_content_viewer_list_internal-descriptor.yaml
-    - fragments/agi_login_form-descriptor.yaml
   pages:
     - pages/homepage-descriptor.yaml
     - pages/news-descriptor.yaml

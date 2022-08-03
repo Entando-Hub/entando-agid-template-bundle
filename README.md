@@ -28,7 +28,7 @@ A working instance of Entando running on Kubernetes. See the [Entando developer 
    - Click on "Reload the indexes"
 2. Navigate to Content -> Types
    - Click on "Edit" on each type with code ARG, CRN, NOV and SRV
-   - Set the Default content model for lists as "Lista" followed by the content type's code (e.g. "Lista NOV")
+   - Set the Default content model for lists as "Lista" followed by the content type's code (e.g. "Lista (NOV)")
 
 ### Set portal's default language to Italian
 
