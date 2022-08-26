@@ -67,6 +67,7 @@ components:
     - pages/dettagli_news-descriptor.yaml
     - pages/dettaglio_novita-descriptor.yaml
     - pages/calendario-descriptor.yaml
+    - pages/risultato_ricerca-descriptor.yaml
   contentTypes:
     - contentTypes/agn-descriptor.yaml
     - contentTypes/arg-descriptor.yaml
