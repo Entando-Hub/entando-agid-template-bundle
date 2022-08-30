@@ -1,4 +1,4 @@
-id: 8
+id: 1008
 contentType: LST
 description: link + icone footer (LST)
 contentShape: "<!--link + icone footer (LST)-->\r\n<h4>\r\n    <a href=\"$content.linktitle.destination\" title=\"Vai alla pagina: $content.title.text\">\r\n        $content.title.text\r\n    </a>\r\n</h4>\r\n<ul class=\"list-inline text-left social\">\r\n  #foreach ($item in $content.links)\r\n    <li class=\"list-inline-item\">\r\n        <a class=\"p-2 text-white\" href=\"$item.destination\" target=\"_blank\">\r\n            <svg class=\"icon icon-sm icon-white align-top\" >\r\n                <title>$item.text</title>\r\n                <use xlink:href=\"/entando-de-app/cmsresources/agi-template/img/sprite.svg#it-$item.text\"></use>\r\n            </svg>\r\n            <span class=\"sr-only\">$item.text</span></a>\r\n    </li>\r\n   #end\r\n</ul>\r\n"

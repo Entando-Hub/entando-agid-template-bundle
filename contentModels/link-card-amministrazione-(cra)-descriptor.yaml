@@ -1,4 +1,4 @@
-id: 15
+id: 10015
 contentType: CRA
 description: Link card amministrazione (CRA)
 contentShape: "<!--Link card amministrazione (CRA)-->\r\n<div class=\"col-12 col-sm-6 col-lg-4\">\r\n    <div class=\"card-wrapper\">\r\n        <div class=\"card\">\r\n            <div class=\"card-body\">\r\n                <a href=\"$content.link.destination\" class=\"\">\r\n                    <h5 class=\"card-title\">$content.title.text</h5>\r\n                </a>\r\n                <p class=\"card-text\">$content.subtitle.text</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>"

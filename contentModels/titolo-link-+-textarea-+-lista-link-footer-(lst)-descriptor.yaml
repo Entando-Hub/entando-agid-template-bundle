@@ -1,4 +1,4 @@
-id: 5
+id: 1005
 contentType: LST
 description: titolo link + textarea + lista link footer  (LST)
 contentShape: "<!--link text area lista link footer  (LST)-->\r\n\r\n<h4>\r\n    <a href=\"$content.linktitle.destination\" title=\"Vai alla pagina: $content.title.text\">\r\n        $content.title.text\r\n    </a>\r\n</h4>\r\n<p>\r\n    $content.body.text\r\n</p>\r\n<div class=\"link-list-wrapper\">\r\n    <ul class=\"footer-list link-list clearfix\">\r\n        #foreach ($item in $content.links)\r\n        <li>\r\n            <a class=\"list-item\" href=\"$item.destination\" title=\"Vai alla pagina: $item.text\">$item.text</a>\r\n        </li>\r\n        #end\r\n    </ul>\r\n</div>"

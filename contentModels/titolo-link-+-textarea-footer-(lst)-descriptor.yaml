@@ -1,4 +1,4 @@
-id: 6
+id: 1006
 contentType: LST
 description: ' titolo link + textarea footer (LST)'
 contentShape: "<!-- titolo link + textarea footer (LST)-->\r\n<h4>\r\n   <a href=\"$content.linktitle.destination\" title=\"Vai alla pagina: $content.title.text\">\r\n        $content.title.text\r\n    </a>\r\n</h4>\r\n<p>\r\n    $content.body.text\r\n</p>"
