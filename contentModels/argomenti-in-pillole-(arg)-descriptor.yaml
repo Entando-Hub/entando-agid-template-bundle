@@ -1,4 +1,4 @@
-id: 10012
+id: 20012
 contentType: ARG
 description: Argomenti in pillole (ARG)
 contentShape: "<!--Argomenti in pillole (ARG) -->\r\n<div class=\"pt-5 row\">\r\n   <div class=\"col-lg-10 offset-lg-1 col-xl-8 offset-xl-2\">\r\n      <div class=\"d-lg-inline-flex row\">\r\n         <div class=\"col-lg-3\">\r\n            <h6 class=\"text-uppercase text-center\">\r\n                 $content.title.text\r\n            </h6>\r\n         </div>\r\n         <div class=\"col-lg-9\">\r\n          #foreach ($contentCategory in $content.getCategories())\r\n            <div class=\"chip chip-simple chip-primary\">\r\n            <a href=\"#\" class=\"chip-label\">\r\n               $contentCategory.title\r\n            </a>\r\n            </div>\r\n           #end\r\n         </div>\r\n      </div>\r\n      <div class=\"row\">\r\n         <div class=\"text-center col\">\r\n               <a href=\"$content.link.destination\" class=\"btn btn-primary mt-5\">\r\n                 $content.link.text\r\n               \r\n             </a>\r\n      </div>\r\n   </div>\r\n</div>"
