@@ -41,7 +41,7 @@ widgets:
 #    pos: 10
   - code: content_viewer_list
     config:
-      modelId: '16'
+      modelId: '20016'
       maxElemForItem: '3'
       filters:
         - attributeFilter: true
@@ -56,7 +56,7 @@ widgets:
     pos: 11
   - code: content_viewer_list
     config:
-      modelId: '17'
+      modelId: '20017'
       maxElemForItem: '6'
       filters:
         - attributeFilter: false

@@ -21,7 +21,7 @@ contentShape: |-
                          $content.date.getFormattedDate("dd MMMM yyyy")
                      </span>
                  </div>
-                 <a href="$content.getContentOnPageLink('dettaglio_novita')&modelId=21">
+                 <a href="$content.getContentOnPageLink('dettaglio_novita')&modelId=20021">
                      <h4 class="card-title">
                          $content.title.text
                      </h4>

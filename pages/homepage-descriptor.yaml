@@ -34,7 +34,7 @@ widgets:
     pos: 7
   - code: content_viewer_list
     config:
-      modelId: '9'
+      modelId: '2009'
       maxElemForItem: '1'
       filters:
         - attributeFilter: false
@@ -53,7 +53,7 @@ widgets:
     pos: 8
   - code: content_viewer_list
     config:
-      modelId: '10'
+      modelId: '20010'
       maxElemForItem: '3'
       filters:
         - attributeFilter: true
@@ -73,7 +73,7 @@ widgets:
     pos: 9
   - code: content_viewer_list
     config:
-      modelId: '11'
+      modelId: '20011'
       maxElemForItem: '3'
       filters:
         - attributeFilter: false
@@ -91,7 +91,7 @@ widgets:
     pos: 11
   - code: content_viewer
     config:
-      modelId: '13'
+      modelId: '20013'
       contentId: EXL198
     pos: 13
   - code: agi_logo_comune_footer

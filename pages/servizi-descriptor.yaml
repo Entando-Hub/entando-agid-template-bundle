@@ -41,7 +41,7 @@ widgets:
 #    pos: 10
   - code: content_viewer_list
     config:
-      modelId: '19'
+      modelId: '20019'
       maxElemForItem: '20'
       filters:
         - attributeFilter: false
@@ -59,7 +59,7 @@ widgets:
     pos: 11
   - code: content_viewer_list
     config:
-      modelId: '17'
+      modelId: '20017'
       maxElemForItem: '10'
       title_it: Tutti i servizi
       title_en: All services

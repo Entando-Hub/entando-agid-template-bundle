@@ -41,7 +41,7 @@ widgets:
 #    pos: 10
   - code: content_viewer_list
     config:
-      modelId: '14'
+      modelId: '20014'
       maxElemForItem: '9'
       filters:
         - attributeFilter: true
@@ -56,7 +56,7 @@ widgets:
     pos: 11
   - code: content_viewer_list
     config:
-      modelId: '15'
+      modelId: '20015'
       maxElemForItem: '9'
       maxElements: '9'
       title_it: Tutta L'amministrazione

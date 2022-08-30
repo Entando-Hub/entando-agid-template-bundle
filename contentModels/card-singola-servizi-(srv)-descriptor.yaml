@@ -30,7 +30,7 @@ contentShape: |-
                 #end
                 #end
 
-                <a class="read-more" href="$content.getContentOnPageLink("detail")&modelId=18">
+                <a class="read-more" href="$content.getContentOnPageLink("detail")&modelId=20018">
                     <span class="text">
                         $i18n.getLabel('READ_MORE')
                     </span>

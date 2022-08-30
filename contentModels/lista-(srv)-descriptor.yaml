@@ -6,7 +6,7 @@ contentShape: |-
    <div class="it-list-wrapper">
     <ul class="it-list">
     <li>
-     <a href="$content.getContentOnPageLink('detail')&modelId=18">
+     <a href="$content.getContentOnPageLink('detail')&modelId=20018">
         <div class="it-right-zone">
         <span class="text">
           $content.title.text

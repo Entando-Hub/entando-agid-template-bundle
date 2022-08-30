@@ -19,7 +19,7 @@ widgets:
     pos: 2
   - code: agi_logo_comune
     config:
-      modelId: '1'
+      modelId: '2001'
       contentId: TTL58
     pos: 3
   - code: agi_followus
@@ -45,46 +45,46 @@ widgets:
 #    pos: 10
   - code: agi_logo_comune_footer
     config:
-      modelId: '2'
+      modelId: '2002'
       contentId: TTL58
     pos: 16
   - code: agi_menu_amm
     config:
-      modelId: '7'
+      modelId: '2007'
       contentId: LST68
     pos: 17
   - code: agi_services_footer
     config:
-      modelId: '7'
+      modelId: '2007'
       contentId: LST101
     pos: 18
   - code: agi_news_footer
     config:
-      modelId: '7'
+      modelId: '2007'
       contentId: LST72
     pos: 19
   - code: agi_docs_footer
     config:
-      modelId: '7'
+      modelId: '2007'
       contentId: LST74
     pos: 20
   - code: agi_transp_footer
     config:
-      modelId: '6'
+      modelId: '2006'
       contentId: LST76
     pos: 21
   - code: agi_contacts_footer
     config:
-      modelId: '5'
+      modelId: '2005'
       contentId: LST70
     pos: 22
   - code: agi_follow_footer
     config:
-      modelId: '8'
+      modelId: '2008'
       contentId: LST79
     pos: 24
   - code: agi_extralinks_footer
     config:
-      modelId: '4'
+      modelId: '2004'
       contentId: LST82
     pos: 25

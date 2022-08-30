@@ -19,7 +19,7 @@ widgets:
     pos: 2
   - code: agi_logo_comune
     config:
-      modelId: '1'
+      modelId: '2001'
       contentId: TTL58
     pos: 3
   - code: agi_followus
@@ -43,7 +43,7 @@ widgets:
 #    pos: 10
   - code: content_viewer_list
     config:
-      modelId: '19'
+      modelId: '20019'
       maxElemForItem: '20'
       filters:
         - attributeFilter: false
@@ -61,7 +61,7 @@ widgets:
     pos: 11
   - code: content_viewer_list
     config:
-      modelId: '19'
+      modelId: '20019'
       maxElemForItem: '9'
       filters:
         - attributeFilter: true
