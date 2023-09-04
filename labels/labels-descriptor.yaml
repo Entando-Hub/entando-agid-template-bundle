@@ -110,10 +110,6 @@
   titles:
     en: Service status halted
     it: Servizio sospseso momentaneamente
-- key: READ_MORE
-  titles:
-    en: Read more
-    it: Approfondisci
 - key: ADMINISTRATION
   titles:
     en: Administration
